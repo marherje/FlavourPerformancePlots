@@ -1,0 +1,83 @@
+CAT A:
+
+<parameter name="FlavorTag.CategoryDefinition1" type="string">nvtx==0</parameter>
+
+    <parameter name="FlavorTag.CategoryPreselection1" type="string">trk1d0sig!=0&&!TMath::IsNaN(trk1z0sig)&&!TMath::IsNaN(trk2z0sig)&&!TMath::IsNaN(jprobz25sigma)&&!TMath::IsNaN(jprobr25sigma)&&!TMath::IsNaN(jprobr2)&&!TMath::IsNaN(jprobz2)</parameter>
+    <parameter name="FlavorTag.CategoryVariables1" type="stringVec">
+      trk1d0sig trk2d0sig trk1z0sig trk2z0sig trk1pt_jete trk2pt_jete jprobr2 jprobr25sigma jprobz2 jprobz25sigma
+      d0bprob2 d0cprob2 d0qprob2 z0bprob2 z0cprob2 z0qprob2
+    </parameter>
+    <parameter name="FlavorTag.CategorySpectators1" type="stringVec">
+                aux nvtx
+    </parameter>
+
+    <parameter name="TrainMVA.Verbose" type="bool" value="true" />
+    <parameter name="TrainMVA.BookType" type="string" value="BDT" />
+    <parameter name="TrainMVA.BookOptions" type="string">
+      !H:!V:NTrees=1402:BoostType=Grad:Shrinkage=0.0466940570206:UseBaggedBoost:GradBaggingFraction=0.552547565433:nCuts=44:MaxDepth=7:NegWeightTreatment=IgnoreNegWeightsInTraining
+     </parameter>
+
+CAT B:
+
+<parameter name="FlavorTag.CategoryDefinition1" type="string">nvtx==1&&nvtxall==1</parameter>
+    <parameter name="FlavorTag.CategoryPreselection1" type="string">trk1d0sig!=0&&!TMath::IsNaN(trk1z0sig)&&!TMath::IsNaN(trk2z0sig)&&!TMath::IsNaN(jprobz25sigma)&&!TMath::IsNaN(jprobr25sigma)&&!TMath::IsNaN(jprobr2)&&!TMath::IsNaN(jprobz2)</parameter>
+      
+    <parameter name="FlavorTag.CategoryVariables1" type="stringVec">
+      trk1d0sig trk2d0sig trk1z0sig trk2z0sig trk1pt_jete trk2pt_jete jprobr2 jprobz2
+      vtxlen1_jete vtxsig1_jete vtxdirang1_jete vtxmom1_jete vtxmass1 vtxmult1 vtxmasspc vtxprob
+      d0bprob2 d0cprob2 d0qprob2 z0bprob2 z0cprob2 z0qprob2
+      trkmass nelectron nmuon
+
+    </parameter>
+    <parameter name="FlavorTag.CategorySpectators1" type="stringVec">
+                aux nvtx
+    </parameter>
+
+    <parameter name="TrainMVA.Verbose" type="bool" value="true" />
+    <parameter name="TrainMVA.BookType" type="string" value="BDT" />
+    <parameter name="TrainMVA.BookOptions" type="string">
+      !H:!V:NTrees=980:BoostType=Grad:Shrinkage=0.0040790889257:UseBaggedBoost:GradBaggingFraction=0.141504376582:nCuts=42:MaxDepth=4:NegWeightTreatment=IgnoreNegWeightsInTraining
+    </parameter>
+
+  </processor>
+
+CAT C:
+
+<parameter name="FlavorTag.CategoryDefinition1" type="string">nvtx==1&&nvtxall==2</parameter>
+    <parameter name="FlavorTag.CategoryPreselection1" type="string">trk1d0sig!=0&&!TMath::IsNaN(trk1z0sig)&&!TMath::IsNaN(trk2z0sig)&&!TMath::IsNaN(jprobz25sigma)&&!TMath::IsNaN(jprobr25sigma)&&!TMath::IsNaN(jprobr2)&&!TMath::IsNaN(jprobz2)</parameter>
+
+    <parameter name="FlavorTag.CategoryVariables1" type="stringVec">
+      trk1d0sig trk2d0sig trk1z0sig trk2z0sig trk1pt_jete trk2pt_jete jprobr2 jprobz2
+      vtxlen1_jete vtxsig1_jete vtxdirang1_jete vtxmom1_jete vtxmass1 vtxmult1 vtxmasspc vtxprob
+      1vtxprob vtxlen12all_jete vtxmassall
+    </parameter>
+    <parameter name="FlavorTag.CategorySpectators1" type="stringVec">
+                aux nvtx 
+    </parameter>
+
+    <parameter name="TrainMVA.Verbose" type="bool" value="true" />
+    <parameter name="TrainMVA.BookType" type="string" value="BDT" />
+    <parameter name="TrainMVA.BookOptions" type="string">
+      !H:!V:NTrees=855:BoostType=Grad:Shrinkage=0.0387048603831:UseBaggedBoost:GradBaggingFraction=0.560890183941:nCuts=65:MaxDepth=5:NegWeightTreatment=IgnoreNegWeightsInTraining
+    </parameter>
+
+CAT D:
+
+<parameter name="FlavorTag.CategoryDefinition1" type="string">nvtx>=2</parameter>
+    <parameter name="FlavorTag.CategoryPreselection1" type="string">trk1d0sig!=0&&!TMath::IsNaN(trk1z0sig)&&!TMath::IsNaN(trk2z0sig)&&!TMath::IsNaN(jprobz25sigma)&&!TMath::IsNaN(jprobr25sigma)&&!TMath::IsNaN(jprobr2)&&!TMath::IsNaN(jprobz2)</parameter>
+    <parameter name="FlavorTag.CategoryVariables1" type="stringVec">
+      trk1d0sig trk2d0sig trk1z0sig trk2z0sig trk1pt_jete trk2pt_jete jprobr2 jprobz2
+      vtxlen1_jete vtxsig1_jete vtxdirang1_jete vtxmom1_jete vtxmass1 vtxmult1 vtxmasspc vtxprob
+      vtxlen2_jete vtxsig2_jete vtxdirang2_jete vtxmom2_jete vtxmass2 vtxmult2
+      vtxlen12_jete vtxsig12_jete vtxdirang12_jete vtxmom_jete vtxmass vtxmult
+      1vtxprob
+    </parameter>
+    <parameter name="FlavorTag.CategorySpectators1" type="stringVec">
+                aux nvtx 
+    </parameter>
+
+    <parameter name="TrainMVA.Verbose" type="bool" value="true" />
+    <parameter name="TrainMVA.BookType" type="string" value="BDT" />
+    <parameter name="TrainMVA.BookOptions" type="string">
+      !H:!V:NTrees=1347:BoostType=Grad:Shrinkage=0.0400561846591:UseBaggedBoost:GradBaggingFraction=0.617403737901:nCuts=80:MaxDepth=7:NegWeightTreatment=IgnoreNegWeightsInTraining
+     </parameter>

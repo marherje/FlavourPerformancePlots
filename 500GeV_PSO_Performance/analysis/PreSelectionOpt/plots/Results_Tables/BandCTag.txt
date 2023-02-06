@@ -1,0 +1,187 @@
+Last login: Fri Feb  4 00:14:34 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+macbook-pro-de-ificadmin:~ marherje$ cd Trabajo/DataAnalisis/AFBhq2021/analysis/PreSelectionOpt/plots/
+macbook-pro-de-ificadmin:plots marherje$ root analysis500GeV.cc\(8,\"eL_pR\",\"50\"\)
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.24/06                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for macosx64 on Oct 30 2021, 11:41:00                      |
+  | From tag , 1 September 2021                                      |
+  | With Apple clang version 13.0.0 (clang-1300.0.29.3)              |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+root [0] 
+Processing analysis500GeV.cc(8,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.673794 | 0.8
+AFB (isr) | b quark | c quark
+          | 0.72093 | nan
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.673794 | 0.8
+AFB (com-isr) | b quark | c quark
+              | 0.72093 | nan
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.621871 | 0.666667
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.621945 | 0.666667
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+22.0738 0.0117596 0 0.0183636 0.000265953 0.127203 0.000236861|
+23.5039 0.0110721 0 0.0295045 0.000710111 0.212936 0.000236861||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+0 0 0 22.0738 0.0117596 0.0183636 0.000265953 0.127203 0.000236861|
+0 0 0 23.5039 0.0110721 0.0295045 0.000710111 0.212936 0.00027644|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0178039 7.84875e-05 0.00332465 6.30386e-06|
+0.0156906 8.64637e-05 0.00298981 6.94448e-06||
+root [1] Info in <TCanvas::Print>: file /Users/marherje/Trabajo/DataAnalisis/AFBhq2021/analysis/PreSelectionOpt/plots/TalkPlots/310122/EF_BTag_eLpR_K50.png has been created
+.q
+macbook-pro-de-ificadmin:plots marherje$ root analysis500GeV.cc\(8,\"eR_pL\",\"50\"\)
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.24/06                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for macosx64 on Oct 30 2021, 11:41:00                      |
+  | From tag , 1 September 2021                                      |
+  | With Apple clang version 13.0.0 (clang-1300.0.29.3)              |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+root [0] 
+Processing analysis500GeV.cc(8,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.39444 | 0.6
+AFB (isr) | b quark | c quark
+          | 0.55102 | nan
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.39444 | 0.6
+AFB (com-isr) | b quark | c quark
+              | 0.55102 | nan
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.340314 | 0
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.340017 | 0
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+22.3622 0.0129426 0.00160831 0.00668227 0 0.12184 0|
+23.8575 0.00607294 0.00188366 0.0122747 0 0.192134 0||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+0.00258947 0 0 22.3622 0.0129426 0.00668227 0 0.12184 0|
+0.00303453 0 0 23.8575 0.00607294 0.0122747 0 0.192134 0|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0183658 0 0.00583542 0|
+0.0177686 0 0.00455701 0||
+root [1] Info in <TCanvas::Print>: file /Users/marherje/Trabajo/DataAnalisis/AFBhq2021/analysis/PreSelectionOpt/plots/TalkPlots/310122/EF_BTag_eRpL_K50.png has been created
+.q
+macbook-pro-de-ificadmin:plots marherje$ root analysis500GeV.cc\(9,\"eL_pR\",\"50\"\)
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.24/06                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for macosx64 on Oct 30 2021, 11:41:00                      |
+  | From tag , 1 September 2021                                      |
+  | With Apple clang version 13.0.0 (clang-1300.0.29.3)              |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+root [0] 
+Processing analysis500GeV.cc(9,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.428571 | 0.543336
+AFB (isr) | b quark | c quark
+          | nan | 0.525
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.428571 | 0.543336
+AFB (com-isr) | b quark | c quark
+              | nan | 0.525
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.428571 | 0.509809
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.428571 | 0.509809
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+0.012806 5.04721 0 0.00683297 0.000265953 0.00778796 0|
+0.0150198 5.67443 0 0.0130369 0.000710111 0.0159702 0||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+0 0 0 0.012806 5.04721 0.00683297 0.000265953 0.00778796 0|
+0 0 0 0.0150198 5.67443 0.0130369 0.000710111 0.0159702 0|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.018609 0.000220473 0.000571777 0|
+0.018505 0.00023078 0.000598507 0||
+root [1] Info in <TCanvas::Print>: file /Users/marherje/Trabajo/DataAnalisis/AFBhq2021/analysis/PreSelectionOpt/plots/TalkPlots/310122/EF_CTag_eLpR_K50.png has been created
+.q
+macbook-pro-de-ificadmin:plots marherje$ root analysis500GeV.cc\(9,\"eR_pL\",\"50\"\)
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.24/06                        https://root.cern |
+  | (c) 1995-2021, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for macosx64 on Oct 30 2021, 11:41:00                      |
+  | From tag , 1 September 2021                                      |
+  | With Apple clang version 13.0.0 (clang-1300.0.29.3)              |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+root [0] 
+Processing analysis500GeV.cc(9,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | -0.333333 | 0.640625
+AFB (isr) | b quark | c quark
+          | nan | 0.875
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | -0.333333 | 0.640625
+AFB (com-isr) | b quark | c quark
+              | nan | 0.875
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | -1 | 0.610431
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | -1 | 0.610431
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+0.0252016 5.3013 0 0.00436393 0 0.00507666 0|
+0.0197414 5.93933 0 0.00770735 0 0.011302 0||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+0 0 0 0.0252016 5.3013 0.00436393 0 0.00507666 0|
+0 0 0 0.0197414 5.93933 0.00770735 0 0.011302 0|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0156021 0 0.000316287 0|
+0.0137896 0 0.000331309 0||
+root [1] Info in <TCanvas::Print>: file /Users/marherje/Trabajo/DataAnalisis/AFBhq2021/analysis/PreSelectionOpt/plots/TalkPlots/310122/EF_CTag_eRpL_K50.png has been created
+.q
+macbook-pro-de-ificadmin:plots marherje$ 

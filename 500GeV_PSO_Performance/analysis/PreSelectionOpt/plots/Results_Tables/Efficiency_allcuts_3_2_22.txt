@@ -1,0 +1,527 @@
+Processing analysis500GeV.cc(0,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.688522 | 0.598786
+AFB (isr) | b quark | c quark
+          | 0.599517 | 0.439038
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.688595 | 0.598763
+AFB (com-isr) | b quark | c quark
+              | 0.622767 | 0.453265
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.621423 | 0.533652
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.621738 | 0.533814
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+3.49627 1.06425 0.0942531 0.0959756|
+2.04698 0.468674 0.0540453 0.0966946||
+
+Processing analysis500GeV.cc(1,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.675593 | 0.587254
+AFB (isr) | b quark | c quark
+          | 0.188506 | 0.170668
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.675593 | 0.587223
+AFB (com-isr) | b quark | c quark
+              | 0.314141 | 0.247291
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.614346 | 0.528511
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.614426 | 0.528518
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.946 74.6581 74.6949 16.164 54.068 46.2449 7.18823|
+76.9789 76.7362 76.5657 16.8454 67.6147 57.2159 7.18823||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.5754 74.7455 74.8306 74.946 74.6581 16.164 54.068 46.2449 7.18823|
+76.3139 76.7205 76.8052 76.9789 76.7362 16.8454 67.6147 57.2159 8.00731|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.756274 0.770032 0.058329 0.00923226|
+0.449709 0.413284 0.0403285 0.0100978||
+
+Processing analysis500GeV.cc(2,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.675903 | 0.587234
+AFB (isr) | b quark | c quark
+          | 0.180983 | 0.165859
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.675903 | 0.587203
+AFB (com-isr) | b quark | c quark
+              | 0.308475 | 0.243619
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.614603 | 0.528454
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.614684 | 0.528461
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.8033 74.6146 74.6749 15.9481 54.0505 46.2189 6.84997|
+76.8179 76.6864 76.5446 16.5345 67.5841 57.1733 6.84997||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.5519 74.7309 74.8105 74.8033 74.6146 15.9481 54.0505 46.2189 6.84997|
+76.2906 76.7034 76.7837 76.8179 76.6864 16.5345 67.5841 57.1733 7.62181|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.746631 0.770256 0.0583322 0.00880323|
+0.441706 0.413374 0.0403254 0.00961807||
+
+Processing analysis500GeV.cc(3,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.675901 | 0.587366
+AFB (isr) | b quark | c quark
+          | 0.317577 | 0.324652
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.675901 | 0.587335
+AFB (com-isr) | b quark | c quark
+              | 0.411831 | 0.377761
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.61467 | 0.528704
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.61475 | 0.528711
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.7576 74.5017 74.3285 3.3022 53.9385 46.0684 6.84232|
+76.7858 76.5868 76.1987 3.23452 67.4102 57.0136 6.84232||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.2733 74.3836 74.3593 74.7576 74.5017 3.3022 53.9385 46.0684 6.84232|
+76.0106 76.3648 76.3268 76.7858 76.5868 3.23452 67.4102 57.0136 7.61335|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.155092 0.771118 0.058328 0.00882151|
+0.0866699 0.413563 0.0403349 0.00963658||
+
+Processing analysis500GeV.cc(4,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.675829 | 0.587337
+AFB (isr) | b quark | c quark
+          | 0.379867 | 0.398465
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.675829 | 0.587306
+AFB (com-isr) | b quark | c quark
+              | 0.464192 | 0.445183
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.614589 | 0.528693
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.61467 | 0.528699
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.7411 74.4793 74.121 2.39444 53.914 46.0346 6.83618|
+76.7707 76.5674 75.9811 2.418 67.3654 56.955 6.83618||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.0907 74.1855 74.1036 74.7411 74.4793 2.39444 53.914 46.0346 6.83618|
+75.8239 76.1527 76.0553 76.7707 76.5674 2.418 67.3654 56.955 7.60627|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.112653 0.77211 0.0583867 0.00882893|
+0.064905 0.414015 0.0403644 0.00964455||
+
+Processing analysis500GeV.cc(5,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.667309 | 0.579389
+AFB (isr) | b quark | c quark
+          | 0.431159 | 0.477996
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.667309 | 0.579356
+AFB (com-isr) | b quark | c quark
+              | 0.498188 | 0.508463
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.614499 | 0.528576
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.61458 | 0.528583
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+72.1013 71.73 71.0857 1.09396 39.0587 37.3848 6.74333|
+76.7343 76.4774 75.5864 1.72636 67.1566 56.8113 6.74333||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+71.2988 71.0418 70.7973 72.1013 71.73 1.09396 39.0587 37.3848 6.74333|
+75.6578 75.6535 75.4067 76.7343 76.4774 1.72636 67.1566 56.8113 7.59629|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.053557 0.582064 0.0493402 0.00906245|
+0.0464974 0.414137 0.0403996 0.00966469||
+
+Processing analysis500GeV.cc(6,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.676882 | 0.588465
+AFB (isr) | b quark | c quark
+          | 0.386591 | 0.4739
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.676882 | 0.588418
+AFB (com-isr) | b quark | c quark
+              | 0.403709 | 0.475947
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.619086 | 0.533115
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.61917 | 0.533111
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.6085 49.669 49.649 0.356681 4.26483 4.05234 0.0749465|
+52.1017 52.3999 52.2696 0.571221 7.2126 6.36678 0.0749465||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.8543 49.64 49.3378 49.6085 49.669 0.356681 4.26483 4.05234 0.0749465|
+52.3438 52.4147 52.0072 52.1017 52.3999 0.571221 7.2126 6.36678 0.0831868|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0251182 0.0914213 0.00769314 0.000144882|
+0.0223678 0.0646647 0.00658237 0.000153872||
+
+Processing analysis500GeV.cc(7,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+AFB | b quark | c quark
+    | 0.675175 | 0.586881
+AFB (isr) | b quark | c quark
+          | 0.394469 | 0.482723
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.675175 | 0.586833
+AFB (com-isr) | b quark | c quark
+              | 0.406114 | 0.480628
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.616811 | 0.531102
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.616898 | 0.531099
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.5932 48.727 48.7349 0.34814 2.79916 2.58301 0.00275183|
+51.016 51.3674 51.2849 0.558012 4.98569 4.13096 0.00275183||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+48.9353 48.7291 48.4282 48.5932 48.727 0.34814 2.79916 2.58301 0.00275183|
+51.3596 51.4291 51.0225 51.016 51.3674 0.558012 4.98569 4.13096 0.00312074|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0249887 0.0611581 0.0049981 5.42209e-06|
+0.0222825 0.0455829 0.00435527 5.88662e-06||
+
+Processing analysis500GeV.cc(0,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.416835 | 0.6696
+AFB (isr) | b quark | c quark
+          | -0.55378 | -0.277714
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.416835 | 0.6696
+AFB (com-isr) | b quark | c quark
+              | -0.579223 | -0.292258
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.353715 | 0.604273
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.353763 | 0.60453
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+6.50576 0.0139783 0.113369 0.103782|
+3.64335 0.0150563 0.0596944 0.105832||
+
+Processing analysis500GeV.cc(1,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.404773 | 0.660211
+AFB (isr) | b quark | c quark
+          | -0.14913 | -0.0564014
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.404773 | 0.66028
+AFB (com-isr) | b quark | c quark
+              | -0.284834 | -0.131315
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.345652 | 0.60076
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.345558 | 0.600894
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.6304 74.5807 75.0326 16.7106 68.6355 47.5175 7.24261|
+76.5374 76.6313 76.7706 17.7063 71.2032 61.1212 7.24261||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.8899 75.6889 74.8375 74.6304 74.5807 16.7106 68.6355 47.5175 7.24261|
+76.6948 77.2696 76.5142 76.5374 76.6313 17.7063 71.2032 61.1212 7.99394|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.45273 0.0128203 0.0719851 0.0100441|
+0.841092 0.0139776 0.0475706 0.0110304||
+
+Processing analysis500GeV.cc(2,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.404193 | 0.660102
+AFB (isr) | b quark | c quark
+          | -0.140923 | -0.0533468
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.404193 | 0.660172
+AFB (com-isr) | b quark | c quark
+              | -0.278632 | -0.129181
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.344945 | 0.600625
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.344851 | 0.60076
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.5296 74.5263 75.0133 16.4976 68.5878 47.4921 6.9546|
+76.4288 76.5767 76.7499 17.3972 71.1512 61.0873 6.9546||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.8718 75.6805 74.8033 74.5296 74.5263 16.4976 68.5878 47.4921 6.9546|
+76.6735 77.2597 76.4841 76.4288 76.5767 17.3972 71.1512 61.0873 7.66893|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.43497 0.0128182 0.071985 0.00964985|
+0.826855 0.013975 0.04757 0.0105877||
+
+Processing analysis500GeV.cc(3,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.403991 | 0.660104
+AFB (isr) | b quark | c quark
+          | -0.159519 | 0.0947919
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.403991 | 0.660174
+AFB (com-isr) | b quark | c quark
+              | -0.273013 | 0.0520811
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.344767 | 0.600541
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.344673 | 0.600676
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.5044 74.4202 74.6675 2.99461 68.4506 47.35 6.94501|
+76.409 76.4826 76.4127 2.80376 71.0019 60.9516 6.94501||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.5818 75.3434 74.2645 74.5044 74.4202 2.99461 68.4506 47.35 6.94501|
+76.4004 76.895 75.9636 76.409 76.4826 2.80376 71.0019 60.9516 7.65833|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.261277 0.012832 0.0719907 0.00966623|
+0.133642 0.0139858 0.0476013 0.0106036||
+
+Processing analysis500GeV.cc(4,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.404467 | 0.660127
+AFB (isr) | b quark | c quark
+          | -0.122921 | 0.198777
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.404467 | 0.660196
+AFB (com-isr) | b quark | c quark
+              | -0.240568 | 0.160245
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.345316 | 0.600558
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.345222 | 0.600693
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.4792 74.4098 74.4697 2.01859 68.4446 47.3144 6.93917|
+76.3794 76.4704 76.2037 1.92056 71.0019 60.8951 6.93917||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.3928 75.1411 74.0421 74.4792 74.4098 2.01859 68.4446 47.3144 6.93917|
+76.2062 76.6782 75.7133 76.3794 76.4704 1.92056 71.0019 60.8951 7.65162|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.176393 0.0128507 0.0720482 0.00967307|
+0.0916909 0.0140083 0.0476337 0.0106113||
+
+Processing analysis500GeV.cc(5,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.396403 | 0.652409
+AFB (isr) | b quark | c quark
+          | 0.151436 | 0.469559
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.396403 | 0.652481
+AFB (com-isr) | b quark | c quark
+              | 0.0339426 | 0.438768
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.345142 | 0.600677
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.345048 | 0.600813
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+71.9254 71.7152 71.4766 0.727822 67.5377 37.8719 6.86273|
+76.3301 76.3945 75.9042 1.16067 70.937 60.7595 6.86273||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+71.5081 71.9643 70.8775 71.9254 71.7152 0.727822 67.5377 37.8719 6.86273|
+76.0363 76.3233 75.0425 76.3301 76.3945 1.16067 70.937 60.7595 7.64154|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0661265 0.0131842 0.0599602 0.00994653|
+0.0555556 0.0140317 0.0476503 0.0106247||
+
+Processing analysis500GeV.cc(6,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.410887 | 0.660686
+AFB (isr) | b quark | c quark
+          | 0.292576 | 0.518828
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.410887 | 0.660791
+AFB (com-isr) | b quark | c quark
+              | 0.257642 | 0.506276
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.356055 | 0.60393
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.355912 | 0.604128
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.538 49.6324 49.6405 0.223379 1.65861 4.85328 0.0417187|
+52.0284 52.291 52.1116 0.366813 1.70119 8.02441 0.0417187||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.6478 49.8947 49.3585 49.538 49.6324 0.223379 1.65861 4.85328 0.0417187|
+52.2425 52.3805 51.4065 52.0284 52.291 0.366813 1.70119 8.02441 0.0454597|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0292835 0.000467177 0.011087 8.72441e-05|
+0.0256196 0.000491018 0.00918276 9.22295e-05||
+
+Processing analysis500GeV.cc(7,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+AFB | b quark | c quark
+    | 0.409847 | 0.658141
+AFB (isr) | b quark | c quark
+          | 0.294643 | 0.533191
+--Center-of-mass frame--
+AFB (com) | b quark | c quark
+          | 0.409847 | 0.658247
+AFB (com-isr) | b quark | c quark
+              | 0.258929 | 0.520343
+---------------LIMITED---------------
+AFB L | b quark | c quark
+      | 0.353328 | 0.600507
+--Center-of-mass frame--
+AFB (com) L | b quark | c quark
+            | 0.353183 | 0.600709
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.4543 48.7782 48.727 0.217106 0.948631 3.40644 0.00150829|
+50.8242 51.3497 51.1208 0.356251 0.986949 5.51537 0.00150829||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+48.7493 48.875 48.5033 48.4543 48.7782 0.217106 0.948631 3.40644 0.00150829|
+51.2624 51.2568 50.5156 50.8242 51.3497 0.356251 0.986949 5.51537 0.00173382|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0289934 0.000272196 0.0079273 3.21319e-06|
+0.0253664 0.000290412 0.00643443 3.58611e-06||

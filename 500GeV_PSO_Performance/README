@@ -1,0 +1,5 @@
+Retraining folders: This is for retrain both pol and then check the performance
+2022..dEdx is to get NTuples after adding dEdx to LCFI+.
+-The lib/ folder there has the patched version for LCFI+.
+-init_ilsoft.sh there doesn't include LCFI+.
+-The run_default.sh bash script import my version. 

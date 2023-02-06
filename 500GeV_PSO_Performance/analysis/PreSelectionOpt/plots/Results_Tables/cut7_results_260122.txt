@@ -1,0 +1,451 @@
+Processing analysis500GeV.cc(7,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 22248 NB_b: 4314
+NF_c: 32877 NB_c: 8559
+AFB | b quark | c quark
+    | 0.675175 | 0.586881
+--Center-of-mass frame--
+NF_b_com: 22248 NB_b_com: 4314
+NF_c_com: 32876 NB_c_com: 8560
+AFB (com) | b quark | c quark
+          | 0.675175 | 0.586833
+NF_b_L: 17831 NB_b_L: 4226
+NF_c_L: 26534 NB_c_L: 8126
+AFB L | b quark | c quark
+      | 0.616811 | 0.531102
+--Center-of-mass frame--
+NF_b_com_L: 17836 NB_b_com_L: 4226
+NF_c_com_L: 26537 NB_c_com_L: 8127
+AFB (com) L | b quark | c quark
+            | 0.616898 | 0.531099
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.5932 48.727 48.7349 0.34814 2.79916 2.58301 0.00275183|
+51.016 51.3674 51.2849 0.558012 4.98569 4.13096 0.00275183||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+48.9353 48.7291 48.4282 48.5932 48.727 0.34814 2.79916 2.58301 0.00275183|
+51.3596 51.4291 51.0225 51.016 51.3674 0.558012 4.98569 4.13096 0.00312074|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0249887 0.0611581 0.0049981 5.42209e-06|
+0.0222825 0.0455829 0.00435527 5.88662e-06||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 23971 NB_b: 4599
+NF_c: 35339 NB_c: 9160
+AFB | b quark | c quark
+    | 0.678054 | 0.588305
+--Center-of-mass frame--
+NF_b_com: 23971 NB_b_com: 4599
+NF_c_com: 35338 NB_c_com: 9161
+AFB (com) | b quark | c quark
+          | 0.678054 | 0.58826
+NF_b_L: 19076 NB_b_L: 4487
+NF_c_L: 28311 NB_c_L: 8669
+AFB L | b quark | c quark
+      | 0.619149 | 0.531152
+--Center-of-mass frame--
+NF_b_com_L: 19084 NB_b_com_L: 4487
+NF_c_com_L: 28320 NB_c_com_L: 8670
+AFB (com) L | b quark | c quark
+            | 0.619278 | 0.531225
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+50.0377 50.0517 50.2166 0.31302 3.50739 3.31248 0.0040846|
+52.2672 52.5099 52.5641 0.4953 5.58361 4.82832 0.0040846||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.4647 50.2078 49.8381 50.0377 50.0517 0.31302 3.50739 3.31248 0.0040846|
+52.7 52.707 52.2068 52.2672 52.5099 0.4953 5.58361 4.82832 0.00385363|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0206244 0.0712551 0.00595988 7.4834e-06|
+0.0180932 0.0477319 0.00475967 6.79665e-06||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 24873 NB_b: 4732
+NF_c: 36733 NB_c: 9512
+AFB | b quark | c quark
+    | 0.680324 | 0.588626
+--Center-of-mass frame--
+NF_b_com: 24873 NB_b_com: 4732
+NF_c_com: 36732 NB_c_com: 9513
+AFB (com) | b quark | c quark
+          | 0.680324 | 0.588583
+NF_b_L: 19754 NB_b_L: 4614
+NF_c_L: 29360 NB_c_L: 8996
+AFB L | b quark | c quark
+      | 0.621307 | 0.530921
+--Center-of-mass frame--
+NF_b_com_L: 19767 NB_b_com_L: 4614
+NF_c_com_L: 29376 NB_c_com_L: 8998
+AFB (com) L | b quark | c quark
+            | 0.621509 | 0.531037
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.8989 50.1458 50.2474 0.287875 3.83132 3.77716 0.00471361|
+52.2176 52.5924 52.5817 0.448445 5.80019 5.15837 0.00471361||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.5238 50.2549 49.8088 49.8989 50.1458 0.287875 3.83132 3.77716 0.00471361|
+52.7399 52.7537 52.1601 52.2176 52.5924 0.448445 5.80019 5.15837 0.0042216|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0180542 0.0749515 0.0065441 8.31578e-06|
+0.0155132 0.0478482 0.00490709 7.18509e-06||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 25485 NB_b: 4859
+NF_c: 37689 NB_c: 9733
+AFB | b quark | c quark
+    | 0.679739 | 0.589515
+--Center-of-mass frame--
+NF_b_com: 25485 NB_b_com: 4859
+NF_c_com: 37688 NB_c_com: 9734
+AFB (com) | b quark | c quark
+          | 0.679739 | 0.589473
+NF_b_L: 20215 NB_b_L: 4737
+NF_c_L: 30127 NB_c_L: 9202
+AFB L | b quark | c quark
+      | 0.620311 | 0.53205
+--Center-of-mass frame--
+NF_b_com_L: 20236 NB_b_com_L: 4737
+NF_c_com_L: 30159 NB_c_com_L: 9205
+AFB (com) L | b quark | c quark
+            | 0.62063 | 0.532314
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.4033 49.8481 49.8795 0.269716 3.96855 3.9485 0.00487099|
+51.8176 52.3785 52.3071 0.412685 5.89534 5.25952 0.00487099||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.2435 49.8461 49.3476 49.4033 49.8481 0.269716 3.96855 3.9485 0.00487099|
+52.5031 52.4653 51.8411 51.8176 52.3785 0.412685 5.89534 5.25952 0.00440528|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0163194 0.0757002 0.00667035 8.37914e-06|
+0.0136928 0.0474439 0.00488095 7.31436e-06||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 26052 NB_b: 4944
+NF_c: 38448 NB_c: 9933
+AFB | b quark | c quark
+    | 0.680991 | 0.589384
+--Center-of-mass frame--
+NF_b_com: 26052 NB_b_com: 4944
+NF_c_com: 38447 NB_c_com: 9934
+AFB (com) | b quark | c quark
+          | 0.680991 | 0.589343
+NF_b_L: 20673 NB_b_L: 4821
+NF_c_L: 30719 NB_c_L: 9396
+AFB L | b quark | c quark
+      | 0.621793 | 0.531547
+--Center-of-mass frame--
+NF_b_com_L: 20704 NB_b_com_L: 4821
+NF_c_com_L: 30762 NB_c_com_L: 9399
+AFB (com) L | b quark | c quark
+            | 0.622253 | 0.531934
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.9405 49.4183 49.4353 0.259659 4.03717 4.02378 0.00502837|
+51.5613 52.0724 52.0004 0.393689 5.94505 5.31275 0.00502837||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.8849 49.2875 48.8878 48.9405 49.4183 0.259659 4.03717 4.02378 0.00502837|
+52.2794 52.0258 51.5391 51.5613 52.0724 0.393689 5.94505 5.31275 0.00449682|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0152356 0.0754324 0.00665836 8.47278e-06|
+0.0125972 0.0468637 0.00482934 7.31337e-06||
+mkdir: testplots/eR_pL/: File exists
+mkdir: mc_study/eR_pL/: File exists
+mkdir: testplots/FinalCutAnalysis/eR_pL/: File exists
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4066 NB_b: 1702
+NF_c: 15623 NB_c: 3221
+AFB | b quark | c quark
+    | 0.409847 | 0.658141
+--Center-of-mass frame--
+NF_b_com: 4066 NB_b_com: 1702
+NF_c_com: 15624 NB_c_com: 3220
+AFB (com) | b quark | c quark
+          | 0.409847 | 0.658247
+NF_b_L: 3294 NB_b_L: 1574
+NF_c_L: 12636 NB_c_L: 3154
+AFB L | b quark | c quark
+      | 0.353328 | 0.600507
+--Center-of-mass frame--
+NF_b_com_L: 3295 NB_b_com_L: 1575
+NF_c_com_L: 12640 NB_c_com_L: 3153
+AFB (com) L | b quark | c quark
+            | 0.353183 | 0.600709
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.4543 48.7782 48.727 0.217106 0.948631 3.40644 0.00150829|
+50.8242 51.3497 51.1208 0.356251 0.986949 5.51537 0.00150829||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+48.7493 48.875 48.5033 48.4543 48.7782 0.217106 0.948631 3.40644 0.00150829|
+51.2624 51.2568 50.5156 50.8242 51.3497 0.356251 0.986949 5.51537 0.00173382|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0289934 0.000272196 0.0079273 3.21319e-06|
+0.0253664 0.000290412 0.00643443 3.58611e-06||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4349 NB_b: 1807
+NF_c: 16833 NB_c: 3440
+AFB | b quark | c quark
+    | 0.41293 | 0.660632
+--Center-of-mass frame--
+NF_b_com: 4349 NB_b_com: 1807
+NF_c_com: 16834 NB_c_com: 3439
+AFB (com) | b quark | c quark
+          | 0.41293 | 0.660731
+NF_b_L: 3502 NB_b_L: 1671
+NF_c_L: 13507 NB_c_L: 3360
+AFB L | b quark | c quark
+      | 0.353953 | 0.601589
+--Center-of-mass frame--
+NF_b_com_L: 3503 NB_b_com_L: 1673
+NF_c_com_L: 13513 NB_c_com_L: 3359
+AFB (com) L | b quark | c quark
+            | 0.353555 | 0.601826
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.4656 50.2665 50.077 0.204728 1.02619 4.36085 0.00224916|
+51.8455 52.6642 52.3355 0.331128 1.04539 6.46474 0.00224916||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.165 49.9355 49.9305 49.4656 50.2665 0.204728 1.02619 4.36085 0.00224916|
+52.5174 52.3482 51.7235 51.8455 52.6642 0.331128 1.04539 6.46474 0.00258548|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0252939 0.00027428 0.00945318 4.4633e-06|
+0.0217896 0.000287751 0.00705515 5.00243e-06||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4520 NB_b: 1878
+NF_c: 17439 NB_c: 3571
+AFB | b quark | c quark
+    | 0.412942 | 0.660067
+--Center-of-mass frame--
+NF_b_com: 4520 NB_b_com: 1878
+NF_c_com: 17440 NB_c_com: 3570
+AFB (com) | b quark | c quark
+          | 0.412942 | 0.660162
+NF_b_L: 3639 NB_b_L: 1732
+NF_c_L: 13954 NB_c_L: 3484
+AFB L | b quark | c quark
+      | 0.355055 | 0.600413
+--Center-of-mass frame--
+NF_b_com_L: 3640 NB_b_com_L: 1735
+NF_c_com_L: 13965 NB_c_com_L: 3484
+AFB (com) L | b quark | c quark
+            | 0.354419 | 0.600665
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.0795 50.262 49.932 0.201656 1.04409 4.79236 0.00224916|
+51.7022 52.6498 52.3152 0.319491 1.05837 6.75859 0.00224916||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.22 49.2942 49.6404 49.0795 50.262 0.201656 1.04409 4.79236 0.00224916|
+52.607 52.0485 51.6301 51.7022 52.6498 0.319491 1.05837 6.75859 0.00258548|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0238445 0.000268844 0.0100081 4.29983e-06|
+0.0200793 0.00028122 0.00711998 4.8289e-06||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4642 NB_b: 1936
+NF_c: 17895 NB_c: 3655
+AFB | b quark | c quark
+    | 0.411371 | 0.660789
+--Center-of-mass frame--
+NF_b_com: 4642 NB_b_com: 1936
+NF_c_com: 17896 NB_c_com: 3654
+AFB (com) | b quark | c quark
+          | 0.411371 | 0.660882
+NF_b_L: 3728 NB_b_L: 1784
+NF_c_L: 14312 NB_c_L: 3563
+AFB L | b quark | c quark
+      | 0.352685 | 0.601343
+--Center-of-mass frame--
+NF_b_com_L: 3732 NB_b_com_L: 1787
+NF_c_com_L: 14326 NB_c_com_L: 3563
+AFB (com) L | b quark | c quark
+            | 0.352419 | 0.601655
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.2789 49.8658 49.3141 0.195303 1.06199 5.03604 0.00243814|
+51.3233 52.3998 51.9098 0.303803 1.07136 6.93942 0.00243814||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.8403 48.3616 48.5874 48.2789 49.8658 0.195303 1.06199 5.03604 0.00243814|
+52.2708 51.5408 51.1091 51.3233 52.3998 0.303803 1.07136 6.93942 0.00280272|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0223631 0.00026651 0.01025 4.54276e-06|
+0.0184324 0.000277559 0.00712785 5.10386e-06||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4725 NB_b: 1979
+NF_c: 18265 NB_c: 3718
+AFB | b quark | c quark
+    | 0.409606 | 0.661739
+--Center-of-mass frame--
+NF_b_com: 4724 NB_b_com: 1980
+NF_c_com: 18266 NB_c_com: 3717
+AFB (com) | b quark | c quark
+          | 0.409308 | 0.66183
+NF_b_L: 3792 NB_b_L: 1824
+NF_c_L: 14592 NB_c_L: 3624
+AFB L | b quark | c quark
+      | 0.350427 | 0.602108
+--Center-of-mass frame--
+NF_b_com_L: 3799 NB_b_com_L: 1828
+NF_c_com_L: 14616 NB_c_com_L: 3624
+AFB (com) L | b quark | c quark
+            | 0.350275 | 0.602632
+Info in <TCanvas::Print>: file bb_mc_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_hist.png has been created
+Info in <TCanvas::Print>: file bb_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file cc_mc_com_hist.png has been created
+Info in <TCanvas::Print>: file hist.png has been created
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+47.3881 49.4322 48.702 0.186504 1.06796 5.17311 0.00243814|
+50.7119 52.0929 51.4979 0.287774 1.07785 7.09765 0.00243814||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.4392 47.3866 47.6907 47.3881 49.4322 0.186504 1.06796 5.17311 0.00243814|
+51.9963 50.8613 50.5326 50.7119 52.0929 0.287774 1.07785 7.09765 0.00280272|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.020806 0.000262627 0.0103176 4.45158e-06|
+0.0169634 0.00027373 0.0071465 5.00314e-06||
+MacBook-Pro-de-ificadmin:plots marherje$ 

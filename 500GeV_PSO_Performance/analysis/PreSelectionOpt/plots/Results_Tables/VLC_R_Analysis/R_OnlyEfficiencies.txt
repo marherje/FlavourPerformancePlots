@@ -1,0 +1,64 @@
+Processing efficiency_cut.cc(0,50,20,6,"eL")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+48.5021 48.4949 48.0024 49.9108 49.1945 1.21941|
+52.1145 52.1847 51.8332 53.6336 52.9881 2.1494|
+
+Processing efficiency_cut.cc(0,75,20,6,"eL")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+55.3045 55.1002 54.7377 55.8415 55.6663 1.43969|
+59.002 58.9549 58.6285 59.6755 59.6135 2.4972|
+
+Processing efficiency_cut.cc(0,100,20,6,"eL")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+60.9036 60.719 60.4701 61.3252 61.1993 1.77577|
+64.5511 64.5367 64.3227 65.1598 65.1754 3.02536|
+
+Processing efficiency_cut.cc(0,125,20,6,"eL")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+66.7861 66.4826 66.2107 66.8273 66.7653 2.19545|
+70.3857 70.1307 69.9763 70.7026 70.6121 3.71095|
+
+Processing efficiency_cut.cc(0,150,20,6,"eL")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+73.2381 72.8371 72.7204 72.9918 73.0047 2.72705|
+76.9405 76.5592 76.564 76.9207 76.9218 4.62026|
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+Processing efficiency_cut.cc(0,50,20,6,"eR")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+48.405 48.3439 48.1389 49.6292 49.3108 0.657436|
+52.0601 51.7211 51.3344 53.1773 53.1289 1.21739|
+
+Processing efficiency_cut.cc(0,75,20,6,"eR")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+55.1479 55.0346 54.3553 55.7777 55.6658 0.791714|
+58.8956 58.4765 57.6361 59.3407 59.6122 1.44572|
+
+Processing efficiency_cut.cc(0,100,20,6,"eR")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+61.0345 60.9282 60.5814 61.363 61.4347 1.01426|
+64.7815 64.4893 63.9051 64.7246 65.3782 1.81055|
+
+Processing efficiency_cut.cc(0,125,20,6,"eR")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+66.8631 66.8122 66.3757 66.7418 67.0033 1.29247|
+70.597 70.4278 69.8773 70.2572 70.9105 2.27687|
+
+Processing efficiency_cut.cc(0,150,20,6,"eR")...
+Efficiencies (%)
+uu dd ss bb cc radreturn 
+73.3477 73.3416 72.8223 72.6744 73.2306 1.60706|
+77.1413 77.2475 76.346 76.4576 77.246 2.83872|
+

@@ -1,0 +1,5 @@
+Best Result after Iteration 10
+[0.805137, 0.392469, 0.054, '!H:!V:NTrees=1402:BoostType=Grad:Shrinkage=0.0466940570206:UseBaggedBoost:GradBaggingFraction=0.552547565433:nCuts=44:MaxDepth=7:NegWeightTreatment=IgnoreNegWeightsInTraining', ['trk1d0sig', 'trk2d0sig', 'trk1z0sig', 'trk2z0sig', 'trk1pt_jete', 'trk2pt_jete', 'jprobr2', 'jprobr25sigma', 'jprobz2', 'jprobz25sigma', 'd0bprob2', 'z0bprob2', 'd0cprob2', 'd0qprob2', 'z0cprob2', 'z0qprob2'], ['trkmass', 'nmuon', 'nelectron']]
+OutputDir =  /lhome/ific/m/marherje/ParticleSwarmOptimization/FlavourTag500IFIC_eLpR_catA
+ OutputDir =  /lhome/ific/m/marherje/ParticleSwarmOptimization/FlavourTag500IFIC_eLpR_catA
+ usedVariables =  ['trk1d0sig', 'trk2d0sig', 'trk1z0sig', 'trk2z0sig', 'trk1pt_jete', 'trk2pt_jete', 'jprobr2', 'jprobr25sigma', 'jprobz2', 'jprobz25sigma', 'd0bprob2', 'z0bprob2', 'd0cprob2', 'd0qprob2', 'z0cprob2', 'z0qprob2']

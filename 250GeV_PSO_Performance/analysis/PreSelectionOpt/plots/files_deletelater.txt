@@ -1,0 +1,8 @@
+TString filename_old = "../results/jettag_"+cutname+"_2f_hadronic_sample_"+cat+"_BDT_Old_eL_pR_Kgamma"+kvalue+"_250GeV.root";
+  TFile *f_old = new TFile(filename_old);
+  TString filename2_old = "../results/jettag_"+cutname+"_2f_hadronic_sample_"+cat+"_BDT_Old_eR_pL_Kgamma"+kvalue+"_250GeV.root";
+  TFile *f2_old = new TFile(filename2_old);
+  TString filename_new = "../results/jettag_"+cutname+"_2f_hadronic_sample_"+cat+"_BDT_FullOpt_eL_pR_Kgamma"+kvalue+"_250GeV.root";
+  TFile *f_new = new TFile(filename_new);
+  TString filename2_new = "../results/jettag_"+cutname+"_2f_hadronic_sample_"+cat+"_BDT_FullOpt_eR_pL_Kgamma"+kvalue+"_250GeV.root";
+  TFile *f2_new = new TFile(filename2_new);

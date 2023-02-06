@@ -1,0 +1,24 @@
+Processing JetTag_comparison.C(0,"35","all")...
+Only high purity for f1
+[OLD] F_integral_eL(b): 0.798109, F_integral_eL(c): 0.528301
+[NEW] F_integral_eL(b): 0.801933, F_integral_eL(c): 0.525927
+[OLD] F_integral_eR(b): 0.794172, F_integral_eR(c): 0.528484
+[NEW] F_integral_eR(b): 0.800166, F_integral_eR(c): 0.526528
+------------------------------------------------
+[OLD] ROC_integral_eL(b): 0.941014, ROC_integral_eL(c): 0.8709
+[NEW] ROC_integral_eL(b): 0.945697, ROC_integral_eL(c): 0.875066
+[OLD] ROC_integral_eR(b): 0.943993, ROC_integral_eR(c): 0.872713
+[NEW] ROC_integral_eR(b): 0.948563, ROC_integral_eR(c): 0.877347
+
+
+Processing JetTag_comparison.C(7,"35","all")...
+Only high purity for f1
+[OLD] F_integral_eL(b): 0.842306, F_integral_eL(c): 0.574296
+[NEW] F_integral_eL(b): 0.847676, F_integral_eL(c): 0.572486
+[OLD] F_integral_eR(b): 0.837275, F_integral_eR(c): 0.574167
+[NEW] F_integral_eR(b): 0.842362, F_integral_eR(c): 0.571565
+------------------------------------------------
+[OLD] ROC_integral_eL(b): 0.971519, ROC_integral_eL(c): 0.897992
+[NEW] ROC_integral_eL(b): 0.973382, ROC_integral_eL(c): 0.901042
+[OLD] ROC_integral_eR(b): 0.973438, ROC_integral_eR(c): 0.901599
+[NEW] ROC_integral_eR(b): 0.975828, ROC_integral_eR(c): 0.903567

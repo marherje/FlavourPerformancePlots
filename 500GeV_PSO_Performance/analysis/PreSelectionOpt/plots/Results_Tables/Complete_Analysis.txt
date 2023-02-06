@@ -1,0 +1,167 @@
+Processing Complete_analysis_500GeV.cc(0,"eL_pR")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+46.3703 - 48.9547 - 56.6298
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+100 100 100 100 100 100|
+100 100 100 100 100 100||
+B/S
+radreturn WW ZZ 
+4.04367 1.19305 0.10566|
+2.4158 0.525067 0.0605483||
+
+Processing Complete_analysis_500GeV.cc(1,"eL_pR")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+46.3703 - 48.9547 - 56.6298
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.8714 70.5367 70.8109 15.2437 46.4514 39.311|
+73.1691 72.8004 72.8274 17.3751 61.7754 50.4392||
+B/S
+radreturn WW ZZ 
+0.871232 0.783293 0.0587073|
+0.575971 0.445086 0.0419067||
+
+Processing Complete_analysis_500GeV.cc(2,"eL_pR")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+46.3703 - 48.9547 - 56.6298
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.7627 70.501 70.7982 15.0921 46.4426 39.3032|
+73.0488 72.76 72.8138 17.1559 61.7598 50.4232||
+B/S
+radreturn WW ZZ 
+0.86298 0.783523 0.0587241|
+0.569001 0.445204 0.0419151||
+
+Processing Complete_analysis_500GeV.cc(3,"eL_pR")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+46.3703 - 48.9547 - 56.6298
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.7258 70.4046 70.4799 4.2281 46.3604 39.202|
+73.0247 72.6715 72.4903 5.28505 61.6249 50.3114||
+B/S
+radreturn WW ZZ 
+0.242508 0.784534 0.0587523|
+0.175805 0.445546 0.041946||
+
+Processing Complete_analysis_500GeV.cc(4,"eL_pR")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+46.3703 - 48.9547 - 56.6298
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.6868 70.3175 69.9668 3.15018 46.3043 39.1449|
+72.9862 72.5799 71.9426 4.29175 61.5127 50.2209||
+B/S
+radreturn WW ZZ 
+0.181526 0.787243 0.0589406|
+0.143452 0.446881 0.0420726||
+
+Processing Complete_analysis_500GeV.cc(5,"eL_pR")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+46.3703 - 48.9547 - 56.6298
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+68.4515 67.9854 67.3104 2.23819 34.8659 32.4784|
+72.9501 72.5023 71.5731 3.79657 61.338 50.1091||
+B/S
+radreturn WW ZZ 
+0.133749 0.61472 0.0507134|
+0.127325 0.447102 0.0421193||
+
+Processing Complete_analysis_500GeV.cc(6,"eL_pR")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+46.3703 - 48.9547 - 56.6298
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+61.3252 61.1993 60.7301 1.77577 20.6579 14.5894|
+65.1598 65.1754 64.4833 3.02536 35.7072 22.7788||
+B/S
+radreturn WW ZZ 
+0.117819 0.404388 0.0252932|
+0.112841 0.289468 0.0212943||
+
+Processing Complete_analysis_500GeV.cc(0,"eR_pL")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+47.0139 - 500 - 72.4521
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+100 100 100 100 100 100|
+100 100 100 100 100 100||
+B/S
+radreturn WW ZZ 
+7.4157 0.0156775 0.127151|
+4.20334 0.0168771 0.0669133||
+
+Processing Complete_analysis_500GeV.cc(1,"eR_pL")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+47.0139 - 500 - 72.4521
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.628 70.7495 70.99 15.2597 63.773 40.3645|
+72.5624 72.9525 72.8814 17.4828 66.3918 54.0574||
+B/S
+radreturn WW ZZ 
+1.59677 0.0141077 0.0724203|
+1.00843 0.0153763 0.0496372||
+
+Processing Complete_analysis_500GeV.cc(2,"eR_pL")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+47.0139 - 500 - 72.4521
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.5341 70.7234 70.9756 15.1104 63.7432 40.3442|
+72.4634 72.9252 72.8666 17.2635 66.3593 54.0235||
+B/S
+radreturn WW ZZ 
+1.58175 0.0141065 0.0724113|
+0.99616 0.0153747 0.0496251||
+
+Processing Complete_analysis_500GeV.cc(3,"eR_pL")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+47.0139 - 500 - 72.4521
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.506 70.6277 70.6724 3.3344 63.6239 40.2427|
+72.4415 72.8402 72.558 3.91363 66.2295 53.9444||
+B/S
+radreturn WW ZZ 
+0.350044 0.0141205 0.0724366|
+0.226456 0.0153872 0.04969||
+
+Processing Complete_analysis_500GeV.cc(4,"eR_pL")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+47.0139 - 500 - 72.4521
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+70.4403 70.5696 70.205 2.15649 63.6 40.1767|
+72.3645 72.7823 72.0741 2.80705 66.21 53.8427||
+B/S
+radreturn WW ZZ 
+0.227303 0.0141723 0.0726102|
+0.163088 0.0154453 0.0497984||
+
+Processing Complete_analysis_500GeV.cc(5,"eR_pL")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+47.0139 - 500 - 72.4521
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+68.3376 68.2395 67.6298 1.28308 62.8363 32.9526|
+72.3096 72.7143 71.7824 2.2625 66.1451 53.741||
+B/S
+radreturn WW ZZ 
+0.140103 0.0145054 0.061695|
+0.131796 0.0154708 0.0498352||
+
+Processing Complete_analysis_500GeV.cc(6,"eR_pL")...
+Lumi qq & ISR - Lumi WW - Lumi ZZ
+47.0139 - 500 - 72.4521
+Efficiencies (%)
+bb cc qq radreturn WW ZZ 
+61.363 61.4347 60.929 1.01426 26.0426 15.5752|
+64.7246 65.3782 64.5611 1.81055 27.1801 25.6781||
+B/S
+radreturn WW ZZ 
+0.123003 0.00667693 0.0323867|
+0.117338 0.00707265 0.0264917||

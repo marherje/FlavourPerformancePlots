@@ -1,0 +1,10 @@
+# Unix submit description file
+# run_xPROD_xNAMEfile.sub -- simple Marlin job
+
+executable              = run_xPROD_xFPROD_xNAMEfile.sh
+log                     = run_xPROD_xFPROD_xNAMEfile.log
+output                  = outfile_xPROD_xFPROD_xNAMEfile.txt
+error                   = errors_xPROD_xFPROD_xNAMEfile.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue 1

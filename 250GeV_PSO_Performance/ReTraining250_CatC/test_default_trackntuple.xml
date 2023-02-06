@@ -1,0 +1,118 @@
+<marlin>
+<constants>
+    <!-- ***** Global constant for reconstruction ***** -->
+    <!-- The lcgeo directory where to look for the ILD model -->
+    <constant name="productionfolder" value="/cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production" />
+    <constant name="PidPDFFile" value="${productionfolder}/HighLevelReco/PIDFiles/LikelihoodPID_Standard_l5_v01.root" />
+    <constant name="PidWeightFiles">${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_02GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_03GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_04GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_05GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_06GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_07GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_08GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_09GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_10GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_11GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_12GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_13GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_14GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_15GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_16GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_17GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_18GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_19GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_20GeVP_clusterinfo.weights.xml</constant> 
+</constants>
+
+<execute>
+        <!--<processor name="MyAIDAProcessor"/>-->      
+        <processor name="InitDD4hep"/> 
+	<processor name="MyISRQQ500"/>
+	<processor name="JetClustering"/>
+        <!--<processor name="TrackNtuple"/>-->
+        <!--<processor name="DSTOutput"/>-->
+</execute>
+
+<global>
+	<parameter name="LCIOInputFiles"> /lustre/ific.uv.es/prj/ific/flc/mc-opt-3/xPROD/NFile </parameter>
+	<!--<parameter name="GearXMLFile"> GearOutput.xml </parameter>-->  
+	<parameter name="MaxRecordNumber" value="0" />  
+	<parameter name="SkipNEvents" value="0" />  
+	<parameter name="SupressCheck" value="false" />  
+	<parameter name="Verbosity" options="DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT">DEBUG</parameter> 
+</global>
+
+  <!--########  Processor  ######################################## -->
+
+<processor name="InitDD4hep" type="InitializeDD4hep">
+        <parameter name="DD4hepXMLFile" type="string">/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ILD_o1_v05.xml</parameter>
+</processor>
+
+<processor name="JetClustering" type="LcfiplusProcessor">
+	
+	<!-- run primary and secondary vertex finders -->
+	<parameter name="Algorithms" type="stringVec"> JetClustering JetVertexRefiner TrackNtuple</parameter>
+	
+	<!-- general parameters -->
+	<parameter name="PFOCollection" type="string" value="PandoraPFOs" /> <!-- input PFO collection -->
+	<parameter name="UseMCP" type="int" value="0" /> <!-- MC info not used -->
+	<parameter name="MCPCollection" type="string" value="" /> <!-- not used -->
+	<parameter name="MCPFORelation" type="string" value="" /> <!-- not used -->
+	<parameter name="ReadSubdetectorEnergies" type="int" value="1"/> <!-- true for ILD -->
+	<parameter name="UpdateVertexRPDaughters" type="int" value="0"/> <!-- false for non-updative PandoraPFOs -->
+	<parameter name="TrackHitOrdering" type="int" value="1"/> <!-- Track hit ordering: 0=ILD-LOI,SID-DBD, 1=ILD-DBD -->
+	<parameter name="PrintEventNumber" type="int" value="0"/> <!-- 0 for not printing event number, n for printing every n events -->
+	
+	<!-- jet clustering parameters -->
+	<parameter name="JetClustering.InputVertexCollectionName" type="string" value="BuildUpVertex" /> <!-- vertex collections to be used in JC -->
+	<parameter name="JetClustering.OutputJetCollectionName" type="stringVec" value="VertexJets" /> <!-- output collection name, may be multiple -->
+	<parameter name="JetClustering.NJetsRequested" type="intVec" value="2" /> <!-- Multiple NJets can be specified -->
+	<parameter name="JetClustering.YCut" type="doubleVec" value="0." /> <!-- specify 0 if not used -->
+
+        <parameter name="JetClustering.JetAlgorithm" type="string" value="ValenciaVertex" /> <!-- jet algorithm -->
+        <parameter name="JetClustering.UseBeamJets" type="int" value="1" /> <!-- beam jet rejection -->
+        <parameter name="JetClustering.BetaParameter" type="double" value="1.0" />
+        <parameter name="JetClustering.RParameter" type="double" value="1.0" />
+        <parameter name="JetClustering.GammaParameter" type="double" value="0" />
+
+	<parameter name="JetClustering.UseMuonID" type="int" value="1" /> <!-- jet-muon ID for jet clustering -->
+	<parameter name="JetClustering.MuonIDExternal" type="int" value="0" /> <!-- true to use LikelihoodPID, false for good-old simple one -->
+	<parameter name="JetClustering.MuonIDMinimumD0Significance" type="double" value="5." /> <!-- min D0 significance -->
+	<parameter name="JetClustering.MuonIDMinimumZ0Significance" type="double" value="5." /> <!-- min Z0 significance -->
+	<parameter name="JetClustering.MuonIDMaximum3DImpactParameter" type="double" value="5." /> <!-- max 3D significance -->
+	<parameter name="JetClustering.MuonIDMinimumProbability" type="double" value="0.5" /> <!-- min PID probability, only for external -->
+
+	<parameter name="JetClustering.VertexSelectionMinimumDistance" type="double" value="0.3" /> <!-- in mm -->
+	<parameter name="JetClustering.VertexSelectionMaximumDistance" type="double" value="30." /> <!-- in mm -->
+	<parameter name="JetClustering.VertexSelectionK0MassWidth" type="double" value="0.02" /> <!-- in GeV -->
+	<parameter name="JetClustering.YAddedForJetVertexVertex" type="double" value="100"/> <!-- add penalty for combining vertices -->
+	<parameter name="JetClustering.YAddedForJetLeptonVertex" type="double" value="100"/> <!-- add penalty for combining lepton and vertex -->
+	<parameter name="JetClustering.YAddedForJetLeptonLepton" type="double" value="100"/> <!-- add penalty for combining leptons -->
+	
+	<!-- vertex refiner parameters -->
+	<parameter name="JetVertexRefiner.InputJetCollectionName" type="string" value="VertexJets" />
+	<parameter name="JetVertexRefiner.OutputJetCollectionName" type="string" value="RefinedJets" />
+	<parameter name="JetVertexRefiner.PrimaryVertexCollectionName" type="string" value="PrimaryVertex" />
+	<parameter name="JetVertexRefiner.InputVertexCollectionName" type="string" value="BuildUpVertex" />
+	<parameter name="JetVertexRefiner.V0VertexCollectionName" type="string" value="BuildUpVertex_V0" />
+	<parameter name="JetVertexRefiner.OutputVertexCollectionName" type="string" value="RefinedVertex" />
+	
+	<parameter name="JetVertexRefiner.MinPosSingle" type="double" value="0.3" />
+	<parameter name="JetVertexRefiner.MaxPosSingle" type="double" value="30." />
+	<parameter name="JetVertexRefiner.MinEnergySingle" type="double" value="1." />
+	<parameter name="JetVertexRefiner.MaxAngleSingle" type="double" value="0.5" />
+	<parameter name="JetVertexRefiner.MaxSeparationPerPosSingle" type="double" value="0.1" />
+	<parameter name="JetVertexRefiner.mind0sigSingle" type="double" value="5." />
+	<parameter name="JetVertexRefiner.minz0sigSingle" type="double" value="5." />
+	<parameter name="JetVertexRefiner.OneVertexProbThreshold" type="double" value="0.001" />
+	<parameter name="JetVertexRefiner.MaxCharmFlightLengthPerJetEnergy" type="double" value="0.1" />
+
+        <parameter name="TrackNtuple.JetCollectionName" type="string" value="VertexJets" />
+        <parameter name="TrackNtuple.HitsCountForJointProbability" type="int" value="4" />
+        <parameter name="TrackNtuple.RootFileName" type="string" value="tracks_xPROD_xFLAVOUR_xNAMEfile_Kisr_xISRCUT.root" />
+      </processor>
+
+<processor name="MyISRQQ500" type="ISRQQ500">
+  <!--ISRQQ500 extract the QQ signal from a sample with QQ+ISR (500 GeV)-->
+   <!--Name of the MCParticle collection-->
+        <parameter name="CollectionName" type="string" lcioInType="MCParticle">MCParticle </parameter>
+   <!--This selects the quark flavour (b_quark, c_quark_ light_quark) -->
+        <parameter name="DesiredFlavour" type="string">xFLAVOUR </parameter>
+
+   <!--This defines K_ISR, the cut at MC level that splits signal and ISR -->
+        <parameter name="ISR_CUT" type="float">xISRCUT </parameter>
+   <!--verbosity level of this processor ("DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT")-->
+   <!--parameter name="Verbosity" type="string">DEBUG </parameter-->
+</processor>
+
+  <processor name="DSTOutput" type="LCIOOutputProcessor">
+    <!--DST output: drop all hits, skim MCParticles and keep final Tracks, Clusters and  ReconstructedParticles-->
+    <parameter name="LCIOOutputFile" type="string" > xPROD_xFLAVOUR_xNAMEfile_Kisr_xISRCUT.slcio </parameter>
+    <parameter name="LCIOWriteMode" type="string" value="WRITE_NEW"/>
+    <!--parameter name="SplitFileSizekB" type="int" value="1992294"/-->
+  </processor>
+
+</marlin>

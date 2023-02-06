@@ -1,0 +1,3 @@
+/lhome/ific/m/marherje/ParticleSwarmOptimization/TestingROC/mymarlin/lib/libCategorySelector.so.0.1.0
+/lhome/ific/m/marherje/ParticleSwarmOptimization/TestingROC/mymarlin/lib/libCategorySelector.so.0.1
+/lhome/ific/m/marherje/ParticleSwarmOptimization/TestingROC/mymarlin/lib/libCategorySelector.so

@@ -1,0 +1,135 @@
+<marlin>
+
+
+<constants>
+    <!-- ***** Global constant for reconstruction ***** -->
+    <!-- The lcgeo directory where to look for the ILD model -->
+    <constant name="productionfolder" value="/cvmfs/ilc.desy.de/sw/ILDConfig/v02-02/StandardConfig/production" />
+    <constant name="PidPDFFile" value="${productionfolder}/HighLevelReco/PIDFiles/LikelihoodPID_Standard_l5_v01.root" />
+    <constant name="PidWeightFiles">${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_02GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_03GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_04GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_05GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_06GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_07GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_08GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_09GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_10GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_11GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_12GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_13GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_14GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_15GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_16GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_17GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_18GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_19GeVP_clusterinfo.weights.xml ${productionfolder}/HighLevelReco/PIDFiles/LowMomMuPiSeparation/TMVAClassification_BDTG_l5_20GeVP_clusterinfo.weights.xml</constant>
+</constants>
+
+
+<execute>
+    <processor name="InitDD4hep"/>
+    <processor name="JetClusteringAndFlavorTag"/>
+</execute>
+
+<global>
+  <parameter name="LCIOInputFiles">   </parameter>
+  <parameter name="MaxRecordNumber" value="0" />  
+  <parameter name="SkipNEvents" value="0" />  
+  <parameter name="SupressCheck" value="false" />   
+  <parameter name="Verbosity" options="DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT">DEBUG</parameter> 
+</global>
+
+<processor name="InitDD4hep" type="InitializeDD4hep">
+    <!--InitializeDD4hep reads a compact xml file and initializes the DD4hep::LCDD object-->
+    <!--Name of the DD4hep compact xml file to load-->
+    <parameter name="DD4hepXMLFile" type="string">
+/cvmfs/ilc.desy.de/sw/x86_64_gcc82_centos7/v02-02/lcgeo/v00-16-06/ILD/compact/ILD_o1_v05/ILD_o1_v05.xml
+    </parameter>
+</processor>
+
+<processor name="JetClusteringAndFlavorTag" type="LcfiplusProcessor">
+  
+  <!-- run primary and secondary vertex finders -->
+  <parameter name="Algorithms" type="stringVec"> TrainMVA </parameter> <!--JetClustering JetVertexRefiner FlavorTag ReadMVA -->
+  
+  <!-- general parameters -->
+  <parameter name="PFOCollection" type="string" value="PandoraPFOs" /> <!-- input PFO collection -->
+  <parameter name="UseMCP" type="int" value="0" /> <!-- MC info not used -->
+  <parameter name="MCPCollection" type="string" value="" /> <!-- not used -->
+  <parameter name="MCPFORelation" type="string" value="" /> <!-- not used -->
+  <parameter name="ReadSubdetectorEnergies" type="int" value="1"/> <!-- true for ILD -->
+  <parameter name="UpdateVertexRPDaughters" type="int" value="0"/> <!-- false for non-updative PandoraPFOs -->
+  <parameter name="TrackHitOrdering" type="int" value="1"/> <!-- Track hit ordering: 0=ILD-LOI,SID-DBD, 1=ILD-DBD -->
+  <parameter name="PrintEventNumber" type="int" value="0"/> <!-- 0 for not printing event number, n for printing every n events -->
+  
+  <!-- jet clustering parameters -->
+    <parameter name="JetClustering.PrimaryVertexCollectionName" type="string" value="PrimaryVertex" />
+    <parameter name="JetClustering.InputVertexCollectionName" type="string" value="BuildUpVertex" /> <!-- vertex collections to be used in JC -->
+    <parameter name="JetClustering.OutputJetCollectionName" type="stringVec" value="VertexJets" /> <!-- output collection name, may be multiple -->
+    <parameter name="JetClustering.NJetsRequested" type="intVec" value="2" /> <!-- Multiple NJets can be specified -->
+    <parameter name="JetClustering.YCut" type="doubleVec" value="0." /> <!-- specify 0 if not used -->
+
+
+    <parameter name="JetClustering.JetAlgorithm" type="string" value="ValenciaVertex" /> <!-- jet algorithm\-->
+    <parameter name="JetClustering.UseBeamJets" type="int" value="1" /> <!-- beam jet rejection -->
+    <parameter name="JetClustering.BetaParameter" type="double" value="1.0" />
+    <parameter name="JetClustering.RParameter" type="double" value="1.0" />
+    <parameter name="JetClustering.GammaParameter" type="double" value="0" />
+    <parameter name="JetClustering.UseBeamJets" type="int" value="0" /> <!-- beam jet rejection -->
+
+    <parameter name="JetClustering.UseMuonID" type="int" value="1" /> <!-- jet-muon ID for jet clustering -->
+    <parameter name="JetClustering.MuonIDExternal" type="int" value="0" /> <!-- true to use LikelihoodPID, false for good-old simple one -->
+    <parameter name="JetClustering.MuonIDMinimumD0Significance" type="double" value="5." /> <!-- min D0 significance -->
+    <parameter name="JetClustering.MuonIDMinimumZ0Significance" type="double" value="5." /> <!-- min Z0 significance -->
+    <parameter name="JetClustering.MuonIDMaximum3DImpactParameter" type="double" value="5." /> <!-- max 3D significance -->
+    <parameter name="JetClustering.MuonIDMinimumProbability" type="double" value="0.5" /> <!-- min PID probability, only for external -->
+
+    <parameter name="JetClustering.VertexSelectionMinimumDistance" type="double" value="0.3" /> <!-- in mm -->
+    <parameter name="JetClustering.VertexSelectionMaximumDistance" type="double" value="30." /> <!-- in mm -->
+    <parameter name="JetClustering.VertexSelectionK0MassWidth" type="double" value="0.02" /> <!-- in GeV -->
+    <parameter name="JetClustering.YAddedForJetVertexVertex" type="double" value="100"/> <!-- add penalty for combining vertices --> 
+    <parameter name="JetClustering.YAddedForJetLeptonVertex" type="double" value="100"/> <!-- add penalty for combining lepton and vertex -->
+    <parameter name="JetClustering.YAddedForJetLeptonLepton" type="double" value="100"/> <!-- add penalty for combining leptons -->
+	
+    <!-- vertex refiner parameters -->
+    <parameter name="JetVertexRefiner.InputJetCollectionName" type="string" value="VertexJets" />
+    <parameter name="JetVertexRefiner.OutputJetCollectionName" type="string" value="RefinedJets" />
+    <parameter name="JetVertexRefiner.PrimaryVertexCollectionName" type="string" value="PrimaryVertex" />
+    <parameter name="JetVertexRefiner.InputVertexCollectionName" type="string" value="BuildUpVertex" />
+    <parameter name="JetVertexRefiner.V0VertexCollectionName" type="string" value="BuildUpVertex_V0" />
+    <parameter name="JetVertexRefiner.OutputVertexCollectionName" type="string" value="RefinedVertex" />
+    
+    <parameter name="JetVertexRefiner.MinPosSingle" type="double" value="0.3" />
+    <parameter name="JetVertexRefiner.MaxPosSingle" type="double" value="30." />
+    <parameter name="JetVertexRefiner.MinEnergySingle" type="double" value="1." />
+    <parameter name="JetVertexRefiner.MaxAngleSingle" type="double" value="0.5" />
+    <parameter name="JetVertexRefiner.MaxSeparationPerPosSingle" type="double" value="0.1" />
+    <parameter name="JetVertexRefiner.mind0sigSingle" type="double" value="5." />
+    <parameter name="JetVertexRefiner.minz0sigSingle" type="double" value="5." />
+    <parameter name="JetVertexRefiner.OneVertexProbThreshold" type="double" value="0.001" />
+    <parameter name="JetVertexRefiner.MaxCharmFlightLengthPerJetEnergy" type="double" value="0.1" />
+
+    <!-- FlavorTag parameters -->
+    <parameter name="PrimaryVertexCollectionName" type="string" value="PrimaryVertex" />
+    <parameter name="FlavorTag.JetCollectionName" type="string" value="RefinedJets" />
+    <parameter name="MakeNtuple.AuxiliaryInfo" type="int" value="-1" />
+	
+    <parameter name="FlavorTag.WeightsDirectory" type="string" value="Train_2f500_eR_ParticleSwarmTest_catC"/>    <!-- e.g. lcfiweights/lcfiweights_6q500_v04_p00_ildl5 --> 
+    <parameter name="FlavorTag.WeightsPrefix" type="string" value="2f500_eR_ParticleSwarmTest" />         <!-- e.g. 6q500_v04_p00_ildl5 -->
+    <parameter name="FlavorTag.BookName" type="string" value="bdt" />
+    <parameter name="FlavorTag.PIDAlgo" type="string" value="lcfiplus" />
+    <parameter name="FlavorTag.D0ProbFileName" type="string" value="data/vtxprob/d0probv2_ildl5_2q250_2f.root"/> <!-- vtxprob/d0probv2_ildl5_6q500.root -->
+    <parameter name="FlavorTag.Z0ProbFileName" type="string" value="data/vtxprob/z0probv2_ildl5_2q250_2f.root"/> <!-- vtxprob/z0probv2_ildl5_6q500.root --> 
+    
+    <parameter name="FlavorTag.CategoryDefinition1" type="string">nvtx==1&&nvtxall==2</parameter>
+    <parameter name="FlavorTag.CategoryPreselection1" type="string">trk1d0sig!=0&&!TMath::IsNaN(trk1z0sig)&&!TMath::IsNaN(trk2z0sig)&&!TMath::IsNaN(jprobz25sigma)&&!TMath::IsNaN(jprobr25sigma)&&!TMath::IsNaN(jprobr2)&&!TMath::IsNaN(jprobz2)</parameter>
+
+    <parameter name="FlavorTag.CategoryVariables1" type="stringVec">
+      trk1d0sig trk2d0sig trk1z0sig trk2z0sig trk1pt_jete trk2pt_jete jprobr2 jprobz2
+      vtxlen1_jete vtxsig1_jete vtxdirang1_jete vtxmom1_jete vtxmass1 vtxmult1 vtxmasspc vtxprob
+      1vtxprob vtxlen12all_jete vtxmassall
+    </parameter>
+    <parameter name="FlavorTag.CategorySpectators1" type="stringVec">
+                aux nvtx 
+    </parameter>
+
+    <parameter name="TrainMVA.Verbose" type="bool" value="true" />
+    <parameter name="TrainMVA.BookType" type="string" value="BDT" />
+    <parameter name="TrainMVA.BookOptions" type="string">
+      !H:!V:NTrees=855:BoostType=Grad:Shrinkage=0.0387048603831:UseBaggedBoost:GradBaggingFraction=0.560890183941:nCuts=65:MaxDepth=5:NegWeightTreatment=IgnoreNegWeightsInTraining
+    </parameter>
+
+    <parameter name="TrainMVA.InputRootFileB" type="string" value="../../data/MakeNTuples500/eR_pL_b_quark_merged.root"/>
+    <parameter name="TrainMVA.InputRootFileC" type="string" value="../../data/MakeNTuples500/eR_pL_c_quark_merged.root"/>
+    <parameter name="TrainMVA.InputRootFileO" type="string" value="../../data/MakeNTuples500/eR_pL_light_quark_merged.root"/>
+    <parameter name="TrainMVA.TreeNameB" type="string" value="ntp" />
+    <parameter name="TrainMVA.TreeNameC" type="string" value="ntp" />
+    <parameter name="TrainMVA.TreeNameO" type="string" value="ntp" />
+
+  </processor>
+
+</marlin>

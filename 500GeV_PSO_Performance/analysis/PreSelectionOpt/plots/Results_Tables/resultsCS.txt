@@ -1,0 +1,25 @@
+
+Processing CSLumi.C("eL")...
+Results in the eL case:
+Luminosity: 46.3703
+Total cross-sections (sample): 32470.5
+All flavours CS: 6437.85
+Total ISR CS: 26032.7
+All flavours events: 298525
+ISR events: 1207142
+Quark CS |   b  |   c   |   s   |   u   | d     |
+         |1051.6|1633.11|1051.49|1643.49|1058.16|
+Quark ISR|   b  |   c   |   s   |   u   | d    |
+         |5391.9|4933.27|5389.03|4951.85|5366.6|
+
+eR_pL:
+Processing CSLumi.C("eR")...
+Results in the eR case:
+Luminosity: 47.0138
+Total cross-sections (sample): 17994.7
+All flavours CS: 2138.22
+Total ISR CS: 15856.5
+Quark CS |   b   |   c   |   s   |   u   | d     |
+         |226.593|732.997|221.722|732.784|224.125|
+Quark ISR|   b   |   c   |   s   |   u   | d     | 
+         |3223.52|3092.54|3222.46|3074.97|3243| 

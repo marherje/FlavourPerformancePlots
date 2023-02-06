@@ -1,0 +1,3 @@
+NOTE: 
+To only optimise catA I'm using the Retraining files in Retraining250*catA 
+and then RENAMING it to match the name of the old ones

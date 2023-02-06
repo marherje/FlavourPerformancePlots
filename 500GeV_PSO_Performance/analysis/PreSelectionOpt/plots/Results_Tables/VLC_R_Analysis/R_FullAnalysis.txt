@@ -1,0 +1,270 @@
+Processing talkplots.cc(0,50,20,6,"eL")...
+Efficiencies (%)
+bb cc qq radreturn 
+49.9108 49.1945 48.3601 1.21941|
+53.6336 52.9881 52.0558 2.1494||
+cos90 0.8 <- BAD!
+cos85 0.85
+cos85 0.9
+cos85 0.95
+S/B: 9.90183
+S/B Limited: 9.99082
+****************************************
+regression for bb
+ FCN=11.1483 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS          71 TOTAL
+                     EDM=2.98366e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           5.85208e-01   9.70738e-03  -0.00000e+00   1.89792e-05
+   2  p1          -1.00080e-01   1.69025e-02   1.69025e-02   9.75674e-06
+****************************************
+regression for rr
+ FCN=300.59 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS          99 TOTAL
+                     EDM=1.52377e-20    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           4.05515e-02   5.23325e-04   6.57975e-13   0.00000e+00
+   2  p1          -3.37779e-02   7.20798e-04   7.20798e-04   1.02024e-03
+****************************************
+
+Processing talkplots.cc(0,75,20,6,"eL")...
+Efficiencies (%)
+bb cc qq radreturn 
+55.8415 55.6663 55.0881 1.43969|
+59.6755 59.6135 58.8845 2.4972||
+cos90 0.85 <- BAD!
+cos85 0.9
+cos85 0.95
+S/B: 9.50901
+S/B Limited: 9.7482
+****************************************
+regression for bb
+ FCN=7.31149 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS          75 TOTAL
+                     EDM=2.82427e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.42722e-01   1.04348e-02  -0.00000e+00   7.80295e-06
+   2  p1          -9.36992e-02   1.82085e-02   1.82085e-02  -4.21816e-09
+****************************************
+regression for rr
+ FCN=152.8 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS         107 TOTAL
+                     EDM=1.85055e-20    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           4.41142e-02   5.69178e-04  -9.76967e-12  -1.23114e-08
+   2  p1          -3.34339e-02   8.02765e-04   8.02765e-04   2.61871e-08
+****************************************
+
+Processing talkplots.cc(0,100,20,6,"eL")...
+Efficiencies (%)
+bb cc qq radreturn 
+61.3252 61.1993 60.7301 1.77577|
+65.1598 65.1754 64.4833 3.02536||
+cos90 0.9 <- OK
+cos85 0.95
+S/B: 8.48759
+S/B Limited: 8.86201
+****************************************
+regression for bb
+ FCN=6.13181 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS          75 TOTAL
+                     EDM=9.43673e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.85260e-01   1.11018e-02  -7.98454e-10  -1.25468e-10
+   2  p1          -6.82436e-02   1.94179e-02   1.94179e-02   2.63466e-05
+****************************************
+regression for rr
+ FCN=177.633 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS          80 TOTAL
+                     EDM=1.53238e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           4.63008e-02   6.08893e-04  -4.56288e-12   1.99604e-08
+   2  p1          -2.80854e-02   8.82482e-04   8.82482e-04   7.06328e-04
+****************************************
+
+Processing talkplots.cc(0,125,20,6,"eL")...
+Efficiencies (%)
+bb cc qq radreturn 
+66.8273 66.7653 66.5393 2.19545|
+70.7026 70.6121 70.1995 3.71095||
+cos85 0.95
+S/B: 7.50691
+S/B Limited: 7.89477
+****************************************
+regression for bb
+ FCN=4.01077 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS         105 TOTAL
+                     EDM=2.81007e-20    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.14708e-01   1.17600e-02  -6.43232e-10   3.44268e-10
+   2  p1          -1.57251e-02   2.06812e-02   2.06812e-02  -2.74068e-10
+****************************************
+regression for rr
+ FCN=438.294 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS          79 TOTAL
+                     EDM=2.48839e-22    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           5.05570e-02   6.49142e-04  -0.00000e+00   7.05912e-04
+   2  p1          -2.43335e-02   9.52889e-04   9.52889e-04   3.69406e-06
+****************************************
+
+Processing talkplots.cc(0,150,20,6,"eL")...
+Efficiencies (%)
+bb cc qq radreturn 
+72.9918 73.0047 72.98 2.72705|
+76.9207 76.9218 76.7279 4.62026||
+cos85 0.95
+S/B: 6.61891
+S/B Limited: 6.96103
+****************************************
+regression for bb
+ FCN=3.34554 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS          81 TOTAL
+                     EDM=3.0226e-20    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.64802e-01   1.25613e-02   5.74585e-09  -2.06362e-10
+   2  p1           8.29936e-03   2.21435e-02   2.21435e-02   1.13161e-09
+****************************************
+regression for rr
+ FCN=572.199 FROM MINOS     STATUS=SUCCESSFUL      8 CALLS          97 TOTAL
+                     EDM=4.6604e-19    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.47414e-02   7.36141e-04  -0.00000e+00   3.10610e-04
+   2  p1          -3.33999e-02   1.07169e-03   1.07169e-03   7.31270e-04
+****************************************
+
+Processing talkplots.cc(0,50,20,6,"eR")...
+Efficiencies (%)
+bb cc qq radreturn 
+49.6292 49.3108 48.3433 0.657436|
+53.1773 53.1289 51.859 1.21739||
+cos90 0.8 <- BAD!
+cos90 0.85
+cos85 0.9
+cos85 0.95
+S/B: 10.0118
+S/B Limited: 10.0976
+****************************************
+regression for bb
+ FCN=8.90099 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS          73 TOTAL
+                     EDM=1.61262e-22    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.01848e-01   2.08148e-02   7.01691e-10   1.76118e-10
+   2  p1          -1.45246e-01   3.56481e-02   3.56481e-02  -1.02835e-10
+****************************************
+regression for rr
+ FCN=134.721 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS          99 TOTAL
+                     EDM=1.68272e-19    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.32643e-02   5.19298e-04  -0.00000e+00   9.47774e-04
+   2  p1          -1.95531e-02   7.09656e-04   7.09656e-04   3.92592e-04
+****************************************
+
+Processing talkplots.cc(0,75,20,6,"eR")...
+Efficiencies (%)
+bb cc qq radreturn 
+55.7777 55.6658 54.9773 0.791714|
+59.3407 59.6122 58.5789 1.44572||
+cos90 0.8 <- BAD!
+cos90 0.85
+cos85 0.9
+cos85 0.95
+S/B: 9.41867
+S/B Limited: 9.63742
+****************************************
+regression for bb
+ FCN=5.19084 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS          96 TOTAL
+                     EDM=2.29898e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.55510e-01   2.24214e-02   0.00000e+00  -2.06826e-06
+   2  p1          -1.27642e-01   3.86991e-02   3.86991e-02   6.96463e-10
+****************************************
+regression for rr
+ FCN=75.2876 FROM MINOS     STATUS=SUCCESSFUL      8 CALLS          76 TOTAL
+                     EDM=8.92155e-22    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.58149e-02   5.69297e-04   0.00000e+00  -8.78782e-05
+   2  p1          -1.96944e-02   7.96157e-04   7.96157e-04  -1.89996e-08
+****************************************
+
+Processing talkplots.cc(0,100,20,6,"eR")...
+Efficiencies (%)
+bb cc qq radreturn 
+61.363 61.4347 60.929 1.01426|
+64.7246 65.3782 64.5611 1.81055||
+cos85 0.95 <- OK!
+S/B: 8.12988
+S/B Limited: 8.52236
+****************************************
+regression for bb
+ FCN=2.10029 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS          98 TOTAL
+                     EDM=3.76971e-22    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.86822e-01   2.36535e-02   3.29357e-10  -2.07706e-11
+   2  p1          -8.03049e-02   4.11477e-02   4.11477e-02  -1.19399e-11
+****************************************
+regression for rr
+ FCN=90.4612 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS         103 TOTAL
+                     EDM=2.86916e-20    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.71297e-02   6.12436e-04   0.00000e+00  -1.79614e-03
+   2  p1          -1.57621e-02   8.84561e-04   8.84561e-04  -4.41844e-04
+****************************************
+
+Processing talkplots.cc(0,125,20,6,"eR")...
+Efficiencies (%)
+bb cc qq radreturn 
+66.7418 67.0033 66.7617 1.29247|
+70.2572 70.9105 70.4295 2.27687||
+cos85 0.95
+S/B: 6.97395
+S/B Limited: 7.41705
+****************************************
+regression for bb
+ FCN=1.9666 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS          71 TOTAL
+                     EDM=2.00472e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.15114e-01   2.51646e-02  -1.11464e-09   1.19537e-10
+   2  p1          -2.59299e-02   4.41475e-02   4.41475e-02  -5.67811e-11
+****************************************
+regression for rr
+ FCN=224.099 FROM MINOS     STATUS=SUCCESSFUL      8 CALLS          96 TOTAL
+                     EDM=2.66973e-20    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.96241e-02   6.51101e-04  -0.00000e+00   5.74619e-06
+   2  p1          -1.27184e-02   9.54120e-04   9.54120e-04   3.56659e-04
+****************************************
+
+Processing talkplots.cc(0,150,20,6,"eR")...
+Efficiencies (%)
+bb cc qq radreturn 
+72.6744 73.2306 73.2477 1.60706|
+76.4576 77.246 77.0122 2.83872||
+cos85 0.95
+S/B: 6.14073
+S/B Limited: 6.53189
+****************************************
+regression for bb
+ FCN=1.98998 FROM MINOS     STATUS=SUCCESSFUL     12 CALLS          83 TOTAL
+                     EDM=9.83905e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           7.64505e-01   2.68209e-02   5.87400e-10   7.47782e-11
+   2  p1          -9.56854e-04   4.71992e-02   4.71992e-02   2.33710e-10
+****************************************
+regression for rr
+ FCN=288.157 FROM MINOS     STATUS=SUCCESSFUL     10 CALLS          77 TOTAL
+                     EDM=3.80257e-21    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.76950e-02   7.35834e-04   1.82260e-11   1.22913e-08
+   2  p1          -1.71800e-02   1.07198e-03   1.07198e-03  -3.22759e-04

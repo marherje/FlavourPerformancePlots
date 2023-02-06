@@ -1,0 +1,3216 @@
+Last login: Wed Jan 26 14:42:34 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro-de-ificadmin:plots marherje$ source efficiency_plots_iter.sh
+mkdir: testplots/: File exists
+mkdir: mc_study/: File exists
+mkdir: testplots/FinalCutAnalysis/: File exists
+mkdir: testplots/eL_pR/: File exists
+mkdir: mc_study/eL_pR/: File exists
+mkdir: testplots/FinalCutAnalysis/eL_pR/: File exists
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(0,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 46149 NB_b: 8513
+NF_c: 67978 NB_c: 17059
+AFB | b quark | c quark
+    | 0.688522 | 0.598786
+--Center-of-mass frame--
+NF_b_com: 46151 NB_b_com: 8511
+NF_c_com: 67977 NB_c_com: 17060
+AFB (com) | b quark | c quark
+          | 0.688595 | 0.598763
+NF_b_L: 35240 NB_b_L: 8228
+NF_c_L: 51954 NB_c_L: 15798
+AFB L | b quark | c quark
+      | 0.621423 | 0.533652
+--Center-of-mass frame--
+NF_b_com_L: 35272 NB_b_com_L: 8227
+NF_c_com_L: 51994 NB_c_com_L: 15803
+AFB (com) L | b quark | c quark
+            | 0.621738 | 0.533814
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+3.49627 1.06425 0.0942531 0.0959756|
+2.04698 0.468674 0.0540453 0.0966946||
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(1,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 34322 NB_b: 6645
+NF_c: 50385 NB_c: 13102
+AFB | b quark | c quark
+    | 0.675593 | 0.587254
+--Center-of-mass frame--
+NF_b_com: 34322 NB_b_com: 6645
+NF_c_com: 50384 NB_c_com: 13103
+AFB (com) | b quark | c quark
+          | 0.675593 | 0.587223
+NF_b_L: 27075 NB_b_L: 6468
+NF_c_L: 39846 NB_c_L: 12291
+AFB L | b quark | c quark
+      | 0.614346 | 0.528511
+--Center-of-mass frame--
+NF_b_com_L: 27082 NB_b_com_L: 6468
+NF_c_com_L: 39850 NB_c_com_L: 12292
+AFB (com) L | b quark | c quark
+            | 0.614426 | 0.528518
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.946 74.6581 74.6949 16.164 54.068 46.2449 7.18823|
+76.9789 76.7362 76.5657 16.8454 67.6147 57.2159 7.18823||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.5754 74.7455 74.8306 74.946 74.6581 16.164 54.068 46.2449 7.18823|
+76.3139 76.7205 76.8052 76.9789 76.7362 16.8454 67.6147 57.2159 8.00731|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.756274 0.770032 0.058329 0.00923226|
+0.449709 0.413284 0.0403285 0.0100978||
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(2,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 34263 NB_b: 6626
+NF_c: 50355 NB_c: 13095
+AFB | b quark | c quark
+    | 0.675903 | 0.587234
+--Center-of-mass frame--
+NF_b_com: 34263 NB_b_com: 6626
+NF_c_com: 50354 NB_c_com: 13096
+AFB (com) | b quark | c quark
+          | 0.675903 | 0.587203
+NF_b_L: 27022 NB_b_L: 6450
+NF_c_L: 39817 NB_c_L: 12284
+AFB L | b quark | c quark
+      | 0.614603 | 0.528454
+--Center-of-mass frame--
+NF_b_com_L: 27029 NB_b_com_L: 6450
+NF_c_com_L: 39821 NB_c_com_L: 12285
+AFB (com) L | b quark | c quark
+            | 0.614684 | 0.528461
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.8033 74.6146 74.6749 15.9481 54.0505 46.2189 6.84997|
+76.8179 76.6864 76.5446 16.5345 67.5841 57.1733 6.84997||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.5519 74.7309 74.8105 74.8033 74.6146 15.9481 54.0505 46.2189 6.84997|
+76.2906 76.7034 76.7837 76.8179 76.6864 16.5345 67.5841 57.1733 7.62181|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.746631 0.770256 0.0583322 0.00880323|
+0.441706 0.413374 0.0403254 0.00961807||
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(3,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 34242 NB_b: 6622
+NF_c: 50283 NB_c: 13071
+AFB | b quark | c quark
+    | 0.675901 | 0.587366
+--Center-of-mass frame--
+NF_b_com: 34242 NB_b_com: 6622
+NF_c_com: 50282 NB_c_com: 13072
+AFB (com) | b quark | c quark
+          | 0.675901 | 0.587335
+NF_b_L: 27011 NB_b_L: 6446
+NF_c_L: 39770 NB_c_L: 12261
+AFB L | b quark | c quark
+      | 0.61467 | 0.528704
+--Center-of-mass frame--
+NF_b_com_L: 27018 NB_b_com_L: 6446
+NF_c_com_L: 39774 NB_c_com_L: 12262
+AFB (com) L | b quark | c quark
+            | 0.61475 | 0.528711
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.7576 74.5017 74.3285 3.3022 53.9385 46.0684 6.84232|
+76.7858 76.5868 76.1987 3.23452 67.4102 57.0136 6.84232||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.2733 74.3836 74.3593 74.7576 74.5017 3.3022 53.9385 46.0684 6.84232|
+76.0106 76.3648 76.3268 76.7858 76.5868 3.23452 67.4102 57.0136 7.61335|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.155092 0.771118 0.058328 0.00882151|
+0.0866699 0.413563 0.0403349 0.00963658||
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(4,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 34233 NB_b: 6622
+NF_c: 50267 NB_c: 13068
+AFB | b quark | c quark
+    | 0.675829 | 0.587337
+--Center-of-mass frame--
+NF_b_com: 34233 NB_b_com: 6622
+NF_c_com: 50266 NB_c_com: 13069
+AFB (com) | b quark | c quark
+          | 0.675829 | 0.587306
+NF_b_L: 27004 NB_b_L: 6446
+NF_c_L: 39759 NB_c_L: 12258
+AFB L | b quark | c quark
+      | 0.614589 | 0.528693
+--Center-of-mass frame--
+NF_b_com_L: 27011 NB_b_com_L: 6446
+NF_c_com_L: 39763 NB_c_com_L: 12259
+AFB (com) L | b quark | c quark
+            | 0.61467 | 0.528699
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.7411 74.4793 74.121 2.39444 53.914 46.0346 6.83618|
+76.7707 76.5674 75.9811 2.418 67.3654 56.955 6.83618||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.0907 74.1855 74.1036 74.7411 74.4793 2.39444 53.914 46.0346 6.83618|
+75.8239 76.1527 76.0553 76.7707 76.5674 2.418 67.3654 56.955 7.60627|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.112653 0.77211 0.0583867 0.00882893|
+0.064905 0.414015 0.0403644 0.00964455||
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(5,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 32856 NB_b: 6556
+NF_c: 48169 NB_c: 12828
+AFB | b quark | c quark
+    | 0.667309 | 0.579389
+--Center-of-mass frame--
+NF_b_com: 32856 NB_b_com: 6556
+NF_c_com: 48168 NB_c_com: 12829
+AFB (com) | b quark | c quark
+          | 0.667309 | 0.579356
+NF_b_L: 26992 NB_b_L: 6445
+NF_c_L: 39704 NB_c_L: 12245
+AFB L | b quark | c quark
+      | 0.614499 | 0.528576
+--Center-of-mass frame--
+NF_b_com_L: 26999 NB_b_com_L: 6445
+NF_c_com_L: 39708 NB_c_com_L: 12246
+AFB (com) L | b quark | c quark
+            | 0.61458 | 0.528583
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+72.1013 71.73 71.0857 1.09396 39.0587 37.3848 6.74333|
+76.7343 76.4774 75.5864 1.72636 67.1566 56.8113 6.74333||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+71.2988 71.0418 70.7973 72.1013 71.73 1.09396 39.0587 37.3848 6.74333|
+75.6578 75.6535 75.4067 76.7343 76.4774 1.72636 67.1566 56.8113 7.59629|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.053557 0.582064 0.0493402 0.00906245|
+0.0464974 0.414137 0.0403996 0.00966469||
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(6,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 22736 NB_b: 4381
+NF_c: 33546 NB_c: 8691
+AFB | b quark | c quark
+    | 0.676882 | 0.588465
+--Center-of-mass frame--
+NF_b_com: 22736 NB_b_com: 4381
+NF_c_com: 33545 NB_c_com: 8692
+AFB (com) | b quark | c quark
+          | 0.676882 | 0.588418
+NF_b_L: 18239 NB_b_L: 4291
+NF_c_L: 27107 NB_c_L: 8255
+AFB L | b quark | c quark
+      | 0.619086 | 0.533115
+--Center-of-mass frame--
+NF_b_com_L: 18244 NB_b_com_L: 4291
+NF_c_com_L: 27110 NB_c_com_L: 8256
+AFB (com) L | b quark | c quark
+            | 0.61917 | 0.533111
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.6085 49.669 49.649 0.356681 4.26483 4.05234 0.0749465|
+52.1017 52.3999 52.2696 0.571221 7.2126 6.36678 0.0749465||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.8543 49.64 49.3378 49.6085 49.669 0.356681 4.26483 4.05234 0.0749465|
+52.3438 52.4147 52.0072 52.1017 52.3999 0.571221 7.2126 6.36678 0.0831868|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0251182 0.0914213 0.00769314 0.000144882|
+0.0223678 0.0646647 0.00658237 0.000153872||
+mkdir: testplots/eL_pR/50/: File exists
+mkdir: mc_study/eL_pR/50: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 22248 NB_b: 4314
+NF_c: 32877 NB_c: 8559
+AFB | b quark | c quark
+    | 0.675175 | 0.586881
+--Center-of-mass frame--
+NF_b_com: 22248 NB_b_com: 4314
+NF_c_com: 32876 NB_c_com: 8560
+AFB (com) | b quark | c quark
+          | 0.675175 | 0.586833
+NF_b_L: 17831 NB_b_L: 4226
+NF_c_L: 26534 NB_c_L: 8126
+AFB L | b quark | c quark
+      | 0.616811 | 0.531102
+--Center-of-mass frame--
+NF_b_com_L: 17836 NB_b_com_L: 4226
+NF_c_com_L: 26537 NB_c_com_L: 8127
+AFB (com) L | b quark | c quark
+            | 0.616898 | 0.531099
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.5932 48.727 48.7349 0.34814 2.79916 2.58301 0.00275183|
+51.016 51.3674 51.2849 0.558012 4.98569 4.13096 0.00275183||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+48.9353 48.7291 48.4282 48.5932 48.727 0.34814 2.79916 2.58301 0.00275183|
+51.3596 51.4291 51.0225 51.016 51.3674 0.558012 4.98569 4.13096 0.00312074|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0249887 0.0611581 0.0049981 5.42209e-06|
+0.0222825 0.0455829 0.00435527 5.88662e-06||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(0,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 48185 NB_b: 8912
+NF_c: 71064 NB_c: 17842
+AFB | b quark | c quark
+    | 0.687829 | 0.598632
+--Center-of-mass frame--
+NF_b_com: 48188 NB_b_com: 8909
+NF_c_com: 71063 NB_c_com: 17843
+AFB (com) | b quark | c quark
+          | 0.687935 | 0.59861
+NF_b_L: 36817 NB_b_L: 8603
+NF_c_L: 54317 NB_c_L: 16520
+AFB L | b quark | c quark
+      | 0.62118 | 0.533577
+--Center-of-mass frame--
+NF_b_com_L: 36859 NB_b_com_L: 8601
+NF_c_com_L: 54377 NB_c_com_L: 16525
+AFB (com) L | b quark | c quark
+            | 0.621601 | 0.533864
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+3.30401 1.01874 0.0902227 0.0918716|
+1.91788 0.448815 0.0517553 0.0925974||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(1,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 39133 NB_b: 7521
+NF_c: 57327 NB_c: 14854
+AFB | b quark | c quark
+    | 0.677584 | 0.588424
+--Center-of-mass frame--
+NF_b_com: 39134 NB_b_com: 7520
+NF_c_com: 57326 NB_c_com: 14855
+AFB (com) | b quark | c quark
+          | 0.677627 | 0.588396
+NF_b_L: 30721 NB_b_L: 7297
+NF_c_L: 45106 NB_c_L: 13887
+AFB L | b quark | c quark
+      | 0.616129 | 0.529198
+--Center-of-mass frame--
+NF_b_com_L: 30736 NB_b_com_L: 7296
+NF_c_com_L: 45120 NB_c_com_L: 13888
+AFB (com) L | b quark | c quark
+            | 0.616323 | 0.529284
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+81.7101 81.188 81.1907 19.1302 65.267 56.8573 13.9551|
+83.5391 83.0675 82.932 18.3093 74.7825 66.6276 13.9551||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+81.1256 81.1549 81.3284 81.7101 81.188 19.1302 65.267 56.8573 13.9551|
+82.7714 83.0241 83.0913 83.5391 83.0675 18.3093 74.7825 66.6276 15.6435|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.777689 0.818091 0.063117 0.0157746|
+0.422736 0.40406 0.0415133 0.0174385||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(2,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 39047 NB_b: 7493
+NF_c: 57276 NB_c: 14845
+AFB | b quark | c quark
+    | 0.677997 | 0.588331
+--Center-of-mass frame--
+NF_b_com: 39048 NB_b_com: 7492
+NF_c_com: 57275 NB_c_com: 14846
+AFB (com) | b quark | c quark
+          | 0.67804 | 0.588303
+NF_b_L: 30644 NB_b_L: 7270
+NF_c_L: 45060 NB_c_L: 13878
+AFB L | b quark | c quark
+      | 0.6165 | 0.529064
+--Center-of-mass frame--
+NF_b_com_L: 30659 NB_b_com_L: 7269
+NF_c_com_L: 45074 NB_c_com_L: 13879
+AFB (com) L | b quark | c quark
+            | 0.616695 | 0.52915
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+81.5104 81.1205 81.1642 18.7688 65.2301 56.8054 13.245|
+83.3172 82.9934 82.9043 17.8087 74.7151 66.5425 13.245||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+81.0954 81.1358 81.3004 81.5104 81.1205 18.7688 65.2301 56.8054 13.245|
+82.7412 83.0016 83.0624 83.3172 82.9934 17.8087 74.7151 66.5425 14.8364|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.763606 0.818284 0.06311 0.014984|
+0.411532 0.404042 0.0414958 0.016553||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(3,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 39019 NB_b: 7488
+NF_c: 57182 NB_c: 14814
+AFB | b quark | c quark
+    | 0.677984 | 0.588477
+--Center-of-mass frame--
+NF_b_com: 39020 NB_b_com: 7487
+NF_c_com: 57181 NB_c_com: 14815
+AFB (com) | b quark | c quark
+          | 0.678027 | 0.588449
+NF_b_L: 30632 NB_b_L: 7265
+NF_c_L: 45002 NB_c_L: 13850
+AFB L | b quark | c quark
+      | 0.616592 | 0.529328
+--Center-of-mass frame--
+NF_b_com_L: 30647 NB_b_com_L: 7264
+NF_c_com_L: 45016 NB_c_com_L: 13851
+AFB (com) L | b quark | c quark
+            | 0.616787 | 0.529414
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+81.4526 80.9799 80.7516 3.76247 65.0471 56.5769 13.2287|
+83.2803 82.8742 82.5129 3.28511 74.4445 66.2923 13.2287||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+80.7579 80.727 80.7666 81.4526 80.9799 3.76247 65.0471 56.5769 13.2287|
+82.4202 82.6305 82.5399 83.2803 82.8742 3.28511 74.4445 66.2923 14.8181|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.153616 0.818868 0.063078 0.0150183|
+0.0761565 0.403865 0.0414719 0.0165854||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(4,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 39010 NB_b: 7488
+NF_c: 57165 NB_c: 14809
+AFB | b quark | c quark
+    | 0.677922 | 0.58849
+--Center-of-mass frame--
+NF_b_com: 39011 NB_b_com: 7487
+NF_c_com: 57164 NB_c_com: 14810
+AFB (com) | b quark | c quark
+          | 0.677965 | 0.588462
+NF_b_L: 30625 NB_b_L: 7265
+NF_c_L: 44991 NB_c_L: 13845
+AFB L | b quark | c quark
+      | 0.616522 | 0.52937
+--Center-of-mass frame--
+NF_b_com_L: 30640 NB_b_com_L: 7264
+NF_c_com_L: 45005 NB_c_com_L: 13846
+AFB (com) L | b quark | c quark
+            | 0.616716 | 0.529456
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+81.4369 80.9552 80.5235 2.69658 65.0117 56.5302 13.2175|
+83.2659 82.853 82.2739 2.38761 74.3842 66.2177 13.2175||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+80.5561 80.5079 80.4883 81.4369 80.9552 2.69658 65.0117 56.5302 13.2175|
+82.215 82.3948 82.2446 83.2659 82.853 2.38761 74.3842 66.2177 14.8051|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.110291 0.819859 0.0631365 0.0150319|
+0.0554488 0.404256 0.041499 0.0166004||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(5,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 37281 NB_b: 7404
+NF_c: 54530 NB_c: 14499
+AFB | b quark | c quark
+    | 0.668614 | 0.579916
+--Center-of-mass frame--
+NF_b_com: 37282 NB_b_com: 7403
+NF_c_com: 54529 NB_c_com: 14500
+AFB (com) | b quark | c quark
+          | 0.668658 | 0.579887
+NF_b_L: 30599 NB_b_L: 7262
+NF_c_L: 44918 NB_c_L: 13829
+AFB L | b quark | c quark
+      | 0.616386 | 0.529202
+--Center-of-mass frame--
+NF_b_com_L: 30614 NB_b_com_L: 7261
+NF_c_com_L: 44931 NB_c_com_L: 13830
+AFB (com) L | b quark | c quark
+            | 0.616581 | 0.52928
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+78.2616 77.6427 76.9871 1.04288 44.5094 44.49 13.0646|
+83.2022 82.7338 81.8576 1.6209 74.1278 66.0474 13.0646||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+77.2824 76.8745 76.6395 78.2616 77.6427 1.04288 44.5094 44.49 13.0646|
+82.019 81.8946 81.5672 83.2022 82.7338 1.6209 74.1278 66.0474 14.7861|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.04454 0.586124 0.0518863 0.015515|
+0.0377726 0.404248 0.0415346 0.0166362||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(6,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 24489 NB_b: 4671
+NF_c: 36040 NB_c: 9298
+AFB | b quark | c quark
+    | 0.67963 | 0.589836
+--Center-of-mass frame--
+NF_b_com: 24489 NB_b_com: 4671
+NF_c_com: 36039 NB_c_com: 9299
+AFB (com) | b quark | c quark
+          | 0.67963 | 0.589792
+NF_b_L: 19511 NB_b_L: 4557
+NF_c_L: 28908 NB_c_L: 8804
+AFB L | b quark | c quark
+      | 0.621323 | 0.533093
+--Center-of-mass frame--
+NF_b_com_L: 19519 NB_b_com_L: 4557
+NF_c_com_L: 28917 NB_c_com_L: 8805
+AFB (com) L | b quark | c quark
+            | 0.621449 | 0.533164
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+51.071 50.9954 51.1262 0.320547 5.0188 4.92718 0.0925979|
+53.3746 53.5417 53.5432 0.506872 7.85383 7.27708 0.0925979||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+51.3829 51.1053 50.7465 51.071 50.9954 0.320547 5.0188 4.92718 0.0925979|
+53.6839 53.6807 53.1837 53.3746 53.5417 0.506872 7.85383 7.27708 0.100045|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0207324 0.100087 0.00870222 0.000166532|
+0.0181653 0.0658676 0.00703777 0.000173107||
+mkdir: testplots/eL_pR/70/: File exists
+mkdir: mc_study/eL_pR/70: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 23971 NB_b: 4599
+NF_c: 35339 NB_c: 9160
+AFB | b quark | c quark
+    | 0.678054 | 0.588305
+--Center-of-mass frame--
+NF_b_com: 23971 NB_b_com: 4599
+NF_c_com: 35338 NB_c_com: 9161
+AFB (com) | b quark | c quark
+          | 0.678054 | 0.58826
+NF_b_L: 19076 NB_b_L: 4487
+NF_c_L: 28311 NB_c_L: 8669
+AFB L | b quark | c quark
+      | 0.619149 | 0.531152
+--Center-of-mass frame--
+NF_b_com_L: 19084 NB_b_com_L: 4487
+NF_c_com_L: 28320 NB_c_com_L: 8670
+AFB (com) L | b quark | c quark
+            | 0.619278 | 0.531225
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+50.0377 50.0517 50.2166 0.31302 3.50739 3.31248 0.0040846|
+52.2672 52.5099 52.5641 0.4953 5.58361 4.82832 0.0040846||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.4647 50.2078 49.8381 50.0377 50.0517 0.31302 3.50739 3.31248 0.0040846|
+52.7 52.707 52.2068 52.2672 52.5099 0.4953 5.58361 4.82832 0.00385363|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0206244 0.0712551 0.00595988 7.4834e-06|
+0.0180932 0.0477319 0.00475967 6.79665e-06||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(0,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 50112 NB_b: 9218
+NF_c: 73687 NB_c: 18534
+AFB | b quark | c quark
+    | 0.689263 | 0.598053
+--Center-of-mass frame--
+NF_b_com: 50117 NB_b_com: 9213
+NF_c_com: 73686 NB_c_com: 18535
+AFB (com) | b quark | c quark
+          | 0.689432 | 0.598031
+NF_b_L: 38183 NB_b_L: 8888
+NF_c_L: 56264 NB_c_L: 17144
+AFB L | b quark | c quark
+      | 0.622358 | 0.532912
+--Center-of-mass frame--
+NF_b_com_L: 38328 NB_b_com_L: 8887
+NF_c_com_L: 56403 NB_c_com_L: 17167
+AFB (com) L | b quark | c quark
+            | 0.623552 | 0.533315
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+3.1461 0.981363 0.0869125 0.0885008|
+1.817 0.4333 0.0499661 0.0893963||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(1,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 42640 NB_b: 8140
+NF_c: 62462 NB_c: 16210
+AFB | b quark | c quark
+    | 0.679401 | 0.587909
+--Center-of-mass frame--
+NF_b_com: 42641 NB_b_com: 8139
+NF_c_com: 62461 NB_c_com: 16211
+AFB (com) | b quark | c quark
+          | 0.679441 | 0.587884
+NF_b_L: 33372 NB_b_L: 7891
+NF_c_L: 49040 NB_c_L: 15139
+AFB L | b quark | c quark
+      | 0.617527 | 0.528226
+--Center-of-mass frame--
+NF_b_com_L: 33395 NB_b_com_L: 7890
+NF_c_com_L: 49067 NB_c_com_L: 15142
+AFB (com) L | b quark | c quark
+            | 0.617779 | 0.528353
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+85.5891 85.3081 85.2472 21.3369 72.9169 64.9957 23.2321|
+87.538 87.2388 87.1212 19.3069 79.2477 72.7655 23.2321||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+85.2726 85.2457 85.2093 85.5891 85.3081 21.3369 72.9169 64.9957 23.2321|
+87.0261 87.2918 87.099 87.538 87.2388 19.3069 79.2477 72.7655 26.1274|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.78679 0.838716 0.06621 0.0240986|
+0.402213 0.393698 0.0416859 0.0267795||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(2,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 42530 NB_b: 8103
+NF_c: 62387 NB_c: 16200
+AFB | b quark | c quark
+    | 0.679932 | 0.587718
+--Center-of-mass frame--
+NF_b_com: 42531 NB_b_com: 8102
+NF_c_com: 62386 NB_c_com: 16201
+AFB (com) | b quark | c quark
+          | 0.679972 | 0.587693
+NF_b_L: 33275 NB_b_L: 7855
+NF_c_L: 48974 NB_c_L: 15129
+AFB L | b quark | c quark
+      | 0.61804 | 0.527978
+--Center-of-mass frame--
+NF_b_com_L: 33297 NB_b_com_L: 7854
+NF_c_com_L: 49001 NB_c_com_L: 15132
+AFB (com) L | b quark | c quark
+            | 0.618284 | 0.528106
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+85.3413 85.2159 85.2047 20.8058 72.8491 64.8997 21.9483|
+87.2661 87.139 87.0783 18.5824 79.1249 72.6165 21.9483||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+85.2315 85.1987 85.1688 85.3413 85.2159 20.8058 72.8491 64.8997 21.9483|
+86.9867 87.2383 87.0611 87.2661 87.139 18.5824 79.1249 72.6165 24.6667|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.768004 0.838807 0.0661809 0.0227906|
+0.387541 0.393515 0.0416458 0.0253099||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(3,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 42493 NB_b: 8097
+NF_c: 62273 NB_c: 16166
+AFB | b quark | c quark
+    | 0.679897 | 0.587807
+--Center-of-mass frame--
+NF_b_com: 42494 NB_b_com: 8096
+NF_c_com: 62272 NB_c_com: 16167
+AFB (com) | b quark | c quark
+          | 0.679937 | 0.587782
+NF_b_L: 33262 NB_b_L: 7849
+NF_c_L: 48906 NB_c_L: 15101
+AFB L | b quark | c quark
+      | 0.618156 | 0.528145
+--Center-of-mass frame--
+NF_b_com_L: 33284 NB_b_com_L: 7848
+NF_c_com_L: 48933 NB_c_com_L: 15103
+AFB (com) L | b quark | c quark
+            | 0.618399 | 0.528297
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+85.2688 85.0555 84.7562 4.05108 72.58 64.5752 21.9202|
+87.2244 87.0098 86.6576 3.23309 78.7357 72.2545 21.9202||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+84.8449 84.7593 84.6147 85.2688 85.0555 4.05108 72.58 64.5752 21.9202|
+86.6288 86.8383 86.5211 87.2244 87.0098 3.23309 78.7357 72.2545 24.6353|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.15009 0.838798 0.0660934 0.0228456|
+0.0676481 0.392864 0.041574 0.0253606||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(4,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 42484 NB_b: 8097
+NF_c: 62256 NB_c: 16160
+AFB | b quark | c quark
+    | 0.67984 | 0.587839
+--Center-of-mass frame--
+NF_b_com: 42485 NB_b_com: 8096
+NF_c_com: 62255 NB_c_com: 16161
+AFB (com) | b quark | c quark
+          | 0.67988 | 0.587814
+NF_b_L: 33255 NB_b_L: 7849
+NF_c_L: 48895 NB_c_L: 15095
+AFB L | b quark | c quark
+      | 0.618091 | 0.528208
+--Center-of-mass frame--
+NF_b_com_L: 33277 NB_b_com_L: 7848
+NF_c_com_L: 48922 NB_c_com_L: 15097
+AFB (com) L | b quark | c quark
+            | 0.618334 | 0.528359
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+85.2537 85.0305 84.5091 2.87139 72.5353 64.5155 21.9021|
+87.2105 86.9881 86.3974 2.28278 78.664 72.164 21.9021||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+84.6322 84.5095 84.3166 85.2537 85.0305 2.87139 72.5353 64.5155 21.9021|
+86.4117 86.569 86.2022 87.2105 86.9881 2.28278 78.664 72.164 24.6143|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.106576 0.839793 0.0661514 0.0228679|
+0.047852 0.393228 0.0415983 0.0253855||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(5,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 40464 NB_b: 8000
+NF_c: 59227 NB_c: 15807
+AFB | b quark | c quark
+    | 0.669858 | 0.578671
+--Center-of-mass frame--
+NF_b_com: 40465 NB_b_com: 7999
+NF_c_com: 59226 NB_c_com: 15808
+AFB (com) | b quark | c quark
+          | 0.669899 | 0.578644
+NF_b_L: 33208 NB_b_L: 7844
+NF_c_L: 48801 NB_c_L: 15074
+AFB L | b quark | c quark
+      | 0.617851 | 0.528016
+--Center-of-mass frame--
+NF_b_com_L: 33230 NB_b_com_L: 7843
+NF_c_com_L: 48825 NB_c_com_L: 15076
+AFB (com) L | b quark | c quark
+            | 0.618095 | 0.528145
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+81.6855 81.3632 80.6537 0.970144 47.6697 49.5314 21.6749|
+87.1212 86.8423 85.9572 1.48827 78.3785 71.967 21.6749||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+81.0327 80.5702 80.1465 81.6855 81.3632 0.970144 47.6697 49.5314 21.6749|
+86.1972 86.0402 85.4968 87.1212 86.8423 1.48827 78.3785 71.967 24.5819|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0376799 0.57753 0.0531453 0.0236813|
+0.0313085 0.393198 0.0416327 0.0254426||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(6,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 25405 NB_b: 4804
+NF_c: 37446 NB_c: 9654
+AFB | b quark | c quark
+    | 0.681949 | 0.590064
+--Center-of-mass frame--
+NF_b_com: 25405 NB_b_com: 4804
+NF_c_com: 37445 NB_c_com: 9655
+AFB (com) | b quark | c quark
+          | 0.681949 | 0.590021
+NF_b_L: 20200 NB_b_L: 4684
+NF_c_L: 29964 NB_c_L: 9133
+AFB L | b quark | c quark
+      | 0.623533 | 0.532803
+--Center-of-mass frame--
+NF_b_com_L: 20213 NB_b_com_L: 4684
+NF_c_com_L: 29980 NB_c_com_L: 9135
+AFB (com) L | b quark | c quark
+            | 0.62373 | 0.532916
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+50.9169 51.073 51.1302 0.295314 5.35311 5.45157 0.100641|
+53.311 53.6002 53.5334 0.460058 8.07965 7.66037 0.100641||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+51.4137 51.1286 50.6897 50.9169 51.073 0.295314 5.35311 5.45157 0.100641|
+53.6944 53.7043 53.1087 53.311 53.6002 0.460058 8.07965 7.66037 0.107062|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0181886 0.102844 0.00927569 0.000174367|
+0.0156207 0.0654205 0.0071525 0.000178849||
+mkdir: testplots/eL_pR/90/: File exists
+mkdir: mc_study/eL_pR/90: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 24873 NB_b: 4732
+NF_c: 36733 NB_c: 9512
+AFB | b quark | c quark
+    | 0.680324 | 0.588626
+--Center-of-mass frame--
+NF_b_com: 24873 NB_b_com: 4732
+NF_c_com: 36732 NB_c_com: 9513
+AFB (com) | b quark | c quark
+          | 0.680324 | 0.588583
+NF_b_L: 19754 NB_b_L: 4614
+NF_c_L: 29360 NB_c_L: 8996
+AFB L | b quark | c quark
+      | 0.621307 | 0.530921
+--Center-of-mass frame--
+NF_b_com_L: 19767 NB_b_com_L: 4614
+NF_c_com_L: 29376 NB_c_com_L: 8998
+AFB (com) L | b quark | c quark
+            | 0.621509 | 0.531037
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.8989 50.1458 50.2474 0.287875 3.83132 3.77716 0.00471361|
+52.2176 52.5924 52.5817 0.448445 5.80019 5.15837 0.00471361||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.5238 50.2549 49.8088 49.8989 50.1458 0.287875 3.83132 3.77716 0.00471361|
+52.7399 52.7537 52.1601 52.2176 52.5924 0.448445 5.80019 5.15837 0.0042216|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0180542 0.0749515 0.0065441 8.31578e-06|
+0.0155132 0.0478482 0.00490709 7.18509e-06||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(0,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 51870 NB_b: 9551
+NF_c: 76003 NB_c: 19130
+AFB | b quark | c quark
+    | 0.688999 | 0.597826
+--Center-of-mass frame--
+NF_b_com: 51878 NB_b_com: 9543
+NF_c_com: 76005 NB_c_com: 19128
+AFB (com) | b quark | c quark
+          | 0.689259 | 0.597868
+NF_b_L: 39410 NB_b_L: 9202
+NF_c_L: 57954 NB_c_L: 17679
+AFB L | b quark | c quark
+      | 0.62141 | 0.532506
+--Center-of-mass frame--
+NF_b_com_L: 39692 NB_b_com_L: 9204
+NF_c_com_L: 58196 NB_c_com_L: 17715
+AFB (com) L | b quark | c quark
+            | 0.623527 | 0.533269
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+3.0128 0.949813 0.0841183 0.0856556|
+1.73348 0.420452 0.0484846 0.0867456||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(1,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 45629 NB_b: 8700
+NF_c: 66884 NB_c: 17288
+AFB | b quark | c quark
+    | 0.679729 | 0.589222
+--Center-of-mass frame--
+NF_b_com: 45630 NB_b_com: 8699
+NF_c_com: 66881 NB_c_com: 17291
+AFB (com) | b quark | c quark
+          | 0.679766 | 0.589151
+NF_b_L: 35669 NB_b_L: 8427
+NF_c_L: 52479 NB_c_L: 16137
+AFB L | b quark | c quark
+      | 0.617788 | 0.529643
+--Center-of-mass frame--
+NF_b_com_L: 35712 NB_b_com_L: 8427
+NF_c_com_L: 52530 NB_c_com_L: 16144
+AFB (com) L | b quark | c quark
+            | 0.618161 | 0.529837
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+88.4535 88.4782 88.318 23.1 78.4926 71.5013 34.8358|
+90.6178 90.5619 90.3681 20.2087 82.5689 77.7003 34.8358||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+88.5094 88.1991 88.1402 88.4535 88.4782 23.1 78.4926 71.5013 34.8358|
+90.3635 90.4708 90.2721 90.6178 90.5619 20.2087 82.5689 77.7003 39.1783|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.787454 0.843547 0.0680528 0.0337617|
+0.387264 0.383782 0.0416465 0.0375704||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(2,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 45464 NB_b: 8658
+NF_c: 66778 NB_c: 17271
+AFB | b quark | c quark
+    | 0.680056 | 0.589025
+--Center-of-mass frame--
+NF_b_com: 45465 NB_b_com: 8657
+NF_c_com: 66775 NB_c_com: 17274
+AFB (com) | b quark | c quark
+          | 0.680093 | 0.588954
+NF_b_L: 35527 NB_b_L: 8387
+NF_c_L: 52392 NB_c_L: 16122
+AFB L | b quark | c quark
+      | 0.618026 | 0.529381
+--Center-of-mass frame--
+NF_b_com_L: 35569 NB_b_com_L: 8386
+NF_c_com_L: 52443 NB_c_com_L: 16129
+AFB (com) L | b quark | c quark
+            | 0.618428 | 0.529575
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+88.1164 88.3489 88.2448 22.3571 78.3815 71.3299 32.7275|
+90.2562 90.434 90.2989 19.2177 82.3601 77.4448 32.7275||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+88.436 88.131 88.0621 88.1164 88.3489 22.3571 78.3815 71.3299 32.7275|
+90.292 90.3978 90.2103 90.2562 90.434 19.2177 82.3601 77.4448 36.7788|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.763255 0.843598 0.0679902 0.0317653|
+0.368813 0.383371 0.0415702 0.0353209||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(3,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 45420 NB_b: 8651
+NF_c: 66638 NB_c: 17231
+AFB | b quark | c quark
+    | 0.680013 | 0.589097
+--Center-of-mass frame--
+NF_b_com: 45421 NB_b_com: 8650
+NF_c_com: 66636 NB_c_com: 17233
+AFB (com) | b quark | c quark
+          | 0.68005 | 0.58905
+NF_b_L: 35510 NB_b_L: 8380
+NF_c_L: 52308 NB_c_L: 16089
+AFB L | b quark | c quark
+      | 0.618136 | 0.529541
+--Center-of-mass frame--
+NF_b_com_L: 35550 NB_b_com_L: 8379
+NF_c_com_L: 52360 NB_c_com_L: 16094
+AFB (com) L | b quark | c quark
+            | 0.618521 | 0.529786
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+88.0334 88.1597 87.7532 4.25274 78.0152 70.8938 32.6808|
+90.21 90.2824 89.8513 3.17046 81.8439 76.9923 32.6808||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+88.0013 87.6531 87.4683 88.0334 88.1597 4.25274 78.0152 70.8938 32.6808|
+89.8949 89.9831 89.6503 90.21 90.2824 3.17046 81.8439 76.9923 36.7267|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.14576 0.842982 0.0678421 0.0318456|
+0.0610526 0.382267 0.0414682 0.0353911||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(4,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 45411 NB_b: 8651
+NF_c: 66615 NB_c: 17225
+AFB | b quark | c quark
+    | 0.67996 | 0.589098
+--Center-of-mass frame--
+NF_b_com: 45412 NB_b_com: 8650
+NF_c_com: 66613 NB_c_com: 17227
+AFB (com) | b quark | c quark
+          | 0.679997 | 0.589051
+NF_b_L: 35503 NB_b_L: 8380
+NF_c_L: 52293 NB_c_L: 16083
+AFB L | b quark | c quark
+      | 0.618075 | 0.529572
+--Center-of-mass frame--
+NF_b_com_L: 35543 NB_b_com_L: 8379
+NF_c_com_L: 52343 NB_c_com_L: 16088
+AFB (com) L | b quark | c quark
+            | 0.61846 | 0.529804
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+88.0188 88.1293 87.4925 2.98749 77.9557 70.8289 32.6529|
+90.1966 90.2575 89.5772 2.17082 81.7501 76.8911 32.6529||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+87.7793 87.3906 87.1494 88.0188 88.1293 2.98749 77.9557 70.8289 32.6529|
+89.6693 89.7009 89.3085 90.1966 90.2575 2.17082 81.7501 76.8911 36.6944|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.102584 0.843894 0.0679052 0.0318771|
+0.0418811 0.382544 0.0414912 0.0354262||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(5,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 43163 NB_b: 8543
+NF_c: 63258 NB_c: 16834
+AFB | b quark | c quark
+    | 0.669555 | 0.579633
+--Center-of-mass frame--
+NF_b_com: 43164 NB_b_com: 8542
+NF_c_com: 63256 NB_c_com: 16836
+AFB (com) | b quark | c quark
+          | 0.669593 | 0.579583
+NF_b_L: 35442 NB_b_L: 8374
+NF_c_L: 52178 NB_c_L: 16059
+AFB L | b quark | c quark
+      | 0.617765 | 0.529317
+--Center-of-mass frame--
+NF_b_com_L: 35480 NB_b_com_L: 8373
+NF_c_com_L: 52224 NB_c_com_L: 16064
+AFB (com) L | b quark | c quark
+            | 0.618133 | 0.529522
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+84.1829 84.1895 83.3724 0.903447 49.7106 53.3008 32.3199|
+90.0869 90.0948 89.1193 1.35962 81.4377 76.6676 32.3199||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+83.8942 83.2124 82.7227 84.1829 84.1895 0.903447 49.7106 53.3008 32.3199|
+89.4276 89.1594 88.596 90.0869 90.0948 1.35962 81.4377 76.6676 36.6397|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.032515 0.564025 0.0535593 0.0330702|
+0.0263264 0.38247 0.0415212 0.0355021||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(6,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 26021 NB_b: 4932
+NF_c: 38404 NB_c: 9877
+AFB | b quark | c quark
+    | 0.681323 | 0.590854
+--Center-of-mass frame--
+NF_b_com: 26021 NB_b_com: 4932
+NF_c_com: 38403 NB_c_com: 9878
+AFB (com) | b quark | c quark
+          | 0.681323 | 0.590812
+NF_b_L: 20664 NB_b_L: 4808
+NF_c_L: 30731 NB_c_L: 9341
+AFB L | b quark | c quark
+      | 0.622487 | 0.533789
+--Center-of-mass frame--
+NF_b_com_L: 20685 NB_b_com_L: 4808
+NF_c_com_L: 30763 NB_c_com_L: 9344
+AFB (com) L | b quark | c quark
+            | 0.622798 | 0.534046
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+50.3948 50.7511 50.737 0.276793 5.49353 5.64108 0.104856|
+52.8851 53.3599 53.2332 0.42377 8.17764 7.77748 0.104856||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+51.1108 50.6902 50.2034 50.3948 50.7511 0.276793 5.49353 5.64108 0.104856|
+53.4341 53.387 52.7641 52.8851 53.3599 0.42377 8.17764 7.77748 0.111251|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0164532 0.102947 0.00936218 0.000177203|
+0.013806 0.0646197 0.00708701 0.000181373||
+mkdir: testplots/eL_pR/110/: File exists
+mkdir: mc_study/eL_pR/110: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 25485 NB_b: 4859
+NF_c: 37689 NB_c: 9733
+AFB | b quark | c quark
+    | 0.679739 | 0.589515
+--Center-of-mass frame--
+NF_b_com: 25485 NB_b_com: 4859
+NF_c_com: 37688 NB_c_com: 9734
+AFB (com) | b quark | c quark
+          | 0.679739 | 0.589473
+NF_b_L: 20215 NB_b_L: 4737
+NF_c_L: 30127 NB_c_L: 9202
+AFB L | b quark | c quark
+      | 0.620311 | 0.53205
+--Center-of-mass frame--
+NF_b_com_L: 20236 NB_b_com_L: 4737
+NF_c_com_L: 30159 NB_c_com_L: 9205
+AFB (com) L | b quark | c quark
+            | 0.62063 | 0.532314
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.4033 49.8481 49.8795 0.269716 3.96855 3.9485 0.00487099|
+51.8176 52.3785 52.3071 0.412685 5.89534 5.25952 0.00487099||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.2435 49.8461 49.3476 49.4033 49.8481 0.269716 3.96855 3.9485 0.00487099|
+52.5031 52.4653 51.8411 51.8176 52.3785 0.412685 5.89534 5.25952 0.00440528|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0163194 0.0757002 0.00667035 8.37914e-06|
+0.0136928 0.0474439 0.00488095 7.31436e-06||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(0,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 53505 NB_b: 9829
+NF_c: 78200 NB_c: 19701
+AFB | b quark | c quark
+    | 0.689614 | 0.597532
+--Center-of-mass frame--
+NF_b_com: 53515 NB_b_com: 9819
+NF_c_com: 78205 NB_c_com: 19696
+AFB (com) | b quark | c quark
+          | 0.68993 | 0.597634
+NF_b_L: 40497 NB_b_L: 9469
+NF_c_L: 59523 NB_c_L: 18195
+AFB L | b quark | c quark
+      | 0.620982 | 0.531769
+--Center-of-mass frame--
+NF_b_com_L: 40916 NB_b_com_L: 9474
+NF_c_com_L: 59874 NB_c_com_L: 18248
+AFB (com) L | b quark | c quark
+            | 0.623973 | 0.532833
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+2.89563 0.922078 0.081662 0.0831544|
+1.66219 0.409486 0.0472201 0.0844833||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(1,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 48346 NB_b: 9147
+NF_c: 70904 NB_c: 18208
+AFB | b quark | c quark
+    | 0.681805 | 0.591346
+--Center-of-mass frame--
+NF_b_com: 48347 NB_b_com: 9146
+NF_c_com: 70902 NB_c_com: 18210
+AFB (com) | b quark | c quark
+          | 0.68184 | 0.591301
+NF_b_L: 37720 NB_b_L: 8862
+NF_c_L: 55505 NB_c_L: 16993
+AFB L | b quark | c quark
+      | 0.61951 | 0.531215
+--Center-of-mass frame--
+NF_b_com_L: 37793 NB_b_com_L: 8863
+NF_c_com_L: 55585 NB_c_com_L: 17005
+AFB (com) L | b quark | c quark
+            | 0.62007 | 0.531478
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+90.7775 91.0226 90.814 24.589 82.8394 77.0722 47.9014|
+93.191 93.244 93.0254 21.1151 85.5116 82.2145 47.9014||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+91.1396 90.6289 90.4958 90.7775 91.0226 24.589 82.8394 77.0722 47.9014|
+93.1666 93.012 92.8184 93.191 93.244 21.1151 85.5116 82.2145 53.7317|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.783623 0.840674 0.0692694 0.0438386|
+0.376951 0.376078 0.0416954 0.0487545||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(2,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 48088 NB_b: 9089
+NF_c: 70754 NB_c: 18182
+AFB | b quark | c quark
+    | 0.682075 | 0.591122
+--Center-of-mass frame--
+NF_b_com: 48089 NB_b_com: 9088
+NF_c_com: 70752 NB_c_com: 18184
+AFB (com) | b quark | c quark
+          | 0.68211 | 0.591077
+NF_b_L: 37516 NB_b_L: 8806
+NF_c_L: 55389 NB_c_L: 16970
+AFB L | b quark | c quark
+      | 0.619792 | 0.53095
+--Center-of-mass frame--
+NF_b_com_L: 37586 NB_b_com_L: 8806
+NF_c_com_L: 55467 NB_c_com_L: 16982
+AFB (com) L | b quark | c quark
+            | 0.620366 | 0.531201
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+90.2785 90.8428 90.6977 23.584 82.6678 76.7893 44.5669|
+92.6796 93.0721 92.9154 19.8087 85.192 81.762 44.5669||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+91.0234 90.5158 90.376 90.2785 90.8428 23.584 82.6678 76.7893 44.5669|
+93.0548 92.8981 92.7151 92.6796 93.0721 19.8087 85.192 81.762 49.9312|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.75321 0.840739 0.0691636 0.0408746|
+0.354358 0.375444 0.0415514 0.0453994||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(3,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 48013 NB_b: 9068
+NF_c: 70571 NB_c: 18129
+AFB | b quark | c quark
+    | 0.682276 | 0.591229
+--Center-of-mass frame--
+NF_b_com: 48014 NB_b_com: 9067
+NF_c_com: 70568 NB_c_com: 18132
+AFB (com) | b quark | c quark
+          | 0.682311 | 0.591161
+NF_b_L: 37482 NB_b_L: 8787
+NF_c_L: 55278 NB_c_L: 16927
+AFB L | b quark | c quark
+      | 0.620178 | 0.531141
+--Center-of-mass frame--
+NF_b_com_L: 37543 NB_b_com_L: 8786
+NF_c_com_L: 55348 NB_c_com_L: 16937
+AFB (com) L | b quark | c quark
+            | 0.620713 | 0.531383
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+90.1269 90.6017 90.1259 4.39615 82.1838 76.2311 44.5006|
+92.6084 92.8942 92.4332 3.10909 84.5139 81.1871 44.5006||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+90.5325 89.9455 89.6776 90.1269 90.6017 4.39615 82.1838 76.2311 44.5006|
+92.6328 92.4517 92.1028 92.6084 92.8942 3.10909 84.5139 81.1871 49.8576|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.141053 0.839698 0.0689797 0.0410034|
+0.0558216 0.373815 0.0414097 0.0454979||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(4,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 48001 NB_b: 9068
+NF_c: 70542 NB_c: 18120
+AFB | b quark | c quark
+    | 0.682209 | 0.591257
+--Center-of-mass frame--
+NF_b_com: 48002 NB_b_com: 9067
+NF_c_com: 70539 NB_c_com: 18123
+AFB (com) | b quark | c quark
+          | 0.682244 | 0.591189
+NF_b_L: 37474 NB_b_L: 8787
+NF_c_L: 55258 NB_c_L: 16919
+AFB L | b quark | c quark
+      | 0.620112 | 0.53118
+--Center-of-mass frame--
+NF_b_com_L: 37535 NB_b_com_L: 8786
+NF_c_com_L: 55326 NB_c_com_L: 16928
+AFB (com) L | b quark | c quark
+            | 0.620647 | 0.531431
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+90.108 90.5629 89.8453 3.06068 82.1123 76.1559 44.4608|
+92.5934 92.8651 92.1426 2.06608 84.401 81.0806 44.4608||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+90.2952 89.6658 89.3292 90.108 90.5629 3.06068 82.1123 76.1559 44.4608|
+92.3936 92.1565 91.7366 92.5934 92.8651 2.06608 84.401 81.0806 49.8118|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0983965 0.84061 0.0690466 0.0410471|
+0.037167 0.374039 0.0414356 0.0455442||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(5,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 45503 NB_b: 8952
+NF_c: 66865 NB_c: 17705
+AFB | b quark | c quark
+    | 0.671215 | 0.581294
+--Center-of-mass frame--
+NF_b_com: 45504 NB_b_com: 8951
+NF_c_com: 66862 NB_c_com: 17708
+AFB (com) | b quark | c quark
+          | 0.671251 | 0.581223
+NF_b_L: 37381 NB_b_L: 8778
+NF_c_L: 55124 NB_c_L: 16892
+AFB L | b quark | c quark
+      | 0.619662 | 0.530882
+--Center-of-mass frame--
+NF_b_com_L: 37438 NB_b_com_L: 8777
+NF_c_com_L: 55186 NB_c_com_L: 16900
+AFB (com) L | b quark | c quark
+            | 0.620167 | 0.531116
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+85.9807 86.3832 85.4878 0.83634 51.2832 56.2317 43.9623|
+92.4529 92.6871 91.661 1.24105 84.058 80.8358 43.9623||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+86.1771 85.2434 84.6662 85.9807 86.3832 0.83634 51.2832 56.2317 43.9623|
+92.1315 91.5812 91.0061 92.4529 92.6871 1.24105 84.058 80.8358 49.7158|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0282268 0.551162 0.0535226 0.042609|
+0.02241 0.373931 0.041467 0.0456286||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(6,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 26594 NB_b: 5017
+NF_c: 39163 NB_c: 10077
+AFB | b quark | c quark
+    | 0.682579 | 0.590699
+--Center-of-mass frame--
+NF_b_com: 26594 NB_b_com: 5017
+NF_c_com: 39162 NB_c_com: 10078
+AFB (com) | b quark | c quark
+          | 0.682579 | 0.590658
+NF_b_L: 21127 NB_b_L: 4892
+NF_c_L: 31323 NB_c_L: 9535
+AFB L | b quark | c quark
+      | 0.623967 | 0.533262
+--Center-of-mass frame--
+NF_b_com_L: 21158 NB_b_com_L: 4892
+NF_c_com_L: 31366 NB_c_com_L: 9538
+AFB (com) L | b quark | c quark
+            | 0.624415 | 0.53364
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.9116 50.2957 50.2686 0.266539 5.56215 5.73713 0.106889|
+52.6103 53.0288 52.9032 0.404394 8.22735 7.85733 0.106889||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.7293 50.1076 49.717 49.9116 50.2957 0.266539 5.56215 5.73713 0.106889|
+53.1883 52.9243 52.4368 52.6103 53.0288 0.404394 8.22735 7.85733 0.112621|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0153692 0.102131 0.00932963 0.000176997|
+0.0127097 0.0637015 0.0070154 0.000179903||
+mkdir: testplots/eL_pR/130/: File exists
+mkdir: mc_study/eL_pR/130: File exists
+
+Processing analysis500GeV.cc(7,"eL_pR","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 46.4
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 26052 NB_b: 4944
+NF_c: 38448 NB_c: 9933
+AFB | b quark | c quark
+    | 0.680991 | 0.589384
+--Center-of-mass frame--
+NF_b_com: 26052 NB_b_com: 4944
+NF_c_com: 38447 NB_c_com: 9934
+AFB (com) | b quark | c quark
+          | 0.680991 | 0.589343
+NF_b_L: 20673 NB_b_L: 4821
+NF_c_L: 30719 NB_c_L: 9396
+AFB L | b quark | c quark
+      | 0.621793 | 0.531547
+--Center-of-mass frame--
+NF_b_com_L: 20704 NB_b_com_L: 4821
+NF_c_com_L: 30762 NB_c_com_L: 9399
+AFB (com) L | b quark | c quark
+            | 0.622253 | 0.531934
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.9405 49.4183 49.4353 0.259659 4.03717 4.02378 0.00502837|
+51.5613 52.0724 52.0004 0.393689 5.94505 5.31275 0.00502837||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.8849 49.2875 48.8878 48.9405 49.4183 0.259659 4.03717 4.02378 0.00502837|
+52.2794 52.0258 51.5391 51.5613 52.0724 0.393689 5.94505 5.31275 0.00449682|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+46.4 - 48.9547 - 56.6298 - 7339.04
+B/S
+radreturn WW ZZ tt 
+0.0152356 0.0754324 0.00665836 8.47278e-06|
+0.0125972 0.0468637 0.00482934 7.31337e-06||
+mkdir: testplots/eR_pL/: File exists
+mkdir: mc_study/eR_pL/: File exists
+mkdir: testplots/FinalCutAnalysis/eR_pL/: File exists
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(0,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8433 NB_b: 3471
+NF_c: 32250 NB_c: 6382
+AFB | b quark | c quark
+    | 0.416835 | 0.6696
+--Center-of-mass frame--
+NF_b_com: 8433 NB_b_com: 3471
+NF_c_com: 32250 NB_c_com: 6382
+AFB (com) | b quark | c quark
+          | 0.416835 | 0.6696
+NF_b_L: 6487 NB_b_L: 3097
+NF_c_L: 24705 NB_c_L: 6094
+AFB L | b quark | c quark
+      | 0.353715 | 0.604273
+--Center-of-mass frame--
+NF_b_com_L: 6494 NB_b_com_L: 3100
+NF_c_com_L: 24725 NB_c_com_L: 6094
+AFB (com) L | b quark | c quark
+            | 0.353763 | 0.60453
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+6.50576 0.0139783 0.113369 0.103782|
+3.64335 0.0150563 0.0596944 0.105832||
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(1,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 6240 NB_b: 2644
+NF_c: 23917 NB_c: 4895
+AFB | b quark | c quark
+    | 0.404773 | 0.660211
+--Center-of-mass frame--
+NF_b_com: 6240 NB_b_com: 2644
+NF_c_com: 23918 NB_c_com: 4894
+AFB (com) | b quark | c quark
+          | 0.404773 | 0.66028
+NF_b_L: 4952 NB_b_L: 2408
+NF_c_L: 18969 NB_c_L: 4731
+AFB L | b quark | c quark
+      | 0.345652 | 0.60076
+--Center-of-mass frame--
+NF_b_com_L: 4953 NB_b_com_L: 2409
+NF_c_com_L: 18973 NB_c_com_L: 4730
+AFB (com) L | b quark | c quark
+            | 0.345558 | 0.600894
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.6304 74.5807 75.0326 16.7106 68.6355 47.5175 7.24261|
+76.5374 76.6313 76.7706 17.7063 71.2032 61.1212 7.24261||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.8899 75.6889 74.8375 74.6304 74.5807 16.7106 68.6355 47.5175 7.24261|
+76.6948 77.2696 76.5142 76.5374 76.6313 17.7063 71.2032 61.1212 7.99394|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.45273 0.0128203 0.0719851 0.0100441|
+0.841092 0.0139776 0.0475706 0.0110304||
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(2,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 6229 NB_b: 2643
+NF_c: 23898 NB_c: 4893
+AFB | b quark | c quark
+    | 0.404193 | 0.660102
+--Center-of-mass frame--
+NF_b_com: 6229 NB_b_com: 2643
+NF_c_com: 23899 NB_c_com: 4892
+AFB (com) | b quark | c quark
+          | 0.404193 | 0.660172
+NF_b_L: 4942 NB_b_L: 2407
+NF_c_L: 18953 NB_c_L: 4729
+AFB L | b quark | c quark
+      | 0.344945 | 0.600625
+--Center-of-mass frame--
+NF_b_com_L: 4943 NB_b_com_L: 2408
+NF_c_com_L: 18957 NB_c_com_L: 4728
+AFB (com) L | b quark | c quark
+            | 0.344851 | 0.60076
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.5296 74.5263 75.0133 16.4976 68.5878 47.4921 6.9546|
+76.4288 76.5767 76.7499 17.3972 71.1512 61.0873 6.9546||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.8718 75.6805 74.8033 74.5296 74.5263 16.4976 68.5878 47.4921 6.9546|
+76.6735 77.2597 76.4841 76.4288 76.5767 17.3972 71.1512 61.0873 7.66893|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.43497 0.0128182 0.071985 0.00964985|
+0.826855 0.013975 0.04757 0.0105877||
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(3,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 6226 NB_b: 2643
+NF_c: 23864 NB_c: 4886
+AFB | b quark | c quark
+    | 0.403991 | 0.660104
+--Center-of-mass frame--
+NF_b_com: 6226 NB_b_com: 2643
+NF_c_com: 23865 NB_c_com: 4885
+AFB (com) | b quark | c quark
+          | 0.403991 | 0.660174
+NF_b_L: 4940 NB_b_L: 2407
+NF_c_L: 18928 NB_c_L: 4724
+AFB L | b quark | c quark
+      | 0.344767 | 0.600541
+--Center-of-mass frame--
+NF_b_com_L: 4941 NB_b_com_L: 2408
+NF_c_com_L: 18932 NB_c_com_L: 4723
+AFB (com) L | b quark | c quark
+            | 0.344673 | 0.600676
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.5044 74.4202 74.6675 2.99461 68.4506 47.35 6.94501|
+76.409 76.4826 76.4127 2.80376 71.0019 60.9516 6.94501||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.5818 75.3434 74.2645 74.5044 74.4202 2.99461 68.4506 47.35 6.94501|
+76.4004 76.895 75.9636 76.409 76.4826 2.80376 71.0019 60.9516 7.65833|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.261277 0.012832 0.0719907 0.00966623|
+0.133642 0.0139858 0.0476013 0.0106036||
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(4,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 6226 NB_b: 2640
+NF_c: 23861 NB_c: 4885
+AFB | b quark | c quark
+    | 0.404467 | 0.660127
+--Center-of-mass frame--
+NF_b_com: 6226 NB_b_com: 2640
+NF_c_com: 23862 NB_c_com: 4884
+AFB (com) | b quark | c quark
+          | 0.404467 | 0.660196
+NF_b_L: 4940 NB_b_L: 2404
+NF_c_L: 18925 NB_c_L: 4723
+AFB L | b quark | c quark
+      | 0.345316 | 0.600558
+--Center-of-mass frame--
+NF_b_com_L: 4941 NB_b_com_L: 2405
+NF_c_com_L: 18929 NB_c_com_L: 4722
+AFB (com) L | b quark | c quark
+            | 0.345222 | 0.600693
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+74.4792 74.4098 74.4697 2.01859 68.4446 47.3144 6.93917|
+76.3794 76.4704 76.2037 1.92056 71.0019 60.8951 6.93917||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+74.3928 75.1411 74.0421 74.4792 74.4098 2.01859 68.4446 47.3144 6.93917|
+76.2062 76.6782 75.7133 76.3794 76.4704 1.92056 71.0019 60.8951 7.65162|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.176393 0.0128507 0.0720482 0.00967307|
+0.0916909 0.0140083 0.0476337 0.0106113||
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(5,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 5978 NB_b: 2584
+NF_c: 22890 NB_c: 4815
+AFB | b quark | c quark
+    | 0.396403 | 0.652409
+--Center-of-mass frame--
+NF_b_com: 5978 NB_b_com: 2584
+NF_c_com: 22891 NB_c_com: 4814
+AFB (com) | b quark | c quark
+          | 0.396403 | 0.652481
+NF_b_L: 4936 NB_b_L: 2403
+NF_c_L: 18908 NB_c_L: 4717
+AFB L | b quark | c quark
+      | 0.345142 | 0.600677
+--Center-of-mass frame--
+NF_b_com_L: 4937 NB_b_com_L: 2404
+NF_c_com_L: 18912 NB_c_com_L: 4716
+AFB (com) L | b quark | c quark
+            | 0.345048 | 0.600813
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+71.9254 71.7152 71.4766 0.727822 67.5377 37.8719 6.86273|
+76.3301 76.3945 75.9042 1.16067 70.937 60.7595 6.86273||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+71.5081 71.9643 70.8775 71.9254 71.7152 0.727822 67.5377 37.8719 6.86273|
+76.0363 76.3233 75.0425 76.3301 76.3945 1.16067 70.937 60.7595 7.64154|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0661265 0.0131842 0.0599602 0.00994653|
+0.0555556 0.0140317 0.0476503 0.0106247||
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(6,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4160 NB_b: 1737
+NF_c: 15921 NB_c: 3253
+AFB | b quark | c quark
+    | 0.410887 | 0.660686
+--Center-of-mass frame--
+NF_b_com: 4160 NB_b_com: 1737
+NF_c_com: 15922 NB_c_com: 3252
+AFB (com) | b quark | c quark
+          | 0.410887 | 0.660791
+NF_b_L: 3382 NB_b_L: 1606
+NF_c_L: 12898 NB_c_L: 3185
+AFB L | b quark | c quark
+      | 0.356055 | 0.60393
+--Center-of-mass frame--
+NF_b_com_L: 3383 NB_b_com_L: 1607
+NF_c_com_L: 12902 NB_c_com_L: 3184
+AFB (com) L | b quark | c quark
+            | 0.355912 | 0.604128
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.538 49.6324 49.6405 0.223379 1.65861 4.85328 0.0417187|
+52.0284 52.291 52.1116 0.366813 1.70119 8.02441 0.0417187||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.6478 49.8947 49.3585 49.538 49.6324 0.223379 1.65861 4.85328 0.0417187|
+52.2425 52.3805 51.4065 52.0284 52.291 0.366813 1.70119 8.02441 0.0454597|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0292835 0.000467177 0.011087 8.72441e-05|
+0.0256196 0.000491018 0.00918276 9.22295e-05||
+mkdir: testplots/eR_pL/50/: File exists
+mkdir: mc_study/eR_pL/50: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","50")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4066 NB_b: 1702
+NF_c: 15623 NB_c: 3221
+AFB | b quark | c quark
+    | 0.409847 | 0.658141
+--Center-of-mass frame--
+NF_b_com: 4066 NB_b_com: 1702
+NF_c_com: 15624 NB_c_com: 3220
+AFB (com) | b quark | c quark
+          | 0.409847 | 0.658247
+NF_b_L: 3294 NB_b_L: 1574
+NF_c_L: 12636 NB_c_L: 3154
+AFB L | b quark | c quark
+      | 0.353328 | 0.600507
+--Center-of-mass frame--
+NF_b_com_L: 3295 NB_b_com_L: 1575
+NF_c_com_L: 12640 NB_c_com_L: 3153
+AFB (com) L | b quark | c quark
+            | 0.353183 | 0.600709
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.4543 48.7782 48.727 0.217106 0.948631 3.40644 0.00150829|
+50.8242 51.3497 51.1208 0.356251 0.986949 5.51537 0.00150829||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+48.7493 48.875 48.5033 48.4543 48.7782 0.217106 0.948631 3.40644 0.00150829|
+51.2624 51.2568 50.5156 50.8242 51.3497 0.356251 0.986949 5.51537 0.00173382|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0289934 0.000272196 0.0079273 3.21319e-06|
+0.0253664 0.000290412 0.00643443 3.58611e-06||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(0,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8810 NB_b: 3635
+NF_c: 33681 NB_c: 6650
+AFB | b quark | c quark
+    | 0.41583 | 0.670229
+--Center-of-mass frame--
+NF_b_com: 8810 NB_b_com: 3635
+NF_c_com: 33680 NB_c_com: 6651
+AFB (com) | b quark | c quark
+          | 0.41583 | 0.670179
+NF_b_L: 6756 NB_b_L: 3242
+NF_c_L: 25794 NB_c_L: 6349
+AFB L | b quark | c quark
+      | 0.35147 | 0.604953
+--Center-of-mass frame--
+NF_b_com_L: 6766 NB_b_com_L: 3245
+NF_c_com_L: 25820 NB_c_com_L: 6350
+AFB (com) L | b quark | c quark
+            | 0.351713 | 0.605222
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+6.18701 0.0133847 0.108555 0.0993747|
+3.4479 0.0144226 0.0571818 0.101377||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(1,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7074 NB_b: 2992
+NF_c: 27263 NB_c: 5549
+AFB | b quark | c quark
+    | 0.405524 | 0.66177
+--Center-of-mass frame--
+NF_b_com: 7074 NB_b_com: 2992
+NF_c_com: 27263 NB_c_com: 5549
+AFB (com) | b quark | c quark
+          | 0.405524 | 0.66177
+NF_b_L: 5596 NB_b_L: 2721
+NF_c_L: 21521 NB_c_L: 5347
+AFB L | b quark | c quark
+      | 0.345678 | 0.60198
+--Center-of-mass frame--
+NF_b_com_L: 5598 NB_b_com_L: 2723
+NF_c_com_L: 21528 NB_c_com_L: 5347
+AFB (com) L | b quark | c quark
+            | 0.345511 | 0.602084
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+80.8839 81.3568 81.3416 19.7358 74.8404 58.874 13.9969|
+82.9453 83.2261 83.0093 19.1023 77.1833 70.5131 13.9969||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+81.1947 81.849 81.3119 80.8839 81.3568 19.7358 74.8404 58.874 13.9969|
+82.9244 83.3742 82.9184 82.9453 83.2261 19.1023 77.1833 70.5131 15.5637|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.50194 0.0123214 0.0786121 0.0171091|
+0.792793 0.0133994 0.0485342 0.0189922||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(2,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7056 NB_b: 2991
+NF_c: 27239 NB_c: 5546
+AFB | b quark | c quark
+    | 0.404598 | 0.661675
+--Center-of-mass frame--
+NF_b_com: 7056 NB_b_com: 2991
+NF_c_com: 27239 NB_c_com: 5546
+AFB (com) | b quark | c quark
+          | 0.404598 | 0.661675
+NF_b_L: 5580 NB_b_L: 2720
+NF_c_L: 21501 NB_c_L: 5344
+AFB L | b quark | c quark
+      | 0.344578 | 0.601863
+--Center-of-mass frame--
+NF_b_com_L: 5582 NB_b_com_L: 2722
+NF_c_com_L: 21508 NB_c_com_L: 5344
+AFB (com) L | b quark | c quark
+            | 0.344412 | 0.601966
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+80.7312 81.2898 81.297 19.3803 74.739 58.8283 13.3797|
+82.7844 83.1592 82.966 18.6212 77.0729 70.434 13.3797||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+81.1475 81.8167 81.2628 80.7312 81.2898 19.3803 74.739 58.8283 13.3797|
+82.875 83.3459 82.8801 82.7844 83.1592 18.6212 77.0729 70.434 14.8681|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.47605 0.0123144 0.0786127 0.0163675|
+0.77342 0.0133905 0.0485169 0.0181572||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(3,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7052 NB_b: 2991
+NF_c: 27197 NB_c: 5535
+AFB | b quark | c quark
+    | 0.404361 | 0.661799
+--Center-of-mass frame--
+NF_b_com: 7052 NB_b_com: 2991
+NF_c_com: 27197 NB_c_com: 5535
+AFB (com) | b quark | c quark
+          | 0.404361 | 0.661799
+NF_b_L: 5578 NB_b_L: 2720
+NF_c_L: 21473 NB_c_L: 5335
+AFB L | b quark | c quark
+      | 0.34442 | 0.601985
+--Center-of-mass frame--
+NF_b_com_L: 5580 NB_b_com_L: 2722
+NF_c_com_L: 21480 NB_c_com_L: 5335
+AFB (com) L | b quark | c quark
+            | 0.344254 | 0.602088
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+80.6991 81.1584 80.9027 3.50096 74.4944 58.5694 13.361|
+82.7655 83.0486 82.5927 2.90791 76.8262 70.2306 13.361||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+80.8052 81.4376 80.6821 80.6991 81.1584 3.50096 74.4944 58.5694 13.361|
+82.5669 82.9498 82.3152 82.7655 83.0486 2.90791 76.8262 70.2306 14.8469|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.267517 0.0123144 0.0785237 0.0163982|
+0.121138 0.0133874 0.0485206 0.0181853||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(4,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7052 NB_b: 2988
+NF_c: 27194 NB_c: 5534
+AFB | b quark | c quark
+    | 0.404781 | 0.661819
+--Center-of-mass frame--
+NF_b_com: 7052 NB_b_com: 2988
+NF_c_com: 27194 NB_c_com: 5534
+AFB (com) | b quark | c quark
+          | 0.404781 | 0.661819
+NF_b_L: 5578 NB_b_L: 2717
+NF_c_L: 21470 NB_c_L: 5334
+AFB L | b quark | c quark
+      | 0.344907 | 0.602
+--Center-of-mass frame--
+NF_b_com_L: 5580 NB_b_com_L: 2719
+NF_c_com_L: 21477 NB_c_com_L: 5334
+AFB (com) L | b quark | c quark
+            | 0.34474 | 0.602104
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+80.675 81.1485 80.6871 2.35347 74.4824 58.5288 13.3474|
+82.7371 83.037 82.3655 1.9492 76.8197 70.1627 13.3474||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+80.5943 81.2359 80.4367 80.675 81.1485 2.35347 74.4824 58.5288 13.3474|
+82.3488 82.7424 82.0375 82.7371 83.037 1.9492 76.8197 70.1627 14.8313|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.180112 0.0123314 0.0785905 0.0164068|
+0.08133 0.0134077 0.0485515 0.0181953||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(5,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 6751 NB_b: 2911
+NF_c: 25968 NB_c: 5447
+AFB | b quark | c quark
+    | 0.397433 | 0.653223
+--Center-of-mass frame--
+NF_b_com: 6751 NB_b_com: 2911
+NF_c_com: 25968 NB_c_com: 5447
+AFB (com) | b quark | c quark
+          | 0.397433 | 0.653223
+NF_b_L: 5572 NB_b_L: 2714
+NF_c_L: 21444 NB_c_L: 5328
+AFB L | b quark | c quark
+      | 0.344919 | 0.601972
+--Center-of-mass frame--
+NF_b_com_L: 5574 NB_b_com_L: 2716
+NF_c_com_L: 21451 NB_c_com_L: 5328
+AFB (com) L | b quark | c quark
+            | 0.344753 | 0.602076
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+77.6376 77.8929 77.1975 0.714144 73.3429 44.9335 13.2257|
+82.6614 82.9351 82.0372 1.11705 76.7353 69.9706 13.2257||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+77.2332 77.4685 76.8054 77.6376 77.8929 0.714144 73.3429 44.9335 13.2257|
+82.1512 82.3746 81.3194 82.6614 82.9351 1.11705 76.7353 69.9706 14.8136|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0570248 0.0126696 0.0629529 0.0169626|
+0.0467354 0.0134294 0.0485503 0.018223||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(6,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4445 NB_b: 1843
+NF_c: 17144 NB_c: 3475
+AFB | b quark | c quark
+    | 0.413804 | 0.662932
+--Center-of-mass frame--
+NF_b_com: 4445 NB_b_com: 1843
+NF_c_com: 17145 NB_c_com: 3474
+AFB (com) | b quark | c quark
+          | 0.413804 | 0.663029
+NF_b_L: 3592 NB_b_L: 1704
+NF_c_L: 13780 NB_c_L: 3394
+AFB L | b quark | c quark
+      | 0.356495 | 0.604751
+--Center-of-mass frame--
+NF_b_com_L: 3593 NB_b_com_L: 1706
+NF_c_com_L: 13786 NB_c_com_L: 3393
+AFB (com) L | b quark | c quark
+            | 0.356105 | 0.604983
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+50.5263 51.1244 51.0025 0.211318 1.74811 5.95492 0.0489648|
+53.0286 53.6071 53.3329 0.342396 1.77261 9.19982 0.0489648||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+51.0654 50.9923 50.8056 50.5263 51.1244 0.211318 1.74811 5.95492 0.0489648|
+53.4913 53.5081 52.6331 53.0286 53.6071 0.342396 1.77261 9.19982 0.0527355|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0256389 0.000458834 0.0126767 9.54203e-05|
+0.0221099 0.000478804 0.00985232 0.000100126||
+mkdir: testplots/eR_pL/70/: File exists
+mkdir: mc_study/eR_pL/70: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","70")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4349 NB_b: 1807
+NF_c: 16833 NB_c: 3440
+AFB | b quark | c quark
+    | 0.41293 | 0.660632
+--Center-of-mass frame--
+NF_b_com: 4349 NB_b_com: 1807
+NF_c_com: 16834 NB_c_com: 3439
+AFB (com) | b quark | c quark
+          | 0.41293 | 0.660731
+NF_b_L: 3502 NB_b_L: 1671
+NF_c_L: 13507 NB_c_L: 3360
+AFB L | b quark | c quark
+      | 0.353953 | 0.601589
+--Center-of-mass frame--
+NF_b_com_L: 3503 NB_b_com_L: 1673
+NF_c_com_L: 13513 NB_c_com_L: 3359
+AFB (com) L | b quark | c quark
+            | 0.353555 | 0.601826
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.4656 50.2665 50.077 0.204728 1.02619 4.36085 0.00224916|
+51.8455 52.6642 52.3355 0.331128 1.04539 6.46474 0.00224916||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.165 49.9355 49.9305 49.4656 50.2665 0.204728 1.02619 4.36085 0.00224916|
+52.5174 52.3482 51.7235 51.8455 52.6642 0.331128 1.04539 6.46474 0.00258548|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0252939 0.00027428 0.00945318 4.4633e-06|
+0.0217896 0.000287751 0.00705515 5.00243e-06||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(0,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 9132 NB_b: 3904
+NF_c: 34854 NB_c: 6947
+AFB | b quark | c quark
+    | 0.401043 | 0.667616
+--Center-of-mass frame--
+NF_b_com: 9132 NB_b_com: 3904
+NF_c_com: 34853 NB_c_com: 6948
+AFB (com) | b quark | c quark
+          | 0.401043 | 0.667568
+NF_b_L: 7001 NB_b_L: 3423
+NF_c_L: 26702 NB_c_L: 6579
+AFB L | b quark | c quark
+      | 0.343246 | 0.604639
+--Center-of-mass frame--
+NF_b_com_L: 7016 NB_b_com_L: 3477
+NF_c_com_L: 26744 NB_c_com_L: 6623
+AFB (com) L | b quark | c quark
+            | 0.337272 | 0.603021
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+5.90672 0.0128627 0.104321 0.0954991|
+3.29101 0.0139138 0.0551648 0.0978016||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(1,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7694 NB_b: 3257
+NF_c: 29676 NB_c: 6039
+AFB | b quark | c quark
+    | 0.405168 | 0.661823
+--Center-of-mass frame--
+NF_b_com: 7694 NB_b_com: 3257
+NF_c_com: 29676 NB_c_com: 6039
+AFB (com) | b quark | c quark
+          | 0.405168 | 0.661823
+NF_b_L: 6066 NB_b_L: 2956
+NF_c_L: 23357 NB_c_L: 5812
+AFB L | b quark | c quark
+      | 0.344713 | 0.601495
+--Center-of-mass frame--
+NF_b_com_L: 6069 NB_b_com_L: 2959
+NF_c_com_L: 23373 NB_c_com_L: 5813
+AFB (com) L | b quark | c quark
+            | 0.344484 | 0.601658
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+84.0058 85.4405 84.9568 21.9742 78.7364 66.8951 23.5459|
+86.5283 87.3361 86.9051 20.0181 81.0077 76.1076 23.5459||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+85.203 84.6095 84.5059 84.0058 85.4405 21.9742 78.7364 66.8951 23.5459|
+87.0575 86.7867 86.5261 86.5283 87.3361 20.0181 81.0077 76.1076 26.2666|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.52663 0.0119119 0.0820808 0.0264479|
+0.75713 0.0129536 0.0482512 0.0295235||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(2,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7674 NB_b: 3254
+NF_c: 29642 NB_c: 6032
+AFB | b quark | c quark
+    | 0.404466 | 0.661827
+--Center-of-mass frame--
+NF_b_com: 7674 NB_b_com: 3254
+NF_c_com: 29642 NB_c_com: 6032
+AFB (com) | b quark | c quark
+          | 0.404466 | 0.661827
+NF_b_L: 6049 NB_b_L: 2953
+NF_c_L: 23331 NB_c_L: 5805
+AFB L | b quark | c quark
+      | 0.343924 | 0.601524
+--Center-of-mass frame--
+NF_b_com_L: 6052 NB_b_com_L: 2956
+NF_c_com_L: 23347 NB_c_com_L: 5806
+AFB (com) L | b quark | c quark
+            | 0.343695 | 0.601688
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+83.8294 85.3425 84.8992 21.4573 78.5872 66.7936 22.438|
+86.3463 87.2377 86.8512 19.3353 80.8519 75.9494 22.438||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+85.148 84.5481 84.4434 83.8294 85.3425 21.4573 78.5872 66.7936 22.438|
+87.0042 86.7324 86.4708 86.3463 87.2377 19.3353 80.8519 75.9494 25.015|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.4922 0.0119011 0.0820373 0.0252284|
+0.732001 0.012941 0.0481967 0.0281435||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(3,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7669 NB_b: 3253
+NF_c: 29585 NB_c: 6019
+AFB | b quark | c quark
+    | 0.404322 | 0.661892
+--Center-of-mass frame--
+NF_b_com: 7669 NB_b_com: 3253
+NF_c_com: 29585 NB_c_com: 6019
+AFB (com) | b quark | c quark
+          | 0.404322 | 0.661892
+NF_b_L: 6047 NB_b_L: 2952
+NF_c_L: 23298 NB_c_L: 5794
+AFB L | b quark | c quark
+      | 0.343927 | 0.601677
+--Center-of-mass frame--
+NF_b_com_L: 6050 NB_b_com_L: 2955
+NF_c_com_L: 23314 NB_c_com_L: 5795
+AFB (com) L | b quark | c quark
+            | 0.343698 | 0.601841
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+83.7834 85.175 84.4735 3.84985 78.2471 66.3773 22.4043|
+86.319 87.1139 86.4513 2.94346 80.5143 75.6668 22.4043||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+84.7702 84.1491 83.8336 83.7834 85.175 3.84985 78.2471 66.3773 22.4043|
+86.6699 86.3164 85.8722 86.319 87.1139 2.94346 80.5143 75.6668 24.9775|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.268669 0.0118912 0.0818123 0.0252789|
+0.111777 0.0129266 0.0481649 0.0281876||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(4,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7669 NB_b: 3250
+NF_c: 29581 NB_c: 6018
+AFB | b quark | c quark
+    | 0.404707 | 0.661901
+--Center-of-mass frame--
+NF_b_com: 7669 NB_b_com: 3250
+NF_c_com: 29581 NB_c_com: 6018
+AFB (com) | b quark | c quark
+          | 0.404707 | 0.661901
+NF_b_L: 6047 NB_b_L: 2949
+NF_c_L: 23294 NB_c_L: 5793
+AFB L | b quark | c quark
+      | 0.344375 | 0.601678
+--Center-of-mass frame--
+NF_b_com_L: 6050 NB_b_com_L: 2952
+NF_c_com_L: 23310 NB_c_com_L: 5794
+AFB (com) L | b quark | c quark
+            | 0.344146 | 0.601842
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+83.7604 85.163 84.2473 2.58919 78.2233 66.3265 22.3809|
+86.2916 87.0999 86.2131 1.94294 80.4948 75.599 22.3809||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+84.5527 83.9267 83.5757 83.7604 85.163 2.58919 78.2233 66.3265 22.3809|
+86.4451 86.0903 85.5775 86.2916 87.0999 1.94294 80.4948 75.599 24.9506|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.180972 0.0119061 0.0818768 0.0252918|
+0.0739009 0.0129442 0.0481992 0.0282026||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(5,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7316 NB_b: 3158
+NF_c: 28166 NB_c: 5920
+AFB | b quark | c quark
+    | 0.396983 | 0.652643
+--Center-of-mass frame--
+NF_b_com: 7316 NB_b_com: 3158
+NF_c_com: 28166 NB_c_com: 5920
+AFB (com) | b quark | c quark
+          | 0.396983 | 0.652643
+NF_b_L: 6041 NB_b_L: 2943
+NF_c_L: 23262 NB_c_L: 5786
+AFB L | b quark | c quark
+      | 0.344835 | 0.601625
+--Center-of-mass frame--
+NF_b_com_L: 6044 NB_b_com_L: 2946
+NF_c_com_L: 23276 NB_c_com_L: 5787
+AFB (com) L | b quark | c quark
+            | 0.344605 | 0.601762
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+80.3467 81.5435 80.4278 0.698541 76.8809 49.5126 22.1943|
+86.1824 86.9817 85.8705 1.0785 80.4104 75.3391 22.1943||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+80.8445 79.8757 79.6279 80.3467 81.5435 0.698541 76.8809 49.5126 22.1943|
+86.2344 85.7104 84.8407 86.1824 86.9817 1.0785 80.4104 75.3391 24.9181|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0510655 0.0122388 0.0639259 0.0262319|
+0.0411362 0.0129668 0.0481678 0.0282446||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(6,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4617 NB_b: 1915
+NF_c: 17758 NB_c: 3607
+AFB | b quark | c quark
+    | 0.413656 | 0.662345
+--Center-of-mass frame--
+NF_b_com: 4617 NB_b_com: 1915
+NF_c_com: 17759 NB_c_com: 3606
+AFB (com) | b quark | c quark
+          | 0.413656 | 0.662439
+NF_b_L: 3730 NB_b_L: 1766
+NF_c_L: 14233 NB_c_L: 3519
+AFB L | b quark | c quark
+      | 0.357351 | 0.603538
+--Center-of-mass frame--
+NF_b_com_L: 3731 NB_b_com_L: 1769
+NF_c_com_L: 14244 NB_c_com_L: 3519
+AFB (com) L | b quark | c quark
+            | 0.356727 | 0.603783
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+50.1074 51.1112 50.8322 0.2076 1.766 6.45243 0.0522278|
+52.8582 53.5837 53.2907 0.329128 1.7856 9.60669 0.0522278||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+51.1046 50.2992 50.4847 50.1074 51.1112 0.2076 1.766 6.45243 0.0522278|
+53.5678 53.1609 52.5143 52.8582 53.5837 0.329128 1.7856 9.60669 0.0560751|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0241146 0.000446714 0.0132374 9.80862e-05|
+0.0203048 0.000465732 0.00993439 0.000102807||
+mkdir: testplots/eR_pL/90/: File exists
+mkdir: mc_study/eR_pL/90: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","90")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4520 NB_b: 1878
+NF_c: 17439 NB_c: 3571
+AFB | b quark | c quark
+    | 0.412942 | 0.660067
+--Center-of-mass frame--
+NF_b_com: 4520 NB_b_com: 1878
+NF_c_com: 17440 NB_c_com: 3570
+AFB (com) | b quark | c quark
+          | 0.412942 | 0.660162
+NF_b_L: 3639 NB_b_L: 1732
+NF_c_L: 13954 NB_c_L: 3484
+AFB L | b quark | c quark
+      | 0.355055 | 0.600413
+--Center-of-mass frame--
+NF_b_com_L: 3640 NB_b_com_L: 1735
+NF_c_com_L: 13965 NB_c_com_L: 3484
+AFB (com) L | b quark | c quark
+            | 0.354419 | 0.600665
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.0795 50.262 49.932 0.201656 1.04409 4.79236 0.00224916|
+51.7022 52.6498 52.3152 0.319491 1.05837 6.75859 0.00224916||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.22 49.2942 49.6404 49.0795 50.262 0.201656 1.04409 4.79236 0.00224916|
+52.607 52.0485 51.6301 51.7022 52.6498 0.319491 1.05837 6.75859 0.00258548|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0238445 0.000268844 0.0100081 4.29983e-06|
+0.0200793 0.00028122 0.00711998 4.8289e-06||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(0,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 9432 NB_b: 4193
+NF_c: 35932 NB_c: 7284
+AFB | b quark | c quark
+    | 0.384514 | 0.662903
+--Center-of-mass frame--
+NF_b_com: 9432 NB_b_com: 4193
+NF_c_com: 35929 NB_c_com: 7287
+AFB (com) | b quark | c quark
+          | 0.384514 | 0.662764
+NF_b_L: 7218 NB_b_L: 3609
+NF_c_L: 27499 NB_c_L: 6827
+AFB L | b quark | c quark
+      | 0.333333 | 0.602226
+--Center-of-mass frame--
+NF_b_com_L: 7246 NB_b_com_L: 3727
+NF_c_com_L: 27566 NB_c_com_L: 6933
+AFB (com) L | b quark | c quark
+            | 0.320696 | 0.598075
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+5.65547 0.0123948 0.100526 0.0920251|
+3.15585 0.0134756 0.0534272 0.0947209||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(1,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8277 NB_b: 3495
+NF_c: 31755 NB_c: 6439
+AFB | b quark | c quark
+    | 0.406218 | 0.662827
+--Center-of-mass frame--
+NF_b_com: 8277 NB_b_com: 3495
+NF_c_com: 31755 NB_c_com: 6439
+AFB (com) | b quark | c quark
+          | 0.406218 | 0.662827
+NF_b_L: 6504 NB_b_L: 3161
+NF_c_L: 24953 NB_c_L: 6191
+AFB L | b quark | c quark
+      | 0.345887 | 0.602427
+--Center-of-mass frame--
+NF_b_com_L: 6511 NB_b_com_L: 3167
+NF_c_com_L: 24978 NB_c_com_L: 6195
+AFB (com) L | b quark | c quark
+            | 0.345526 | 0.602541
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+86.4 88.3793 87.5256 23.7266 82.2743 73.0379 35.5314|
+89.6421 90.5482 89.8906 20.8096 84.488 80.165 35.5314||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+88.1988 86.6505 86.2467 86.4 88.3793 23.7266 82.2743 73.0379 35.5314|
+90.2111 89.6203 89.1216 89.6421 90.5482 20.8096 84.488 80.165 39.64|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.53013 0.0116286 0.0837242 0.0372857|
+0.728971 0.0126378 0.047542 0.0416783||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(2,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8245 NB_b: 3490
+NF_c: 31709 NB_c: 6429
+AFB | b quark | c quark
+    | 0.405198 | 0.662856
+--Center-of-mass frame--
+NF_b_com: 8245 NB_b_com: 3490
+NF_c_com: 31709 NB_c_com: 6429
+AFB (com) | b quark | c quark
+          | 0.405198 | 0.662856
+NF_b_L: 6477 NB_b_L: 3156
+NF_c_L: 24918 NB_c_L: 6181
+AFB L | b quark | c quark
+      | 0.344752 | 0.602495
+--Center-of-mass frame--
+NF_b_com_L: 6484 NB_b_com_L: 3162
+NF_c_com_L: 24942 NB_c_com_L: 6185
+AFB (com) L | b quark | c quark
+            | 0.344391 | 0.602596
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+86.1284 88.2497 87.4417 23.0001 82.0476 72.8399 33.6869|
+89.352 90.4199 89.8132 19.8743 84.2478 79.8712 33.6869||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+88.1271 86.5406 86.1498 86.1284 88.2497 23.0001 82.0476 72.8399 33.6869|
+90.1403 89.5242 89.0417 89.352 90.4199 19.8743 84.2478 79.8712 37.5586|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.4853 0.0116124 0.0836113 0.0353984|
+0.697115 0.0126183 0.0474295 0.0395413||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(3,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8239 NB_b: 3482
+NF_c: 31643 NB_c: 6407
+AFB | b quark | c quark
+    | 0.405853 | 0.663233
+--Center-of-mass frame--
+NF_b_com: 8239 NB_b_com: 3482
+NF_c_com: 31643 NB_c_com: 6407
+AFB (com) | b quark | c quark
+          | 0.405853 | 0.663233
+NF_b_L: 6475 NB_b_L: 3153
+NF_c_L: 24878 NB_c_L: 6165
+AFB L | b quark | c quark
+      | 0.345035 | 0.602809
+--Center-of-mass frame--
+NF_b_com_L: 6482 NB_b_com_L: 3156
+NF_c_com_L: 24901 NB_c_com_L: 6166
+AFB (com) L | b quark | c quark
+            | 0.345092 | 0.603051
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+86.0257 88.0461 86.9792 4.09162 81.5405 72.2916 33.6361|
+89.3256 90.2779 89.3926 2.94187 83.7543 79.4982 33.6361||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+87.7221 86.0641 85.5162 86.0257 88.0461 4.09162 81.5405 72.2916 33.6361|
+89.7889 89.0703 88.4295 89.3256 90.2779 2.94187 83.7543 79.4982 37.5017|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.265247 0.011585 0.0833014 0.0354812|
+0.103516 0.0125841 0.0473574 0.0396065||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(4,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8239 NB_b: 3479
+NF_c: 31635 NB_c: 6406
+AFB | b quark | c quark
+    | 0.406213 | 0.663206
+--Center-of-mass frame--
+NF_b_com: 8239 NB_b_com: 3479
+NF_c_com: 31635 NB_c_com: 6406
+AFB (com) | b quark | c quark
+          | 0.406213 | 0.663206
+NF_b_L: 6475 NB_b_L: 3150
+NF_c_L: 24873 NB_c_L: 6164
+AFB L | b quark | c quark
+      | 0.345455 | 0.602797
+--Center-of-mass frame--
+NF_b_com_L: 6482 NB_b_com_L: 3153
+NF_c_com_L: 24894 NB_c_com_L: 6165
+AFB (com) L | b quark | c quark
+            | 0.345511 | 0.603014
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+86.0037 88.0253 86.7486 2.7551 81.5047 72.2205 33.6014|
+89.2992 90.2588 89.1486 1.90894 83.7218 79.4078 33.6014||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+87.4977 85.8368 85.2628 86.0037 88.0253 2.7551 81.5047 72.2205 33.6014|
+89.5573 88.8346 88.1366 89.2992 90.2588 1.90894 83.7218 79.4078 37.4619|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.178885 0.0115981 0.0833503 0.0355003|
+0.0672786 0.0125995 0.0473798 0.0396281||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(5,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 7843 NB_b: 3368
+NF_c: 30070 NB_c: 6300
+AFB | b quark | c quark
+    | 0.399162 | 0.653561
+--Center-of-mass frame--
+NF_b_com: 7843 NB_b_com: 3368
+NF_c_com: 30070 NB_c_com: 6300
+AFB (com) | b quark | c quark
+          | 0.399162 | 0.653561
+NF_b_L: 6467 NB_b_L: 3141
+NF_c_L: 24825 NB_c_L: 6155
+AFB L | b quark | c quark
+      | 0.34617 | 0.602647
+--Center-of-mass frame--
+NF_b_com_L: 6474 NB_b_com_L: 3144
+NF_c_com_L: 24844 NB_c_com_L: 6156
+AFB (com) L | b quark | c quark
+            | 0.346226 | 0.602839
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+82.2826 84.1586 82.7257 0.674518 79.9952 52.5739 33.321|
+89.1761 90.1141 88.7885 1.02379 83.6244 79.1139 33.321||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+83.5408 81.6656 81.1778 82.2826 84.1586 0.674518 79.9952 52.5739 33.321|
+89.323 88.433 87.4091 89.1761 90.1141 1.02379 83.6244 79.1139 37.4012|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.045869 0.0119223 0.0635486 0.0368707|
+0.0361879 0.0126217 0.0473428 0.0396799||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(6,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4740 NB_b: 1973
+NF_c: 18215 NB_c: 3691
+AFB | b quark | c quark
+    | 0.412185 | 0.663015
+--Center-of-mass frame--
+NF_b_com: 4740 NB_b_com: 1973
+NF_c_com: 18216 NB_c_com: 3690
+AFB (com) | b quark | c quark
+          | 0.412185 | 0.663106
+NF_b_L: 3820 NB_b_L: 1818
+NF_c_L: 14591 NB_c_L: 3598
+AFB L | b quark | c quark
+      | 0.35509 | 0.604376
+--Center-of-mass frame--
+NF_b_com_L: 3824 NB_b_com_L: 1821
+NF_c_com_L: 14605 NB_c_com_L: 3598
+AFB (com) L | b quark | c quark
+            | 0.354827 | 0.604681
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+49.2697 50.6896 50.1821 0.201284 1.7839 6.7418 0.0538484|
+52.4488 53.3062 52.8538 0.313536 1.79858 9.84403 0.0538484||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.6965 49.3219 49.3999 49.2697 50.6896 0.201284 1.7839 6.7418 0.0538484|
+53.2026 52.6146 51.961 52.4488 53.3062 0.313536 1.79858 9.84403 0.0575266|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0226508 0.000439961 0.0134853 9.86016e-05|
+0.0186816 0.000457602 0.0099299 0.000102878||
+mkdir: testplots/eR_pL/110/: File exists
+mkdir: mc_study/eR_pL/110: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","110")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4642 NB_b: 1936
+NF_c: 17895 NB_c: 3655
+AFB | b quark | c quark
+    | 0.411371 | 0.660789
+--Center-of-mass frame--
+NF_b_com: 4642 NB_b_com: 1936
+NF_c_com: 17896 NB_c_com: 3654
+AFB (com) | b quark | c quark
+          | 0.411371 | 0.660882
+NF_b_L: 3728 NB_b_L: 1784
+NF_c_L: 14312 NB_c_L: 3563
+AFB L | b quark | c quark
+      | 0.352685 | 0.601343
+--Center-of-mass frame--
+NF_b_com_L: 3732 NB_b_com_L: 1787
+NF_c_com_L: 14326 NB_c_com_L: 3563
+AFB (com) L | b quark | c quark
+            | 0.352419 | 0.601655
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.2789 49.8658 49.3141 0.195303 1.06199 5.03604 0.00243814|
+51.3233 52.3998 51.9098 0.303803 1.07136 6.93942 0.00243814||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.8403 48.3616 48.5874 48.2789 49.8658 0.195303 1.06199 5.03604 0.00243814|
+52.2708 51.5408 51.1091 51.3233 52.3998 0.303803 1.07136 6.93942 0.00280272|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0223631 0.00026651 0.01025 4.54276e-06|
+0.0184324 0.000277559 0.00712785 5.10386e-06||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(0,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 9687 NB_b: 4460
+NF_c: 36897 NB_c: 7574
+AFB | b quark | c quark
+    | 0.369478 | 0.659374
+--Center-of-mass frame--
+NF_b_com: 9686 NB_b_com: 4461
+NF_c_com: 36893 NB_c_com: 7578
+AFB (com) | b quark | c quark
+          | 0.369336 | 0.659194
+NF_b_L: 7411 NB_b_L: 3788
+NF_c_L: 28202 NB_c_L: 7034
+AFB L | b quark | c quark
+      | 0.323511 | 0.600749
+--Center-of-mass frame--
+NF_b_com_L: 7447 NB_b_com_L: 3960
+NF_c_com_L: 28311 NB_c_com_L: 7193
+AFB (com) L | b quark | c quark
+            | 0.305689 | 0.594806
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+100 100 100 100 100 100 100|
+100 100 100 100 100 100 100||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+100 100 100 100 100 100 100 100 100|
+100 100 100 100 100 100 100 100 100|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+5.44491 0.0120026 0.0973456 0.0891136|
+3.04266 0.0131085 0.051972 0.092141||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(1,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8738 NB_b: 3721
+NF_c: 33640 NB_c: 6806
+AFB | b quark | c quark
+    | 0.402681 | 0.663453
+--Center-of-mass frame--
+NF_b_com: 8737 NB_b_com: 3722
+NF_c_com: 33640 NB_c_com: 6806
+AFB (com) | b quark | c quark
+          | 0.40252 | 0.663453
+NF_b_L: 6847 NB_b_L: 3347
+NF_c_L: 26334 NB_c_L: 6523
+AFB L | b quark | c quark
+      | 0.343339 | 0.602946
+--Center-of-mass frame--
+NF_b_com_L: 6860 NB_b_com_L: 3366
+NF_c_com_L: 26382 NB_c_com_L: 6537
+AFB (com) L | b quark | c quark
+            | 0.341678 | 0.602843
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+88.0681 90.9492 89.88 25.1362 84.8696 77.9572 49.0817|
+91.5594 93.2261 92.4813 21.5649 87.0008 83.4313 49.0817||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+90.8737 88.3277 88.2922 88.0681 90.9492 25.1362 84.8696 77.9572 49.0817|
+93.0396 91.6821 91.4877 91.5594 93.2261 21.5649 87.0008 83.4313 54.6118|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.51992 0.0113125 0.0842759 0.048573|
+0.7083 0.012311 0.0468075 0.0543196||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(2,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8689 NB_b: 3710
+NF_c: 33576 NB_c: 6787
+AFB | b quark | c quark
+    | 0.401565 | 0.663702
+--Center-of-mass frame--
+NF_b_com: 8688 NB_b_com: 3711
+NF_c_com: 33576 NB_c_com: 6787
+AFB (com) | b quark | c quark
+          | 0.401403 | 0.663702
+NF_b_L: 6807 NB_b_L: 3339
+NF_c_L: 26286 NB_c_L: 6509
+AFB L | b quark | c quark
+      | 0.34181 | 0.603049
+--Center-of-mass frame--
+NF_b_com_L: 6819 NB_b_com_L: 3357
+NF_c_com_L: 26333 NB_c_com_L: 6521
+AFB (com) L | b quark | c quark
+            | 0.340212 | 0.603032
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+87.644 90.7625 89.7368 24.139 84.5117 77.6627 46.1538|
+91.1331 93.053 92.3635 20.3254 86.6242 82.9566 46.1538||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+90.7479 88.1727 88.106 87.644 90.7625 24.139 84.5117 77.6627 46.1538|
+92.9334 91.5639 91.3331 91.1331 93.053 20.3254 86.6242 82.9566 51.3096|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+1.46268 0.0112884 0.0841334 0.0457711|
+0.668811 0.0122802 0.0466264 0.0511286||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(3,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8678 NB_b: 3683
+NF_c: 33492 NB_c: 6753
+AFB | b quark | c quark
+    | 0.404094 | 0.664406
+--Center-of-mass frame--
+NF_b_com: 8677 NB_b_com: 3684
+NF_c_com: 33493 NB_c_com: 6752
+AFB (com) | b quark | c quark
+          | 0.403932 | 0.664455
+NF_b_L: 6801 NB_b_L: 3326
+NF_c_L: 26236 NB_c_L: 6486
+AFB L | b quark | c quark
+      | 0.343142 | 0.603569
+--Center-of-mass frame--
+NF_b_com_L: 6813 NB_b_com_L: 3333
+NF_c_com_L: 26279 NB_c_com_L: 6489
+AFB (com) L | b quark | c quark
+            | 0.342992 | 0.603943
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+87.3754 90.4972 89.1408 4.25685 83.8255 76.9621 46.085|
+91.0905 92.8986 91.904 2.92089 85.9944 82.4254 46.085||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+90.2443 87.5106 87.2825 87.3754 90.4972 4.25685 83.8255 76.9621 46.085|
+92.5405 91.0741 90.6889 91.0905 92.8986 2.92089 85.9944 82.4254 51.2329|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.259234 0.0112529 0.0837929 0.0459323|
+0.0964373 0.0122321 0.0464844 0.0512247||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(4,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8677 NB_b: 3677
+NF_c: 33484 NB_c: 6751
+AFB | b quark | c quark
+    | 0.404727 | 0.664421
+--Center-of-mass frame--
+NF_b_com: 8676 NB_b_com: 3678
+NF_c_com: 33485 NB_c_com: 6750
+AFB (com) | b quark | c quark
+          | 0.404565 | 0.664471
+NF_b_L: 6800 NB_b_L: 3322
+NF_c_L: 26231 NB_c_L: 6484
+AFB L | b quark | c quark
+      | 0.343608 | 0.603607
+--Center-of-mass frame--
+NF_b_com_L: 6812 NB_b_com_L: 3327
+NF_c_com_L: 26272 NB_c_com_L: 6487
+AFB (com) L | b quark | c quark
+            | 0.343722 | 0.603956
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+87.3259 90.4747 88.8861 2.858 83.7838 76.8758 46.0381|
+91.0649 92.88 91.6457 1.8558 85.9555 82.3237 46.0381||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+89.9993 87.257 86.9961 87.3259 90.4747 2.858 83.7838 76.8758 46.0381|
+92.2883 90.8293 90.3968 91.0649 92.88 1.8558 85.9555 82.3237 51.179|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.174347 0.0112667 0.0838432 0.0459646|
+0.0613731 0.0122468 0.0465038 0.0512554||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(5,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 8245 NB_b: 3550
+NF_c: 31760 NB_c: 6635
+AFB | b quark | c quark
+    | 0.39805 | 0.654382
+--Center-of-mass frame--
+NF_b_com: 8244 NB_b_com: 3551
+NF_c_com: 31761 NB_c_com: 6634
+AFB (com) | b quark | c quark
+          | 0.39788 | 0.654434
+NF_b_L: 6788 NB_b_L: 3311
+NF_c_L: 26174 NB_c_L: 6474
+AFB L | b quark | c quark
+      | 0.344292 | 0.603406
+--Center-of-mass frame--
+NF_b_com_L: 6800 NB_b_com_L: 3315
+NF_c_com_L: 26213 NB_c_com_L: 6475
+AFB (com) L | b quark | c quark
+            | 0.344538 | 0.60383
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+83.3746 86.3372 84.6341 0.642619 82.1789 54.6908 45.6062|
+90.937 92.7175 91.2614 0.959146 85.8581 81.9846 45.6062||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+85.8296 82.8825 82.6065 83.3746 86.3372 0.642619 82.1789 54.6908 45.6062|
+92.0334 90.3986 89.641 90.937 92.7175 0.959146 85.8581 81.9846 51.0727|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.0411283 0.011594 0.0625788 0.047771|
+0.0318173 0.0122705 0.0464545 0.0513059||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(6,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4824 NB_b: 2017
+NF_c: 18586 NB_c: 3754
+AFB | b quark | c quark
+    | 0.41032 | 0.663921
+--Center-of-mass frame--
+NF_b_com: 4823 NB_b_com: 2018
+NF_c_com: 18587 NB_c_com: 3753
+AFB (com) | b quark | c quark
+          | 0.410028 | 0.664011
+NF_b_L: 3885 NB_b_L: 1858
+NF_c_L: 14872 NB_c_L: 3659
+AFB L | b quark | c quark
+      | 0.352951 | 0.605094
+--Center-of-mass frame--
+NF_b_com_L: 3892 NB_b_com_L: 1862
+NF_c_com_L: 14896 NB_c_com_L: 3659
+AFB (com) L | b quark | c quark
+            | 0.352798 | 0.605605
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+48.3565 50.235 49.5416 0.19238 1.78987 6.8941 0.0549322|
+51.8203 52.9796 52.4152 0.297297 1.80508 10.0362 0.0549322||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+50.2709 48.3094 48.4712 48.3565 50.235 0.19238 1.78987 6.8941 0.0549322|
+52.9042 51.9 51.3572 51.8203 52.9796 0.297297 1.80508 10.0362 0.0581437|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.021098 0.000432701 0.0135172 9.85967e-05|
+0.0172155 0.000450327 0.00992692 0.000101961||
+mkdir: testplots/eR_pL/130/: File exists
+mkdir: mc_study/eR_pL/130: File exists
+
+Processing analysis500GeV.cc(7,"eR_pL","130")...
+Warning in <TH1F::Sumw2>: Sum of squares of weights structure already created
+luminosityqq: 47
+bins: 1 20 40
+bins Limited: 2 20 38
+NF_b: 4725 NB_b: 1979
+NF_c: 18265 NB_c: 3718
+AFB | b quark | c quark
+    | 0.409606 | 0.661739
+--Center-of-mass frame--
+NF_b_com: 4724 NB_b_com: 1980
+NF_c_com: 18266 NB_c_com: 3717
+AFB (com) | b quark | c quark
+          | 0.409308 | 0.66183
+NF_b_L: 3792 NB_b_L: 1824
+NF_c_L: 14592 NB_c_L: 3624
+AFB L | b quark | c quark
+      | 0.350427 | 0.602108
+--Center-of-mass frame--
+NF_b_com_L: 3799 NB_b_com_L: 1828
+NF_c_com_L: 14616 NB_c_com_L: 3624
+AFB (com) L | b quark | c quark
+            | 0.350275 | 0.602632
+Efficiencies (%)
+bb cc qq radreturn WW ZZ tt
+47.3881 49.4322 48.702 0.186504 1.06796 5.17311 0.00243814|
+50.7119 52.0929 51.4979 0.287774 1.07785 7.09765 0.00243814||
+Efficiencies (%)
+uu dd ss bb cc radreturn WW ZZ tt 
+49.4392 47.3866 47.6907 47.3881 49.4322 0.186504 1.06796 5.17311 0.00243814|
+51.9963 50.8613 50.5326 50.7119 52.0929 0.287774 1.07785 7.09765 0.00280272|
+Lumi qq & ISR - Lumi WW - Lumi ZZ - Lumi tt
+47 - 500 - 72.4521 - 8568.27
+B/S
+radreturn WW ZZ tt 
+0.020806 0.000262627 0.0103176 4.45158e-06|
+0.0169634 0.00027373 0.0071465 5.00314e-06||
+MacBook-Pro-de-ificadmin:plots marherje$ 
