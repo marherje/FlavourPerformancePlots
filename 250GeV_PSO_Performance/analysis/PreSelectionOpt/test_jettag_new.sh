@@ -1,14 +1,14 @@
 #!/bin/bash
 mkdir results/
-for pol in eL_pR #eR_pL
+for pol in eL_pR eR_pL
 do
     for cat in all catA catB catC catD
     do
-	for quality in FullOpt #Old OptA
+	for quality in Old
 	do
 	    for k in 35
 	    do
-		for cuts in {1..1}
+		for cuts in {7..7}
 		do
 		    #cuts=5
 		    echo "jet:" $pol $cat $quality $cuts

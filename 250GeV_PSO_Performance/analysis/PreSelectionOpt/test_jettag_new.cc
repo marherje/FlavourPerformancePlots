@@ -11,7 +11,7 @@ int test_jettag_new(TString pol, int type, float Kv, TString cat, TString qualit
   TString kvalue=TString::Format("_Kgamma%i",int(Kv));
   
     
-  TString file = "DataCat/"+quality+"_"+pol+".root";
+  TString file = "/lustre/ific.uv.es/prj/ific/flc/ntuples-2022/250/"+quality+"/merged_"+pol+".root";
   
   QQbarAnalysisClass ss3(file);
   ss3.process=s_type+process+pol+kvalue;

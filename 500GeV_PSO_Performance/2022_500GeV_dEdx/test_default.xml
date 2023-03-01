@@ -65,6 +65,7 @@
     
     <!-- general parameters -->
     <parameter name="PFOCollection" type="string" value="PandoraPFOs" /> <!-- input PFO collection -->
+    <parameter name="PIDAlgorithmName" type="string" value="dEdxPIDv2" />
     <parameter name="UseMCP" type="int" value="0" /> <!-- MC info not used -->
     <parameter name="MCPCollection" type="string" value="" /> <!-- not used -->
     <parameter name="MCPFORelation" type="string" value="" /> <!-- not used -->
@@ -125,12 +126,14 @@
     <parameter name="MakeNtuple.AuxiliaryInfo" type="int" value="-1" />
     
     <parameter name="FlavorTag.WeightsDirectory" type="string" value="lcfiweights"/>    <!-- e.g. lcfiweights/lcfiweights_6q500_v04_p00_ildl5 --> 
-    <parameter name="FlavorTag.WeightsPrefix" type="string" value="2f500_eL_PSO_dEdx" />         <!-- e.g. 6q500_v04_p00_ildl5 -->
+    <parameter name="FlavorTag.WeightsPrefix" type="string" value="2f500_eL_ParticleSwarmTest" />         <!-- e.g. 6q500_v04_p00_ildl5 -->
     <parameter name="FlavorTag.BookName" type="string" value="bdt" />
     <parameter name="FlavorTag.PIDAlgo" type="string" value="lcfiplus" />
     <parameter name="FlavorTag.D0ProbFileName" type="string" value="data/vtxprob/d0probv2_ildl5_2q250.root"/> <!-- vtxprob/d0probv2_ildl5_6q500.root -->
     <parameter name="FlavorTag.Z0ProbFileName" type="string" value="data/vtxprob/z0probv2_ildl5_2q250.root"/> <!-- vtxprob/z0probv2_ildl5_6q500.root --> 
-    
+    <parameter name="FlavorTag.KDSGaussianWidth" type="double" value="2" /> <!-- Gaussian width (sigmas) in KDS distributions -->
+    <parameter name="FlavorTag.KDSMinMomentum" type="double" value="3" /> <!-- Min Momentum in KDS distributions -->
+    <parameter name="FlavorTag.KDSMaxAngle" type="double" value="0.95" /> <!-- Max |cos(theta)| in KDS distributions -->
     <parameter name="FlavorTag.CategoryDefinition1" type="string">nvtx==0</parameter>
     <parameter name="FlavorTag.CategoryPreselection1" type="string">trk1d0sig!=0</parameter>
     <parameter name="FlavorTag.CategoryVariables1" type="stringVec">

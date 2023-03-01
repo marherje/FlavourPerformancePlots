@@ -125,9 +125,9 @@ void JetTag_comparison(int cut,TString kvalue, TString cat, TString OldTag, TStr
   int n_old=0;
   for(int i=0;i<40; i++) {
     x[i]=i*0.025;
-    float ntotal[3];
-    float nb[3];
-    float nc[3];
+    float ntotal[3]={0};
+    float nb[3]={0};
+    float nc[3]={0};
     //float f1sum[3];
     for(int iflav=0;iflav<3; iflav++){
       int quark=0;
@@ -135,41 +135,69 @@ void JetTag_comparison(int cut,TString kvalue, TString cat, TString OldTag, TStr
       if(iflav==2) quark=5;
 
       for(int ipol=0; ipol<2; ipol++){
-	ntotal[iflav]=btag_old[0][ipol]->GetBinContent(quark+1);
-	
+	ntotal[iflav]=btag_old[0][ipol]->GetBinContent(quark+1);	
 	nb[iflav]=btag_old[i][ipol]->GetBinContent(quark+1);
 	nc[iflav]=ctag_old[i][ipol]->GetBinContent(quark+1);
-
-	eff_b_old[ipol][iflav][i]=100.*nb[iflav]/ntotal[iflav];
-	eff_c_old[ipol][iflav][i]=100.*nc[iflav]/ntotal[iflav];
-	eff2_b_old[ipol][iflav][i]=100.-100.*nb[iflav]/ntotal[iflav];
-	eff2_c_old[ipol][iflav][i]=100.-100.*nc[iflav]/ntotal[iflav];
+	if(ntotal[iflav]==0){
+	eff_b_old[ipol][iflav][i]=0;
+	eff_c_old[ipol][iflav][i]=0;
+	eff2_b_old[ipol][iflav][i]=100;
+	eff2_c_old[ipol][iflav][i]=100;
+	}
+	else{
+	  eff_b_old[ipol][iflav][i]=100.*nb[iflav]/ntotal[iflav];
+	  eff_c_old[ipol][iflav][i]=100.*nc[iflav]/ntotal[iflav];
+	  eff2_b_old[ipol][iflav][i]=100.-100.*nb[iflav]/ntotal[iflav];
+	  eff2_c_old[ipol][iflav][i]=100.-100.*nc[iflav]/ntotal[iflav];
+	}
 	pur_b_old[ipol][iflav][i]=100.*(nb[iflav]/(nb[0]+nb[1]+nb[2]));
 	pur_c_old[ipol][iflav][i]=100.*(nc[iflav]/(nc[0]+nc[1]+nc[2]));
 	//F1Score 
-	float FP_b; //False Positive b
-	float FN_b; //False Negative b
+	float FP_b=0; //False Positive b
+	float FN_b=0; //False Negative b
 	FN_b=ntotal[iflav]-nb[iflav];
-	if(iflav==0)FP_b=nb[1]+nb[2];
-	else if(iflav==1)FP_b=nb[0]+nb[2];
-	else if(iflav==2)FP_b=nb[0]+nb[1];
+	FP_b=nb[0]+nb[1]+nb[2]-nb[iflav];
 	f1score_b_old[ipol][iflav][i]=nb[iflav]/(nb[iflav]+0.5*(FP_b+FN_b));
 	if(iflav==2){
-	  TruePositive_b_old[ipol][i]=nb[iflav]/ntotal[iflav];
-	  FalsePositive_b_old[ipol][i]=FP_b/(ntotal[0]+ntotal[1]);
+	  if(ntotal[iflav]==0){
+	    TruePositive_b_old[ipol][i]=0;
+	  }
+	  else{
+	    TruePositive_b_old[ipol][i]=nb[iflav]/ntotal[iflav];
+	  }
+	  if(ntotal[0]+ntotal[1]+ntotal[2]-ntotal[iflav]==0){
+	    FalsePositive_b_old[ipol][i]=0;
+	  }
+	  else{
+	    FalsePositive_b_old[ipol][i]=FP_b/(ntotal[0]+ntotal[1]+ntotal[2]-ntotal[iflav]);
+	  }
 	}
-
-	float FP_c; //False Positive c
-        float FN_c; //False Negative c
+	
+	float FP_c=0; //False Positive c
+        float FN_c=0; //False Negative c
         FN_c=ntotal[iflav]-nc[iflav];
-        if(iflav==0)FP_c=nc[1]+nc[2];
-        else if(iflav==1)FP_c=nc[0]+nc[2];
-        else if(iflav==2)FP_c=nc[0]+nc[1];
+        FP_c=nc[0]+nc[1]+nc[2]-nc[iflav];
         f1score_c_old[ipol][iflav][i]=nc[iflav]/(nc[iflav]+0.5*(FP_c+FN_c));
 	if(iflav==1){
-          TruePositive_c_old[ipol][i]=nc[iflav]/ntotal[iflav];
-          FalsePositive_c_old[ipol][i]=FP_c/(ntotal[0]+ntotal[2]);
-        }
+
+	  if(ntotal[iflav]==0){
+	    TruePositive_c_old[ipol][i]=0;
+	  }
+	  else{
+	    TruePositive_c_old[ipol][i]=nc[iflav]/ntotal[iflav];
+	  }
+	  
+	  if(ntotal[0]+ntotal[1]+ntotal[2]-ntotal[iflav]==0){
+	    FalsePositive_c_old[ipol][i]=0;
+	  }
+	  else{
+	    FalsePositive_c_old[ipol][i]=FP_c/(ntotal[0]+ntotal[1]+ntotal[2]-ntotal[iflav]);
+	  }
+
+	  cout<<"(Debug roc_C|old) TP: "<<TruePositive_c_old[ipol][i]<<", FP: "<<FalsePositive_c_old[ipol][i] <<endl;
+	  //	  TruePositive_c_old[ipol][i]=1;
+	  //	  FalsePositive_c_old[ipol][i]=1;
+	}
       }
     }
     n_old++;
@@ -178,9 +206,9 @@ void JetTag_comparison(int cut,TString kvalue, TString cat, TString OldTag, TStr
   int n_new=0;
   for(int i=0;i<40; i++) {
     //x[i]=i*0.025;
-    float ntotal[3];
-    float nb[3];
-    float nc[3];
+    float ntotal[3]={0};
+    float nb[3]={0};
+    float nc[3]={0};
     for(int iflav=0;iflav<3; iflav++){
       int quark=0;
       if(iflav==1) quark=4;
@@ -191,36 +219,64 @@ void JetTag_comparison(int cut,TString kvalue, TString cat, TString OldTag, TStr
 
         nb[iflav]=btag_new[i][ipol]->GetBinContent(quark+1);
         nc[iflav]=ctag_new[i][ipol]->GetBinContent(quark+1);
-
+	if(ntotal[iflav]==0){
+	  eff_b_new[ipol][iflav][i]=0;
+	  eff_c_new[ipol][iflav][i]=0;
+	  eff2_b_new[ipol][iflav][i]=100;
+	  eff2_c_new[ipol][iflav][i]=100;
+	}
+	else{
         eff_b_new[ipol][iflav][i]=100.*nb[iflav]/ntotal[iflav];
         eff_c_new[ipol][iflav][i]=100.*nc[iflav]/ntotal[iflav];
         eff2_b_new[ipol][iflav][i]=100.-100.*nb[iflav]/ntotal[iflav];
         eff2_c_new[ipol][iflav][i]=100.-100.*nc[iflav]/ntotal[iflav];
-        pur_b_new[ipol][iflav][i]=100.*(nb[iflav]/(nb[0]+nb[1]+nb[2]));
+        }
+	pur_b_new[ipol][iflav][i]=100.*(nb[iflav]/(nb[0]+nb[1]+nb[2]));
         pur_c_new[ipol][iflav][i]=100.*(nc[iflav]/(nc[0]+nc[1]+nc[2]));
         //F1Score                                                                                             
-        float FP_b; //False Positive b                                                                                                
-        float FN_b; //False Negative b                                                                              
+        float FP_b=0; //False Positive b                                                                                                
+        float FN_b=0; //False Negative b                                                                              
         FN_b=ntotal[iflav]-nb[iflav];
         if(iflav==0)FP_b=nb[1]+nb[2];
         else if(iflav==1)FP_b=nb[0]+nb[2];
         else if(iflav==2)FP_b=nb[0]+nb[1];
         f1score_b_new[ipol][iflav][i]=nb[iflav]/(nb[iflav]+0.5*(FP_b+FN_b));
         if(iflav==2){
-          TruePositive_b_new[ipol][i]=nb[iflav]/ntotal[iflav];
-          FalsePositive_b_new[ipol][i]=FP_b/(ntotal[0]+ntotal[1]);
+	  if(ntotal[iflav]==0){
+	    TruePositive_b_new[ipol][i]=0;
+	  }
+	  else{
+	    TruePositive_b_new[ipol][i]=nb[iflav]/ntotal[iflav];
+          }
+	  if(ntotal[0]+ntotal[1]==0){
+	    FalsePositive_b_new[ipol][i]=0;
+	  }
+	  else{
+	    FalsePositive_b_new[ipol][i]=FP_b/(ntotal[0]+ntotal[1]);
+	  }
         }
-	float FP_c; //False Positive c                                                                                                                        
-        float FN_c; //False Negative c                                                                                                                     
+	float FP_c=0; //False Positive c                                                                                                                        
+        float FN_c=0; //False Negative c                                                                                                                     
         FN_c=ntotal[iflav]-nc[iflav];
         if(iflav==0)FP_c=nc[1]+nc[2];
         else if(iflav==1)FP_c=nc[0]+nc[2];
         else if(iflav==2)FP_c=nc[0]+nc[1];
         f1score_c_new[ipol][iflav][i]=nc[iflav]/(nc[iflav]+0.5*(FP_c+FN_c));
 	if(iflav==1){
-          TruePositive_c_new[ipol][i]=nc[iflav]/ntotal[iflav];
-          FalsePositive_c_new[ipol][i]=FP_c/(ntotal[0]+ntotal[2]);
-        }
+	  if(ntotal[iflav]==0){
+	    TruePositive_c_new[ipol][i]=0;
+	  }
+	  else{
+	    TruePositive_c_new[ipol][i]=nc[iflav]/ntotal[iflav];
+          }
+	  if(ntotal[0]+ntotal[2]==0){
+	    FalsePositive_c_new[ipol][i]=0;
+	  }
+	  else{
+	    FalsePositive_c_new[ipol][i]=FP_c/(ntotal[0]+ntotal[2]);
+	  }        
+	  cout<<"(Debug roc_C) TP: "<<TruePositive_c_new[ipol][i]<<", FP: "<<FalsePositive_c_new[ipol][i] <<endl;
+	}
       }
     }
     n_new++;
@@ -264,12 +320,12 @@ void JetTag_comparison(int cut,TString kvalue, TString cat, TString OldTag, TStr
     for(int ipol=0; ipol<2; ipol++){
       f1integral_b_old[ipol]+=divisor_hp*0.5*(f1score_b_old[ipol][2][i]+f1score_b_old[ipol][2][i+1]);
       f1integral_c_old[ipol]+=divisor_hp*0.5*(f1score_c_old[ipol][1][i]+f1score_c_old[ipol][1][i+1]);
-      f1integral_b_new[ipol]+=divisor_hp*0.5*(f1score_b_new[ipol][2][i]+f1score_b_new[ipol][2][i]);
-      f1integral_c_new[ipol]+=divisor_hp*0.5*(f1score_c_new[ipol][1][i]+f1score_c_new[ipol][1][i]);
+      f1integral_b_new[ipol]+=divisor_hp*0.5*(f1score_b_new[ipol][2][i]+f1score_b_new[ipol][2][i+1]);
+      f1integral_c_new[ipol]+=divisor_hp*0.5*(f1score_c_new[ipol][1][i]+f1score_c_new[ipol][1][i+1]);
     }
   }
 
-  for(int i=firstnumber;i<lastnumber-1; i++) {
+  for(int i=0;i<39; i++) {
     for(int ipol=0; ipol<2; ipol++){
  
       ROCintegral_b_old[ipol]+=0.5*(TruePositive_b_old[ipol][i+1]+TruePositive_b_old[ipol][i])*abs(FalsePositive_b_old[ipol][i+1]-FalsePositive_b_old[ipol][i]);

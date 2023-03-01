@@ -2,7 +2,7 @@
 # file name: kt_xNAMEfile.sh
 
 path="/lhome/ific/m/marherje/FlavourPerformancePlots/500GeV_PSO_Performance/2022_500GeV_dEdx"
-source ${path}/init_ilcsoft.sh
+source ${path}/init_ilcsoft_patch.sh
 cp -r ${path}/data $PWD/.
 cp -r ${path}/lib $PWD/.
 cp -r ${path}/lcfiweights $PWD/.

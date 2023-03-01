@@ -1,4 +1,5 @@
 #!/bin/bash
+source init_ilcsoft.sh
 mkdir results/
 for pol in eL_pR eR_pL
 do

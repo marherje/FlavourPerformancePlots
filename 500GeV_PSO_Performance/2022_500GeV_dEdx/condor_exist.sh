@@ -9,7 +9,7 @@ for prod in "eL_pR" "eR_pL"
 do
     if [ "$prod" = "eL_pR" ]
     then
-	for fprod in "00015908" "00015920" "00015922" "00015928" "00015938" "00015942" "00015947" "00015951"
+	for fprod in 00015903 00015908 00015920 00015922 00015928 00015938 00015942
 	do
 	    folder_name="/lustre/ific.uv.es/prj/ific/flc/500-TDR_ws/2f_Z_hadronic/ILD_l5_o1_v02/v02-02-03/"${fprod}"/000"
 	    cd $folder_name
@@ -64,7 +64,7 @@ do
 	done
     elif [ "$prod" = "eR_pL" ]
     then
-	for fprod in "00015930" "00015932" "00015934" "00015936" "00015954" "00015956" "00015958" "00015960"
+	for fprod in 00015906 00015930 00015932 00015934 00015936 00015954 00015956
         do
             folder_name="/lustre/ific.uv.es/prj/ific/flc/500-TDR_ws/2f_Z_hadronic/ILD_l5_o1_v02/v02-02-03/"${fprod}"/000"
             cd $folder_name

@@ -289,7 +289,7 @@
     <parameter name="ROOTFileName" type="string">xPROD_newFileN.root</parameter>
     <parameter name="Rparam_jet_ps" type="float">1.5708</parameter>                                                                                                                        
     <parameter name="pparam_jet_ps" type="float">1</parameter> 
-    <parameter name="AnalysisType" type="int">0</parameter>
+    <parameter name="AnalysisType" type="int">1</parameter>
     <parameter name="DBDanalysis" type="bool">false</parameter>
     <parameter name="PIDVersionTag" type="string"> v2 </parameter>
   </processor>
